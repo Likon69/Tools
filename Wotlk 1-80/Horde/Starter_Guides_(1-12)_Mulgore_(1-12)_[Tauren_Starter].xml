@@ -1,0 +1,622 @@
+<HBProfile>
+  <Name>Horde\Starter Guides (1-12)\Mulgore (1-12) [Tauren Starter]</Name>
+
+  <MinLevel>1</MinLevel>
+  <MaxLevel>12</MaxLevel>
+
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+
+  <AvoidMobs />
+  <Blackspots />
+  <Mailboxes />
+
+  <!-- Quest Overrides -->
+  <Quest Id="771" Name="Rite of Vision">
+    <Objective Type="CollectItem" ItemId="4809" CollectCount="2">
+      <CollectFrom>
+        <GameObject Name="Ambercorn" Id="2912" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-2775.89" Y="-866.91" Z="7.9" />
+        <Hotspot X="-2719.34" Y="53.18" Z="25.84" />
+        <Hotspot X="-2708.53" Y="-578.23" Z="9.41" />
+        <Hotspot X="-2694.1" Y="-1241.25" Z="21.46" />
+        <Hotspot X="-2684.85" Y="269.42" Z="101.18" />
+        <Hotspot X="-2677.69" Y="-256.28" Z="2.87" />
+        <Hotspot X="-2676.96" Y="-147.74" Z="-2.79" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="CollectItem" ItemId="4808" CollectCount="2">
+      <CollectFrom>
+        <GameObject Name="Well Stone" Id="2910" />
+      </CollectFrom>
+      <Hotspots>
+        <Hotspot X="-2572.6" Y="-711.51" Z="-6.49" />
+        <Hotspot X="-2556.37" Y="-687.15" Z="-8.24" />
+        <Hotspot X="-2547.99" Y="-729.17" Z="-8.35" />
+        <Hotspot X="-2545.35" Y="-701.78" Z="-8.74" />
+        <Hotspot X="-2537.87" Y="-720.35" Z="-9.28" />
+        <Hotspot X="-2525.65" Y="-692.9" Z="-5.75" />
+        <Hotspot X="-1857.12" Y="-234.51" Z="-9.45" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="745" Name="Sharing the Land">
+    <Objective Type="KillMob" MobId="2951" KillCount="5">
+      <Hotspots>
+        <Hotspot X="-2757.4" Y="-680.898" Z="5.5263" />
+        <Hotspot X="-2787.45" Y="-670.354" Z="15.7395" />
+        <Hotspot X="-2753.45" Y="-705.906" Z="3.7333" />
+        <Hotspot X="-2734.93" Y="-744.724" Z="-3.7784" />
+        <Hotspot X="-2771.22" Y="-772.981" Z="1.8411" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="2950" KillCount="8">
+      <Hotspots>
+        <Hotspot X="-2773.84" Y="-690.256" Z="6.7395" />
+        <Hotspot X="-2778.57" Y="-653.7" Z="18.6019" />
+        <Hotspot X="-2811.93" Y="-686.674" Z="20.94" />
+        <Hotspot X="-2726.63" Y="-749.648" Z="-5.2064" />
+        <Hotspot X="-2732.73" Y="-815.182" Z="1.1469" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="2949" KillCount="10">
+      <Hotspots>
+        <Hotspot X="-2745.59" Y="-486.322" Z="8.336" />
+        <Hotspot X="-2711.64" Y="-453.133" Z="-5.3897" />
+        <Hotspot X="-2717.86" Y="-480.613" Z="0.4567" />
+        <Hotspot X="-2784.29" Y="-681.884" Z="10.8645" />
+        <Hotspot X="-2810.68" Y="-711.088" Z="14.614" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="764" Name="The Venture Co.">
+    <Objective Type="KillMob" MobId="2979" KillCount="6">
+      <Hotspots>
+        <Hotspot X="-1532.45" Y="-1084.52" Z="148.516" />
+        <Hotspot X="-1587.13" Y="-1196.3" Z="140.438" />
+        <Hotspot X="-1630.29" Y="-1286.17" Z="131.899" />
+        <Hotspot X="-1651.36" Y="-1214.61" Z="131.103" />
+        <Hotspot X="-1675.1" Y="-1216.17" Z="127.933" />
+      </Hotspots>
+    </Objective>
+    <Objective Type="KillMob" MobId="2978" KillCount="14">
+      <Hotspots>
+        <Hotspot X="-739.48" Y="-142.995" Z="-27.5924" />
+        <Hotspot X="-763.502" Y="-163.308" Z="-25.3501" />
+        <Hotspot X="-757.987" Y="-130.569" Z="-28.184" />
+        <Hotspot X="-1579.31" Y="-1175.02" Z="145.585" />
+        <Hotspot X="-1530.1" Y="-1098.12" Z="146.701" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+  <Quest Id="833" Name="A Sacred Burial">
+    <Objective Type="KillMob" MobId="3232" KillCount="8">
+      <Hotspots>
+        <Hotspot X="-1027.53" Y="-1126.56" Z="44.4928" />
+        <Hotspot X="-1003.67" Y="-1122.38" Z="44.4928" />
+        <Hotspot X="-985.956" Y="-1103.23" Z="44.5406" />
+        <Hotspot X="-1013.84" Y="-1118.25" Z="44.4928" />
+        <Hotspot X="-1054.6" Y="-1094.35" Z="30.5758" />
+      </Hotspots>
+    </Objective>
+  </Quest>
+
+  <QuestOrder>
+    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Mulgore (1-12) [Tauren Starter]" LogColor="Green" />
+    <PickUp QuestName="The Hunt Begins" QuestId="747" GiverName="Grull Hawkwind" GiverId="2980" />
+    <PickUp QuestName="A Humble Task" QuestId="752" GiverName="Chief Hawkwind" GiverId="2981" />
+    <TurnIn QuestName="A Humble Task" QuestId="752" TurnInName="Greatmother Hawkwind" TurnInId="2991" />
+    <If Condition="((!HasQuest(753)) &amp;&amp; (!IsQuestCompleted(753)))">
+      <PickUp QuestName="A Humble Task" QuestId="753" GiverName="Greatmother Hawkwind" GiverId="2991" />
+    </If>
+    <Objective QuestName="A Humble Task" QuestId="753" Type="CollectItem" ItemId="4755" CollectCount="1" />
+    <Objective QuestName="The Hunt Begins" QuestId="747" Type="CollectItem" ItemId="4739" CollectCount="7" />
+    <Objective QuestName="The Hunt Begins" QuestId="747" Type="CollectItem" ItemId="4740" CollectCount="7" />
+    <If Condition="Me.Level &lt; 2">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 2 - Plainstrider</Name>
+          <Factions>189</Factions>
+          <TargetMinLevel>1</TargetMinLevel>
+          <TargetMaxLevel>2</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2951.82" Y="-350.50" Z="55.86" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="2" /> <!--  (grind Plainstrider) -->
+    </If>
+    <TurnIn QuestName="The Hunt Begins" QuestId="747" TurnInName="Grull Hawkwind" TurnInId="2980" />
+    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(3091)) &amp;&amp; (!IsQuestCompleted(3091)))">
+        <PickUp QuestName="Simple Note" QuestId="3091" GiverName="Grull Hawkwind" GiverId="2980" />
+      </If>
+    </If>
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(3093)) &amp;&amp; (!IsQuestCompleted(3093)))">
+        <PickUp QuestName="Rune-Inscribed Note" QuestId="3093" GiverName="Grull Hawkwind" GiverId="2980" />
+      </If>
+    </If>
+    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(3092)) &amp;&amp; (!IsQuestCompleted(3092)))">
+        <PickUp QuestName="Etched Note" QuestId="3092" GiverName="Grull Hawkwind" GiverId="2980" />
+      </If>
+    </If>
+    <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(3094)) &amp;&amp; (!IsQuestCompleted(3094)))">
+        <PickUp QuestName="Verdant Note" QuestId="3094" GiverName="Grull Hawkwind" GiverId="2980" />
+      </If>
+    </If>
+    <If Condition="((!HasQuest(750)) &amp;&amp; (!IsQuestCompleted(750)))">
+      <PickUp QuestName="The Hunt Continues" QuestId="750" GiverName="Grull Hawkwind" GiverId="2980" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Rune-Inscribed Note" QuestId="3093" TurnInName="Meela Dawnstrider" TurnInId="3062" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Verdant Note" QuestId="3094" TurnInName="Gart Mistrunner" TurnInId="3060" />
+    </If>
+    <TurnIn QuestName="A Humble Task" QuestId="753" TurnInName="Chief Hawkwind" TurnInId="2981" />
+    <If Condition="((!HasQuest(755)) &amp;&amp; (!IsQuestCompleted(755)))">
+      <PickUp QuestName="Rites of the Earthmother" QuestId="755" GiverName="Chief Hawkwind" GiverId="2981" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Simple Note" QuestId="3091" TurnInName="Grull Hawkwind" TurnInId="3059" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Etched Note" QuestId="3092" TurnInName="Lanka Farshot" TurnInId="3061" />
+    </If>
+    <If Condition="Me.Level &lt; 3">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 3 - Plainstrider</Name>
+          <Factions>189</Factions>
+          <TargetMinLevel>1</TargetMinLevel>
+          <TargetMaxLevel>2</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2951.82" Y="-350.50" Z="55.86" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="3" /> <!--  (grind Plainstrider) -->
+    </If>
+    <Objective QuestName="The Hunt Continues" QuestId="750" Type="CollectItem" ItemId="4742" CollectCount="10" />
+    <TurnIn QuestName="Rites of the Earthmother" QuestId="755" TurnInName="Seer Graytongue" TurnInId="2982" />
+    <If Condition="((!HasQuest(757)) &amp;&amp; (!IsQuestCompleted(757)))">
+      <PickUp QuestName="Rite of Strength" QuestId="757" GiverName="Seer Graytongue" GiverId="2982" />
+    </If>
+    <If Condition="Me.Level &lt; 4">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 4 - Mountain Cougar</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>3</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-3417.46" Y="-258.07" Z="73.16" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="4" /> <!--  (grind Mountain Cougar) -->
+    </If>
+    <TurnIn QuestName="The Hunt Continues" QuestId="750" TurnInName="Grull Hawkwind" TurnInId="2980" />
+    <If Condition="((!HasQuest(780)) &amp;&amp; (!IsQuestCompleted(780)))">
+      <PickUp QuestName="The Battleboars" QuestId="780" GiverName="Grull Hawkwind" GiverId="2980" />
+    </If>
+    <PickUp QuestName="Break Sharptusk!" QuestId="3376" GiverName="Brave Windfeather" GiverId="3209" />
+    <Objective QuestName="The Battleboars" QuestId="780" Type="CollectItem" ItemId="4848" CollectCount="8" />
+    <Objective QuestName="The Battleboars" QuestId="780" Type="CollectItem" ItemId="4849" CollectCount="8" />
+    <If Condition="Me.Level &lt; 5">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 5 - Battleboar</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>4</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-3214.69" Y="-852.80" Z="42.26" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="5" /> <!--  (grind Battleboar) -->
+    </If>
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <PickUp QuestName="Call of Earth" QuestId="1519" GiverName="Seer Ravenfeather" GiverId="5888" />
+    </If>
+    <Objective QuestName="Break Sharptusk!" QuestId="3376" Type="CollectItem" ItemId="10459" CollectCount="1" />
+    <Objective QuestName="Rite of Strength" QuestId="757" Type="CollectItem" ItemId="4770" CollectCount="12" />
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <Objective QuestName="Call of Earth" QuestId="1519" Type="CollectItem" ItemId="6634" CollectCount="2" />
+    </If>
+    <TurnIn QuestName="The Battleboars" QuestId="780" TurnInName="Grull Hawkwind" TurnInId="2980" />
+    <TurnIn QuestName="Break Sharptusk!" QuestId="3376" TurnInName="Brave Windfeather" TurnInId="3209" />
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Call of Earth" QuestId="1519" TurnInName="Seer Ravenfeather" TurnInId="5888" />
+      <If Condition="((!HasQuest(1520)) &amp;&amp; (!IsQuestCompleted(1520)))">
+        <PickUp QuestName="Call of Earth" QuestId="1520" GiverName="Seer Ravenfeather" GiverId="5888" />
+      </If>
+    </If>
+    <TurnIn QuestName="Rite of Strength" QuestId="757" TurnInName="Chief Hawkwind" TurnInId="2981" />
+    <If Condition="((!HasQuest(763)) &amp;&amp; (!IsQuestCompleted(763)))">
+      <PickUp QuestName="Rites of the Earthmother" QuestId="763" GiverName="Chief Hawkwind" GiverId="2981" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <While Condition="((HasQuest(763)) &amp;&amp; (!IsQuestCompleted(763)))">
+        <CustomBehavior File="UseItemOn" QuestId="763" MobId="0" ItemId="6635" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+        <CustomBehavior File="WaitTimer" WaitTime="3000" />
+      </While>
+      <TurnIn QuestName="Call of Earth" QuestId="1520" TurnInName="Chief Hawkwind" TurnInId="5891" />
+      <If Condition="((!HasQuest(1521)) &amp;&amp; (!IsQuestCompleted(1521)))">
+        <PickUp QuestName="Call of Earth" QuestId="1521" GiverName="Chief Hawkwind" GiverId="2981" />
+      </If>
+      <TurnIn QuestName="Call of Earth" QuestId="1521" TurnInName="Seer Ravenfeather" TurnInId="5888" />
+    </If>
+    <If Condition="Me.Level &lt; 6">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 6 - Bristleback Shaman</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>4</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2939.67" Y="-1277.92" Z="72.33" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="6" /> <!--  (grind Bristleback Shaman) -->
+    </If>
+    <PickUp QuestName="A Task Unfinished" QuestId="1656" GiverName="Antur Fallow" GiverId="6775" />
+    <PickUp QuestName="Dangers of the Windfury" QuestId="743" GiverName="Ruul Eagletalon" GiverId="2985" />
+    <TurnIn QuestName="Rites of the Earthmother" QuestId="763" TurnInName="Baine Bloodhoof" TurnInId="2993" />
+    <If Condition="((!HasQuest(745)) &amp;&amp; (!IsQuestCompleted(745)))">
+      <PickUp QuestName="Sharing the Land" QuestId="745" GiverName="Baine Bloodhoof" GiverId="2993" />
+    </If>
+    <If Condition="((!HasQuest(767)) &amp;&amp; (!IsQuestCompleted(767)))">
+      <PickUp QuestName="Rite of Vision" QuestId="767" GiverName="Baine Bloodhoof" GiverId="2993" />
+    </If>
+    <If Condition="((!HasQuest(746)) &amp;&amp; (!IsQuestCompleted(746)))">
+      <PickUp QuestName="Dwarven Digging" QuestId="746" GiverName="Baine Bloodhoof" GiverId="2993" />
+    </If>
+    <TurnIn QuestName="A Task Unfinished" QuestId="1656" TurnInName="Innkeeper Kauth" TurnInId="6747" />
+    <CustomBehavior File="SetHearthstone" MobId="6747" AreaId="215" X="-2365.37" Y="-347.31" Z="-8.8736" /> <!-- Set hearth: Bloodhoof Village -->
+    <TurnIn QuestName="Rite of Vision" QuestId="767" TurnInName="Zarlman Two-Moons" TurnInId="3054" />
+    <If Condition="((!HasQuest(771)) &amp;&amp; (!IsQuestCompleted(771)))">
+      <PickUp QuestName="Rite of Vision" QuestId="771" GiverName="Zarlman Two-Moons" GiverId="3054" />
+    </If>
+    <If Condition="((!HasQuest(766)) &amp;&amp; (!IsQuestCompleted(766)))">
+      <PickUp QuestName="Mazzranache" QuestId="766" GiverName="Maur Raincaller" GiverId="3055" />
+    </If>
+    <PickUp QuestName="Swoop Hunting" QuestId="761" GiverName="Harken Windtotem" GiverId="2947" />
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <PickUp QuestName="Poison Water" QuestId="748" GiverName="Mull Thunderhorn" GiverId="2948" />
+    </If>
+    <Objective QuestName="Mazzranache" QuestId="766" Type="CollectItem" ItemId="4804" CollectCount="1" />
+    <Objective QuestName="Mazzranache" QuestId="766" Type="CollectItem" ItemId="4806" CollectCount="1" />
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <Objective QuestName="Poison Water" QuestId="748" Type="CollectItem" ItemId="4758" CollectCount="6" />
+      <Objective QuestName="Poison Water" QuestId="748" Type="CollectItem" ItemId="4759" CollectCount="4" />
+    </If>
+    <Objective QuestName="Mazzranache" QuestId="766" Type="CollectItem" ItemId="4807" CollectCount="1" />
+    <Objective QuestName="Swoop Hunting" QuestId="761" Type="CollectItem" ItemId="4769" CollectCount="8" />
+    <Objective QuestName="Rite of Vision" QuestId="771" Type="CollectItem" ItemId="4809" CollectCount="2" />
+    <If Condition="Me.Level &lt; 7">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 7 - Wiry Swoop</Name>
+          <Factions>73</Factions>
+          <TargetMinLevel>5</TargetMinLevel>
+          <TargetMaxLevel>7</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2111.13" Y="46.75" Z="26.53" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="7" /> <!--  (grind Wiry Swoop) -->
+    </If>
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Poison Water" QuestId="748" TurnInName="Mull Thunderhorn" TurnInId="2948" />
+      <If Condition="((!HasQuest(754)) &amp;&amp; (!IsQuestCompleted(754)))">
+        <PickUp QuestName="Winterhoof Cleansing" QuestId="754" GiverName="Mull Thunderhorn" GiverId="2948" />
+      </If>
+    </If>
+    <TurnIn QuestName="Swoop Hunting" QuestId="761" TurnInName="Harken Windtotem" TurnInId="2947" />
+    <Objective QuestName="Rite of Vision" QuestId="771" Type="CollectItem" ItemId="4808" CollectCount="2" />
+    <Objective QuestName="Sharing the Land" QuestId="745" Type="KillMob" MobId="2951" KillCount="5" />
+    <Objective QuestName="Sharing the Land" QuestId="745" Type="KillMob" MobId="2950" KillCount="8" />
+    <Objective QuestName="Sharing the Land" QuestId="745" Type="KillMob" MobId="2949" KillCount="10" />
+    <Objective QuestName="Dangers of the Windfury" QuestId="743" Type="CollectItem" ItemId="4751" CollectCount="8" />
+    <If Condition="Me.Level &lt; 8">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 8 - Palemane Tanner</Name>
+          <Factions>39</Factions>
+          <TargetMinLevel>5</TargetMinLevel>
+          <TargetMaxLevel>6</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2745.59" Y="-486.32" Z="8.34" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="8" /> <!--  (grind Palemane Tanner) -->
+    </If>
+    <TurnIn QuestName="Sharing the Land" QuestId="745" TurnInName="Baine Bloodhoof" TurnInId="2993" />
+    <TurnIn QuestName="Dangers of the Windfury" QuestId="743" TurnInName="Ruul Eagletalon" TurnInId="2985" />
+    <TurnIn QuestName="Rite of Vision" QuestId="771" TurnInName="Zarlman Two-Moons" TurnInId="3054" />
+    <If Condition="((!HasQuest(772)) &amp;&amp; (!IsQuestCompleted(772)))">
+      <PickUp QuestName="Rite of Vision" QuestId="772" GiverName="Zarlman Two-Moons" GiverId="3054" />
+    </If>
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <While Condition="((HasQuest(754)) &amp;&amp; (!IsQuestCompleted(754)))">
+        <CustomBehavior File="UseItemOn" QuestId="754" MobId="0" ItemId="5411" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+        <CustomBehavior File="WaitTimer" WaitTime="3000" />
+      </While>
+      <TurnIn QuestName="Winterhoof Cleansing" QuestId="754" TurnInName="Mull Thunderhorn" TurnInId="2948" />
+      <If Condition="((!HasQuest(756)) &amp;&amp; (!IsQuestCompleted(756)))">
+        <PickUp QuestName="Thunderhorn Totem" QuestId="756" GiverName="Mull Thunderhorn" GiverId="2948" />
+      </If>
+    </If>
+    <PickUp QuestName="The Ravaged Caravan" QuestId="749" GiverName="Morin Cloudstalker" GiverId="2988" />
+    <TurnIn QuestName="The Ravaged Caravan" QuestId="749" TurnInName="Object_2908" TurnInType="Object" TurnInId="2908" />
+    <If Condition="((!HasQuest(751)) &amp;&amp; (!IsQuestCompleted(751)))">
+      <PickUp QuestName="The Ravaged Caravan" QuestId="751" GiverName="Morin Cloudstalker" GiverId="2988" />
+    </If>
+    <Objective QuestName="Mazzranache" QuestId="766" Type="CollectItem" ItemId="4805" CollectCount="1" />
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <Objective QuestName="Thunderhorn Totem" QuestId="756" Type="CollectItem" ItemId="4802" CollectCount="6" />
+      <Objective QuestName="Thunderhorn Totem" QuestId="756" Type="CollectItem" ItemId="4801" CollectCount="6" />
+    </If>
+    <If Condition="Me.Level &lt; 9">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 9 - Prairie Stalker</Name>
+          <Factions>38</Factions>
+          <TargetMinLevel>7</TargetMinLevel>
+          <TargetMaxLevel>8</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-1500.97" Y="139.66" Z="-4.03" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="9" /> <!--  (grind Prairie Stalker) -->
+    </If>
+    <Objective QuestName="Dwarven Digging" QuestId="746" Type="CollectItem" ItemId="4702" CollectCount="5" />
+    <TurnIn QuestName="Rite of Vision" QuestId="772" TurnInName="Seer Wiserunner" TurnInId="2984" />
+    <If Condition="((!HasQuest(773)) &amp;&amp; (!IsQuestCompleted(773)))">
+      <PickUp QuestName="Rite of Wisdom" QuestId="773" GiverName="Seer Wiserunner" GiverId="2984" />
+    </If>
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Thunderhorn Totem" QuestId="756" TurnInName="Mull Thunderhorn" TurnInId="2948" />
+      <If Condition="((!HasQuest(758)) &amp;&amp; (!IsQuestCompleted(758)))">
+        <PickUp QuestName="Thunderhorn Cleansing" QuestId="758" GiverName="Mull Thunderhorn" GiverId="2948" />
+      </If>
+    </If>
+    <TurnIn QuestName="Mazzranache" QuestId="766" TurnInName="Maur Raincaller" TurnInId="3055" />
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <While Condition="((HasQuest(758)) &amp;&amp; (!IsQuestCompleted(758)))">
+        <CustomBehavior File="UseItemOn" QuestId="758" MobId="0" ItemId="5415" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+        <CustomBehavior File="WaitTimer" WaitTime="3000" />
+      </While>
+      <TurnIn QuestName="Thunderhorn Cleansing" QuestId="758" TurnInName="Mull Thunderhorn" TurnInId="2948" />
+      <If Condition="((!HasQuest(759)) &amp;&amp; (!IsQuestCompleted(759)))">
+        <PickUp QuestName="Wildmane Totem" QuestId="759" GiverName="Mull Thunderhorn" GiverId="2948" />
+      </If>
+    </If>
+    <TurnIn QuestName="The Ravaged Caravan" QuestId="751" TurnInName="Morin Cloudstalker" TurnInId="2988" />
+    <If Condition="((!HasQuest(764)) &amp;&amp; (!IsQuestCompleted(764)))">
+      <PickUp QuestName="The Venture Co." QuestId="764" GiverName="Morin Cloudstalker" GiverId="2988" />
+    </If>
+    <If Condition="((!HasQuest(765)) &amp;&amp; (!IsQuestCompleted(765)))">
+      <PickUp QuestName="Supervisor Fizsprocket" QuestId="765" GiverName="Morin Cloudstalker" GiverId="2988" />
+    </If>
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <Objective QuestName="Wildmane Totem" QuestId="759" Type="CollectItem" ItemId="4803" CollectCount="8" />
+    </If>
+    <If Condition="Me.Level &lt; 10">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 10 - Prairie Wolf Alpha</Name>
+          <Factions>38</Factions>
+          <TargetMinLevel>9</TargetMinLevel>
+          <TargetMaxLevel>10</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-548.72" Y="-85.35" Z="26.31" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="10" /> <!--  (grind Prairie Wolf Alpha) -->
+    </If>
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Wildmane Totem" QuestId="759" TurnInName="Mull Thunderhorn" TurnInId="2948" />
+      <If Condition="((!HasQuest(760)) &amp;&amp; (!IsQuestCompleted(760)))">
+        <PickUp QuestName="Wildmane Cleansing" QuestId="760" GiverName="Mull Thunderhorn" GiverId="2948" />
+      </If>
+    </If>
+    <PickUp QuestName="The Hunter's Way" QuestId="861" GiverName="Skorn Whitecloud" GiverId="3052" />
+    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(1505)) &amp;&amp; (!IsQuestCompleted(1505)))">
+        <PickUp QuestName="Veteran Uzzek" QuestId="1505" GiverName="Krang Stonehoof" GiverId="3063" />
+      </If>
+    </If>
+    <TurnIn QuestName="Veteran Uzzek" QuestId="1505" TurnInName="Uzzek" TurnInId="5810" />
+    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(1498)) &amp;&amp; (!IsQuestCompleted(1498)))">
+        <PickUp QuestName="Path of Defense" QuestId="1498" GiverName="Uzzek" GiverId="5810" />
+      </If>
+      <Objective QuestName="Path of Defense" QuestId="1498" Type="CollectItem" ItemId="6486" CollectCount="5" />
+      <TurnIn QuestName="Path of Defense" QuestId="1498" TurnInName="Uzzek" TurnInId="5810" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(2984)) &amp;&amp; (!IsQuestCompleted(2984)))">
+        <PickUp QuestName="Call of Fire" QuestId="2984" GiverName="Narm Skychaser" GiverId="3066" />
+      </If>
+      <TurnIn QuestName="Call of Fire" QuestId="2984" TurnInName="Kranal Fiss" TurnInId="5907" />
+      <If Condition="((!HasQuest(1524)) &amp;&amp; (!IsQuestCompleted(1524)))">
+        <PickUp QuestName="Call of Fire" QuestId="1524" GiverName="Kranal Fiss" GiverId="5907" />
+      </If>
+    </If>
+    <TurnIn QuestName="Call of Fire" QuestId="1524" TurnInName="Telf Joolam" TurnInId="5900" />
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(1525)) &amp;&amp; (!IsQuestCompleted(1525)))">
+        <PickUp QuestName="Call of Fire" QuestId="1525" GiverName="Telf Joolam" GiverId="5900" />
+      </If>
+      <Objective QuestName="Call of Fire" QuestId="1525" Type="CollectItem" ItemId="5026" CollectCount="1" />
+      <Objective QuestName="Call of Fire" QuestId="1525" Type="CollectItem" ItemId="6652" CollectCount="1" />
+    </If>
+    <TurnIn QuestName="Call of Fire" QuestId="1525" TurnInName="Telf Joolam" TurnInId="5900" />
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(1526)) &amp;&amp; (!IsQuestCompleted(1526)))">
+        <PickUp QuestName="Call of Fire" QuestId="1526" GiverName="Telf Joolam" GiverId="5900" />
+      </If>
+    </If>
+    <While Condition="((HasQuest(1526)) &amp;&amp; (!IsQuestCompleted(1526)))">
+      <CustomBehavior File="UseItemOn" QuestId="1526" MobId="0" ItemId="6636" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <Objective QuestName="Call of Fire" QuestId="1526" Type="CollectItem" ItemId="6655" CollectCount="1" />
+      <TurnIn QuestName="Call of Fire" QuestId="1526" TurnInName="Object_61934" TurnInType="Object" TurnInId="61934" />
+      <If Condition="((!HasQuest(1527)) &amp;&amp; (!IsQuestCompleted(1527)))">
+        <PickUp QuestName="Call of Fire" QuestId="1527" GiverName="Telf Joolam" GiverId="5900" />
+      </If>
+      <TurnIn QuestName="Call of Fire" QuestId="1527" TurnInName="Kranal Fiss" TurnInId="5907" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <PickUp QuestName="Taming the Beast" QuestId="6061" GiverName="Yaw Sharpmane" GiverId="3065" />
+      <While Condition="((HasQuest(6061)) &amp;&amp; (!IsQuestCompleted(6061)))">
+        <CustomBehavior File="UseItemOn" QuestId="6061" MobId="0" ItemId="15914" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+        <CustomBehavior File="WaitTimer" WaitTime="3000" />
+      </While>
+      <TurnIn QuestName="Taming the Beast" QuestId="6061" TurnInName="Yaw Sharpmane" TurnInId="3065" />
+      <If Condition="((!HasQuest(6087)) &amp;&amp; (!IsQuestCompleted(6087)))">
+        <PickUp QuestName="Taming the Beast" QuestId="6087" GiverName="Yaw Sharpmane" GiverId="3065" />
+      </If>
+      <While Condition="((HasQuest(6087)) &amp;&amp; (!IsQuestCompleted(6087)))">
+        <CustomBehavior File="UseItemOn" QuestId="6087" MobId="0" ItemId="15915" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+        <CustomBehavior File="WaitTimer" WaitTime="3000" />
+      </While>
+      <TurnIn QuestName="Taming the Beast" QuestId="6087" TurnInName="Yaw Sharpmane" TurnInId="3065" />
+      <If Condition="((!HasQuest(6088)) &amp;&amp; (!IsQuestCompleted(6088)))">
+        <PickUp QuestName="Taming the Beast" QuestId="6088" GiverName="Yaw Sharpmane" GiverId="3065" />
+      </If>
+      <While Condition="((HasQuest(6088)) &amp;&amp; (!IsQuestCompleted(6088)))">
+        <CustomBehavior File="UseItemOn" QuestId="6088" MobId="0" ItemId="15916" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+        <CustomBehavior File="WaitTimer" WaitTime="3000" />
+      </While>
+      <If Condition="((!HasQuest(6089)) &amp;&amp; (!IsQuestCompleted(6089)))">
+        <PickUp QuestName="Training the Beast" QuestId="6089" GiverName="Yaw Sharpmane" GiverId="3065" />
+      </If>
+      <TurnIn QuestName="Training the Beast" QuestId="6089" TurnInName="Holt Thunderhorn" TurnInId="3039" />
+    </If>
+    <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(5926)) &amp;&amp; (!IsQuestCompleted(5926)))">
+        <PickUp QuestName="Mulgore Heeding the Call" QuestId="5926" GiverName="Gennia Runetotem" GiverId="3064" />
+      </If>
+    </If>
+    <TurnIn QuestName="Heeding the Call" QuestId="5926" TurnInName="Turak Runetotem" TurnInId="3033" />
+    <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <PickUp QuestName="Moonglade" QuestId="5922" GiverName="Turak Runetotem" GiverId="3033" />
+      <TurnIn QuestName="Moonglade" QuestId="5922" TurnInName="Dendrite Starblaze" TurnInId="11802" />
+      <If Condition="((!HasQuest(5930)) &amp;&amp; (!IsQuestCompleted(5930)))">
+        <PickUp QuestName="Great Bear Spirit" QuestId="5930" GiverName="Dendrite Starblaze" GiverId="11802" />
+      </If>
+    </If>
+    <TurnIn QuestName="Great Bear Spirit" QuestId="5930" TurnInName="Dendrite Starblaze" TurnInId="11802" />
+    <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <If Condition="((!HasQuest(5932)) &amp;&amp; (!IsQuestCompleted(5932)))">
+        <PickUp QuestName="Back to Thunder Bluff" QuestId="5932" GiverName="Dendrite Starblaze" GiverId="11802" />
+      </If>
+      <TurnIn QuestName="Back to Thunder Bluff" QuestId="5932" TurnInName="Turak Runetotem" TurnInId="3033" />
+      <If Condition="((!HasQuest(6002)) &amp;&amp; (!IsQuestCompleted(6002)))">
+        <PickUp QuestName="Body and Heart" QuestId="6002" GiverName="Turak Runetotem" GiverId="3033" />
+      </If>
+    </If>
+    <While Condition="((HasQuest(6002)) &amp;&amp; (!IsQuestCompleted(6002)))">
+      <CustomBehavior File="UseItemOn" QuestId="6002" MobId="0" ItemId="15710" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
+      <Objective QuestName="Body and Heart" QuestId="6002" Type="KillMob" MobId="12138" KillCount="1" />
+      <TurnIn QuestName="Body and Heart" QuestId="6002" TurnInName="Turak Runetotem" TurnInId="3033" />
+    </If>
+    <While Condition="((HasQuest(746)) &amp;&amp; (!IsQuestCompleted(746)))">
+      <CustomBehavior File="UseItemOn" QuestId="746" MobId="0" ItemId="4702" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <Objective QuestName="Dwarven Digging" QuestId="746" Type="CollectItem" ItemId="4703" CollectCount="5" />
+    <Objective QuestName="Supervisor Fizsprocket" QuestId="765" Type="CollectItem" ItemId="4819" CollectCount="1" />
+    <Objective QuestName="The Venture Co." QuestId="764" Type="KillMob" MobId="2979" KillCount="6" />
+    <Objective QuestName="The Venture Co." QuestId="764" Type="KillMob" MobId="2978" KillCount="14" />
+    <If Condition="Me.Level &lt; 11">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 11 - Venture Co. Worker</Name>
+          <Factions>47</Factions>
+          <TargetMinLevel>8</TargetMinLevel>
+          <TargetMaxLevel>9</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-739.48" Y="-143.00" Z="-27.59" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="11" /> <!--  (grind Venture Co. Worker) -->
+    </If>
+    <PickUp QuestName="A Sacred Burial" QuestId="833" GiverName="Lorekeeper Raintotem" GiverId="3233" />
+    <TurnIn QuestName="Rite of Wisdom" QuestId="773" TurnInName="Ancestral Spirit" TurnInId="2994" />
+    <If Condition="((!HasQuest(775)) &amp;&amp; (!IsQuestCompleted(775)))">
+      <PickUp QuestName="Journey into Thunder Bluff" QuestId="775" GiverName="Ancestral Spirit" GiverId="2994" />
+    </If>
+    <Objective QuestName="A Sacred Burial" QuestId="833" Type="KillMob" MobId="3232" KillCount="8" />
+    <TurnIn QuestName="A Sacred Burial" QuestId="833" TurnInName="Lorekeeper Raintotem" TurnInId="3233" />
+    <TurnIn QuestName="Dwarven Digging" QuestId="746" TurnInName="Baine Bloodhoof" TurnInId="2993" />
+    <TurnIn QuestName="The Venture Co." QuestId="764" TurnInName="Morin Cloudstalker" TurnInId="2988" />
+    <TurnIn QuestName="Supervisor Fizsprocket" QuestId="765" TurnInName="Morin Cloudstalker" TurnInId="2988" />
+    <PickUp QuestName="Preparation for Ceremony" QuestId="744" GiverName="Eyahn Eagletalon" GiverId="2987" />
+    <TurnIn QuestName="Journey into Thunder Bluff" QuestId="775" TurnInName="Cairne Bloodhoof" TurnInId="3057" />
+    <If Condition="((!HasQuest(776)) &amp;&amp; (!IsQuestCompleted(776)))">
+      <PickUp QuestName="Rites of the Earthmother" QuestId="776" GiverName="Cairne Bloodhoof" GiverId="3057" />
+    </If>
+    <While Condition="((HasQuest(760)) &amp;&amp; (!IsQuestCompleted(760)))">
+      <CustomBehavior File="UseItemOn" QuestId="760" MobId="0" ItemId="5416" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <Objective QuestName="Rites of the Earthmother" QuestId="776" Type="CollectItem" ItemId="4841" CollectCount="1" />
+    <Objective QuestName="Preparation for Ceremony" QuestId="744" Type="CollectItem" ItemId="4752" CollectCount="6" />
+    <Objective QuestName="Preparation for Ceremony" QuestId="744" Type="CollectItem" ItemId="4753" CollectCount="6" />
+    <Objective QuestName="The Hunter's Way" QuestId="861" Type="CollectItem" ItemId="5203" CollectCount="4" />
+    <If Condition="Me.Level &lt; 12">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 12 - Flatland Prowler</Name>
+          <Factions>16</Factions>
+          <TargetMinLevel>9</TargetMinLevel>
+          <TargetMaxLevel>9</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-683.10" Y="-619.16" Z="-14.78" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="12" /> <!--  (grind Flatland Prowler) -->
+    </If>
+    <PickUp QuestName="The Barrens Oases" QuestId="886" GiverName="Arch Druid Hamuul Runetotem" GiverId="5769" />
+    <TurnIn QuestName="Rites of the Earthmother" QuestId="776" TurnInName="Cairne Bloodhoof" TurnInId="3057" />
+    <TurnIn QuestName="Preparation for Ceremony" QuestId="744" TurnInName="Eyahn Eagletalon" TurnInId="2987" />
+    <TurnIn QuestName="The Hunter's Way" QuestId="861" TurnInName="Melor Stonehoof" TurnInId="3441" />
+    <If Condition="((!HasQuest(860)) &amp;&amp; (!IsQuestCompleted(860)))">
+      <PickUp QuestName="Sergra Darkthorn" QuestId="860" GiverName="Melor Stonehoof" GiverId="3441" />
+    </If>
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Wildmane Cleansing" QuestId="760" TurnInName="Mull Thunderhorn" TurnInId="2948" />
+      <PickUp QuestName="Journey to the Crossroads" QuestId="854" GiverName="Kirge Sternhorn" GiverId="3418" />
+    </If>
+    <TurnIn QuestName="The Barrens Oases" QuestId="886" TurnInName="Tonga Runetotem" TurnInId="3448" />
+    <TurnIn QuestName="Sergra Darkthorn" QuestId="860" TurnInName="Sergra Darkthorn" TurnInId="3338" />
+    <If Condition="(Me.Race == WoWRace.Tauren)">
+      <TurnIn QuestName="Journey to the Crossroads" QuestId="854" TurnInName="Thork" TurnInId="3429" />
+    </If>
+    <PickUp QuestName="Conscript of the Horde" QuestId="840" GiverName="Takrin Pathseeker" GiverId="3336" />
+    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Mulgore (1-12) [Tauren Starter] Complete" LogColor="Orange" />
+    <CustomBehavior File="LoadProfile" ProfileName="Classic_(12-58)_The_Barrens_(12-15)" />
+  </QuestOrder>
+</HBProfile>
