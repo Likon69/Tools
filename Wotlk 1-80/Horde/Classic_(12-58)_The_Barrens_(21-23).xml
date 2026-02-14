@@ -1,0 +1,111 @@
+<HBProfile>
+  <Name>Horde\Classic (12-58)\The Barrens (21-23)</Name>
+
+  <MinLevel>1</MinLevel>
+  <MaxLevel>23</MaxLevel>
+
+  <MinDurability>0.2</MinDurability>
+  <MinFreeBagSlots>2</MinFreeBagSlots>
+
+  <AvoidMobs />
+  <Blackspots />
+  <Mailboxes />
+
+  <QuestOrder>
+    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\The Barrens (21-23)" LogColor="Green" />
+    <TurnIn QuestName="Further Instructions" QuestId="1094" TurnInName="Sputtervalve" TurnInId="3442" />
+    <If Condition="((!HasQuest(1095)) &amp;&amp; (!IsQuestCompleted(1095)))">
+      <PickUp QuestName="Further Instructions" QuestId="1095" GiverName="Sputtervalve" GiverId="3442" />
+    </If>
+    <TurnIn QuestName="Deepmoss Spider Eggs" QuestId="1069" TurnInName="Mebok Mizzyrix" TurnInId="3446" />
+    <TurnIn QuestName="Call of Water" QuestId="1534" TurnInName="Brine" TurnInId="5899" />
+    <If Condition="(Me.Class == WoWClass.Shaman)">
+      <If Condition="((!HasQuest(220)) &amp;&amp; (!IsQuestCompleted(220)))">
+        <PickUp QuestName="Call of Water" QuestId="220" GiverName="Brine" GiverId="5899" />
+      </If>
+    </If>
+    <TurnIn QuestName="Call of Water" QuestId="220" TurnInName="Islen Waterseer" TurnInId="5901" />
+    <If Condition="(Me.Class == WoWClass.Shaman)">
+      <If Condition="((!HasQuest(63)) &amp;&amp; (!IsQuestCompleted(63)))">
+        <PickUp QuestName="Call of Water" QuestId="63" GiverName="Islen Waterseer" GiverId="5901" />
+      </If>
+    </If>
+    <While Condition="((HasQuest(63)) &amp;&amp; (!IsQuestCompleted(63)))">
+      <CustomBehavior File="UseItemOn" QuestId="63" MobId="0" ItemId="6637" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <If Condition="(Me.Class == WoWClass.Shaman)">
+      <Objective QuestName="Call of Water" QuestId="63" Type="CollectItem" ItemId="7812" CollectCount="1" />
+      <TurnIn QuestName="Call of Water" QuestId="63" TurnInName="Object_113791" TurnInType="Object" TurnInId="113791" />
+      <If Condition="((!HasQuest(100)) &amp;&amp; (!IsQuestCompleted(100)))">
+        <PickUp QuestName="Call of Water" QuestId="100" GiverName="Islen Waterseer" GiverId="5901" />
+      </If>
+      <TurnIn QuestName="Call of Water" QuestId="100" TurnInName="Minor Manifestation of Water" TurnInId="5895" />
+      <If Condition="((!HasQuest(96)) &amp;&amp; (!IsQuestCompleted(96)))">
+        <PickUp QuestName="Call of Water" QuestId="96" GiverName="Minor Manifestation of Water" GiverId="5895" />
+      </If>
+      <TurnIn QuestName="Call of Water" QuestId="96" TurnInName="Islen Waterseer" TurnInId="5901" />
+    </If>
+    <If Condition="((!HasQuest(879)) &amp;&amp; (!IsQuestCompleted(879)))">
+      <PickUp QuestName="Betrayal from Within" QuestId="879" GiverName="Mangletooth" GiverId="3430" />
+    </If>
+    <If Condition="((!HasQuest(893)) &amp;&amp; (!IsQuestCompleted(893)))">
+      <PickUp QuestName="Weapons of Choice" QuestId="893" GiverName="Tatternack Steelforge" GiverId="3433" />
+    </If>
+    <CustomBehavior File="SetHearthstone" MobId="7714" AreaId="17" X="-2376.27" Y="-1995.74" Z="96.7881" /> <!-- Set hearth: Camp Taurajo -->
+    <Objective QuestName="Owatanka" QuestId="884" Type="CollectItem" ItemId="5102" CollectCount="1" />
+    <While Condition="((HasQuest(893)) &amp;&amp; (!IsQuestCompleted(893)))">
+      <CustomBehavior File="UseItemOn" QuestId="893" MobId="0" ItemId="5102" NumOfTimes="1" Range="5" CollectionDistance="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <PickUp QuestName="Owatanka" QuestId="884" GiverName="Innkeeper Byula" GiverId="7714" />
+    <If Condition="Me.Level &lt; 22">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 22 - Owatanka</Name>
+          <Factions>14</Factions>
+          <TargetMinLevel>24</TargetMinLevel>
+          <TargetMaxLevel>24</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-2509.89" Y="-2377.26" Z="92.42" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="22" /> <!--  (grind Owatanka) -->
+    </If>
+    <Objective QuestName="Egg Hunt" QuestId="868" Type="CollectItem" ItemId="5058" CollectCount="12" />
+    <PickUp QuestName="Gann's Reclamation" QuestId="843" GiverName="Gann Stonespire" GiverId="3341" />
+    <Objective QuestName="Betrayal from Within" QuestId="879" Type="CollectItem" ItemId="5074" CollectCount="1" />
+    <Objective QuestName="Betrayal from Within" QuestId="879" Type="CollectItem" ItemId="5073" CollectCount="1" />
+    <Objective QuestName="Betrayal from Within" QuestId="879" Type="CollectItem" ItemId="5072" CollectCount="1" />
+    <Objective QuestName="Weapons of Choice" QuestId="893" Type="CollectItem" ItemId="5093" CollectCount="1" />
+    <Objective QuestName="Weapons of Choice" QuestId="893" Type="CollectItem" ItemId="5092" CollectCount="1" />
+    <Objective QuestName="Weapons of Choice" QuestId="893" Type="CollectItem" ItemId="5094" CollectCount="1" />
+    <Objective QuestName="Washte Pawne" QuestId="885" Type="CollectItem" ItemId="5103" CollectCount="1" />
+    <While Condition="((HasQuest(843)) &amp;&amp; (!IsQuestCompleted(843)))">
+      <RunTo X="-4105.0" Y="-2211.54" Z="53.2454" />
+      <CustomBehavior File="UseItemOn" QuestId="843" MobId="3374" ItemId="5103" NumOfTimes="100" Range="5" CollectionDistance="1000" X="-4105.0" Y="-2211.54" Z="53.2454" />
+      <CustomBehavior File="WaitTimer" WaitTime="3000" />
+    </While>
+    <PickUp QuestName="Washte Pawne" QuestId="885" GiverName="Gann Stonespire" GiverId="3341" />
+    <Objective QuestName="Chen's Empty Keg" QuestId="822" Type="CollectItem" ItemId="4898" CollectCount="5" />
+    <Objective QuestName="Chen's Empty Keg" QuestId="822" Type="CollectItem" ItemId="4897" CollectCount="1" />
+    <Objective QuestName="Gann's Reclamation" QuestId="843" Type="CollectItem" ItemId="5006" CollectCount="1" />
+    <TurnIn QuestName="Gann's Reclamation" QuestId="843" TurnInName="Gann Stonespire" TurnInId="3341" />
+    <If Condition="((!HasQuest(846)) &amp;&amp; (!IsQuestCompleted(846)))">
+      <PickUp QuestName="Revenge of Gann" QuestId="846" GiverName="Gann Stonespire" GiverId="3341" />
+    </If>
+    <TurnIn QuestName="Weapons of Choice" QuestId="893" TurnInName="Tatternack Steelforge" TurnInId="3433" />
+    <TurnIn QuestName="Owatanka" QuestId="884" TurnInName="Jorn Skyseer" TurnInId="3387" />
+    <TurnIn QuestName="Washte Pawne" QuestId="885" TurnInName="Jorn Skyseer" TurnInId="3387" />
+    <TurnIn QuestName="Betrayal from Within" QuestId="879" TurnInName="Mangletooth" TurnInId="3430" />
+    <If Condition="((!HasQuest(906)) &amp;&amp; (!IsQuestCompleted(906)))">
+      <PickUp QuestName="Betrayal from Within" QuestId="906" GiverName="Mangletooth" GiverId="3430" />
+    </If>
+    <TurnIn QuestName="Betrayal from Within" QuestId="906" TurnInName="Thork" TurnInId="3429" />
+    <TurnIn QuestName="Egg Hunt" QuestId="868" TurnInName="Korran" TurnInId="3428" />
+    <TurnIn QuestName="Chen's Empty Keg" QuestId="822" TurnInName="Brewmaster Drohn" TurnInId="3292" />
+    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\The Barrens (21-23) Complete" LogColor="Orange" />
+    <CustomBehavior File="LoadProfile" ProfileName="Classic_(12-58)_Stonetalon_Mountains_(23-24)" />
+  </QuestOrder>
+</HBProfile>
