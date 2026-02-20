@@ -8,6 +8,10 @@
   <MinFreeBagSlots>2</MinFreeBagSlots>
 
   <Blackspots>
+      <Blackspot X="-695.89056" Y="-4345.7085" Z="44.542934" Radius="10" />
+      <Blackspot X="-738.0474" Y="-4286.9097" Z="40.9987" Radius="10" />
+
+
 
   </Blackspots>
   <Vendors>
@@ -247,7 +251,7 @@
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Durotar (1-12) [Orc &amp; Troll Starter]" LogColor="Green" />
     <PickUp QuestName="Your Place In The World" QuestId="4641" GiverName="Kaltunk" GiverId="10176" />
-    <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Warlock)">
       <PickUp QuestName="Vile Familiars" QuestId="1485" GiverName="Ruzan" GiverId="5765" />
     </If>
     <TurnIn QuestName="Your Place In The World" QuestId="4641" TurnInName="Gornek" TurnInId="3143" />
@@ -267,109 +271,68 @@
       </SetGrindArea>
       <GrindTo Level="2" /> <!--  (grind Mottled Boar) -->
     </If>
-    <If Condition="!((Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc))">
+    <If Condition="(Me.Class != WoWClass.Warlock)">
       <PickUp QuestName="Vile Familiars" QuestId="792" GiverName="Zureetha Fargaze" GiverId="3145" />
     </If>
     <TurnIn QuestName="Cutting Teeth" QuestId="788" TurnInName="Gornek" TurnInId="3143" />
-    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Warrior)">
       <If Condition="((!HasQuest(2383)) &amp;&amp; (!IsQuestCompleted(2383)))">
         <PickUp QuestName="Simple Parchment" QuestId="2383" GiverName="Gornek" GiverId="3143" />
       </If>
     </If>
-    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Shaman)">
       <If Condition="((!HasQuest(3089)) &amp;&amp; (!IsQuestCompleted(3089)))">
         <PickUp QuestName="Rune-Inscribed Parchment" QuestId="3089" GiverName="Gornek" GiverId="3143" />
       </If>
     </If>
-    <If Condition="(Me.Class == WoWClass.Rogue) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Rogue)">
       <If Condition="((!HasQuest(3088)) &amp;&amp; (!IsQuestCompleted(3088)))">
         <PickUp QuestName="Encrypted Parchment" QuestId="3088" GiverName="Gornek" GiverId="3143" />
       </If>
     </If>
-    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Hunter)">
       <If Condition="((!HasQuest(3087)) &amp;&amp; (!IsQuestCompleted(3087)))">
         <PickUp QuestName="Etched Parchment" QuestId="3087" GiverName="Gornek" GiverId="3143" />
       </If>
     </If>
-    <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Warlock)">
       <If Condition="((!HasQuest(3090)) &amp;&amp; (!IsQuestCompleted(3090)))">
         <PickUp QuestName="Tainted Parchment" QuestId="3090" GiverName="Gornek" GiverId="3143" />
       </If>
     </If>
-    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <If Condition="((!HasQuest(3065)) &amp;&amp; (!IsQuestCompleted(3065)))">
-        <PickUp QuestName="Simple Tablet" QuestId="3065" GiverName="Gornek" GiverId="3143" />
-      </If>
-    </If>
-    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <If Condition="((!HasQuest(3082)) &amp;&amp; (!IsQuestCompleted(3082)))">
-        <PickUp QuestName="Etched Tablet" QuestId="3082" GiverName="Gornek" GiverId="3143" />
-      </If>
-    </If>
-    <If Condition="(Me.Class == WoWClass.Rogue) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <If Condition="((!HasQuest(3083)) &amp;&amp; (!IsQuestCompleted(3083)))">
-        <PickUp QuestName="Encrypted Tablet" QuestId="3083" GiverName="Gornek" GiverId="3143" />
-      </If>
-    </If>
-    <If Condition="(Me.Class == WoWClass.Priest) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <If Condition="((!HasQuest(3085)) &amp;&amp; (!IsQuestCompleted(3085)))">
-        <PickUp QuestName="Hallowed Tablet" QuestId="3085" GiverName="Gornek" GiverId="3143" />
-      </If>
-    </If>
-    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <If Condition="((!HasQuest(3084)) &amp;&amp; (!IsQuestCompleted(3084)))">
-        <PickUp QuestName="Rune-Inscribed Tablet" QuestId="3084" GiverName="Gornek" GiverId="3143" />
-      </If>
-    </If>
-    <If Condition="(Me.Class == WoWClass.Mage) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <If Condition="((!HasQuest(3086)) &amp;&amp; (!IsQuestCompleted(3086)))">
-        <PickUp QuestName="Glyphic Tablet" QuestId="3086" GiverName="Gornek" GiverId="3143" />
-      </If>
-    </If>
+	
     <If Condition="((!HasQuest(789)) &amp;&amp; (!IsQuestCompleted(789)))">
       <PickUp QuestName="Sting of the Scorpid" QuestId="789" GiverName="Gornek" GiverId="3143" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Rogue) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Rogue)">
       <TurnIn QuestName="Encrypted Parchment" QuestId="3088" TurnInName="Rwag" TurnInId="3155" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Rogue) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <TurnIn QuestName="Encrypted Tablet" QuestId="3083" TurnInName="Rwag" TurnInId="3155" />
-    </If>
-    <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc)">
+
+    <If Condition="(Me.Class == WoWClass.Warlock)">
       <TurnIn QuestName="Tainted Parchment" QuestId="3090" TurnInName="Nartok" TurnInId="3156" />
     </If>
     <If Condition="((!HasQuest(4402)) &amp;&amp; (!IsQuestCompleted(4402)))">
       <PickUp QuestName="Galgar's Cactus Apple Surprise" QuestId="4402" GiverName="Galgar" GiverId="9796" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Priest) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <TurnIn QuestName="Hallowed Tablet" QuestId="3085" TurnInName="Ken'jai" TurnInId="3707" />
-    </If>
-    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Orc)">
+
+    <If Condition="(Me.Class == WoWClass.Warrior)">
       <TurnIn QuestName="Simple Parchment" QuestId="2383" TurnInName="Frang" TurnInId="3153" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <TurnIn QuestName="Simple Tablet" QuestId="3065" TurnInName="Frang" TurnInId="3153" />
-    </If>
-    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Orc)">
+
+    <If Condition="(Me.Class == WoWClass.Shaman)">
       <TurnIn QuestName="Rune-Inscribed Parchment" QuestId="3089" TurnInName="Shikrik" TurnInId="3157" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Shaman) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <TurnIn QuestName="Rune-Inscribed Tablet" QuestId="3084" TurnInName="Shikrik" TurnInId="3157" />
-    </If>
-    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Orc)">
+
+    <If Condition="(Me.Class == WoWClass.Hunter)">
       <TurnIn QuestName="Etched Parchment" QuestId="3087" TurnInName="Jen'shan" TurnInId="3154" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Hunter) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <TurnIn QuestName="Etched Tablet" QuestId="3082" TurnInName="Jen'shan" TurnInId="3154" />
-    </If>
-    <If Condition="(Me.Class == WoWClass.Mage) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <TurnIn QuestName="Glyphic Tablet" QuestId="3086" TurnInName="Mai'ah" TurnInId="5884" />
-    </If>
+
+
     <Objective QuestName="Galgar's Cactus Apple Surprise" QuestId="4402" Type="CollectItem" ItemId="11583" CollectCount="10" />
-    <If Condition="Me.Level &lt; 3">
+
       <SetGrindArea>
         <GrindArea>
-          <Name>Grind to Level 3 - Mottled Boar</Name>
+          <Name>Grind to Level 2 - Mottled Boar</Name>
           <Factions>189</Factions>
           <TargetMinLevel>1</TargetMinLevel>
           <TargetMaxLevel>2</TargetMaxLevel>
@@ -379,13 +342,12 @@
         </GrindArea>
       </SetGrindArea>
       <GrindTo Level="3" /> <!--  (grind Mottled Boar) -->
-    </If>
-    <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="1485" Type="CollectItem" ItemId="6487" CollectCount="6" />
     </If>
     <PickUp QuestName="Lazy Peons" QuestId="5441" GiverName="Foreman Thazz'ril" GiverId="11378" />
     <TurnIn QuestName="Galgar's Cactus Apple Surprise" QuestId="4402" TurnInName="Galgar" TurnInId="9796" />
-    <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc)">
+    <If Condition="(Me.Class == WoWClass.Warlock)">
       <TurnIn QuestName="Vile Familiars" QuestId="1485" TurnInName="Ruzan" TurnInId="5765" />
       <If Condition="((!HasQuest(1499)) &amp;&amp; (!IsQuestCompleted(1499)))">
         <PickUp QuestName="Vile Familiars" QuestId="1499" GiverName="Ruzan" GiverId="5765" />
@@ -457,11 +419,11 @@
       </SetGrindArea>
       <GrindTo Level="5" /> <!--  (grind Scorpid Worker) -->
     </If>
-    <If Condition="!((Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc))">
+    <If Condition="(Me.Class != WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="792" Type="KillMob" MobId="3101" KillCount="12" />
     </If>
     <TurnIn QuestName="Thazz'ril's Pick" QuestId="6394" TurnInName="Foreman Thazz'ril" TurnInId="11378" />
-    <If Condition="!((Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Orc))">
+    <If Condition="(Me.Class != WoWClass.Warlock)">
       <TurnIn QuestName="Vile Familiars" QuestId="792" TurnInName="Zureetha Fargaze" TurnInId="3145" />
     </If>
     <If Condition="((!HasQuest(794)) &amp;&amp; (!IsQuestCompleted(794)))">
@@ -727,10 +689,7 @@
       </If>
       <TurnIn QuestName="Training the Beast" QuestId="6081" TurnInName="Ormak Grimshot" TurnInId="3352" />
     </If>
-    <If Condition="(Me.Class == WoWClass.Priest) &amp;&amp; (Me.Race == WoWRace.Troll)">
-      <PickUp QuestName="Hex of Weakness" QuestId="5652" GiverName="Tai'jin" GiverId="3706" />
-      <!-- Quest 5652 may auto-complete (no turn-in found) -->
-    </If>
+
     <Objective QuestName="Encroachment" QuestId="837" Type="KillMob" MobId="3113" KillCount="4" />
     <Objective QuestName="Encroachment" QuestId="837" Type="KillMob" MobId="3114" KillCount="4" />
     <PickUp QuestName="Lost But Not Forgotten" QuestId="816" GiverName="Misha Tor'kren" GiverId="3193" />
@@ -814,7 +773,7 @@
     </If>
     <TurnIn QuestName="Hidden Enemies" QuestId="5727" TurnInName="Thrall" TurnInId="4949" />
     <PickUp QuestName="Conscript of the Horde" QuestId="840" GiverName="Takrin Pathseeker" GiverId="3336" />
-    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Durotar (1-12) [Orc &amp; Troll Starter] Complete" LogColor="Orange" />
+    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Durotar (1-12) [Orc Starter] Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Classic_(12-58)_The_Barrens_(12-15)" />
   </QuestOrder>
 </HBProfile>
