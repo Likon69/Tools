@@ -10,17 +10,57 @@
   <Blackspots>
       <Blackspot X="-695.89056" Y="-4345.7085" Z="44.542934" Radius="10" />
       <Blackspot X="-738.0474" Y="-4286.9097" Z="40.9987" Radius="10" />
-
-
+      <Blackspot X="-616.7305" Y="-4502.7" Z="52.214825" Radius="2" />
+      <Blackspot X="-697.0004" Y="-4358.2285" Z="54.39948" Radius="10"/>
+      <Blackspot X="-739.4651" Y="-4289.464" Z="41.213165" Radius="60" />
 
   </Blackspots>
   <Vendors>
     <Vendor Name="Duokna" Entry="3158" Type="Sell" X="-565.428" Y="-4214.2" Z="41.590523" />
     <Vendor Name="Zlagk" Entry="3882" Type="Food" X="-560.125" Y="-4217.2" Z="41.590534" />
+
+    <!--  Durotar Sen'jin Village-->
+    <Vendor Name="Tai'tasi" Entry="3187" Type="Repair" X="-792.59" Y="-4945.02" Z="22.246586" />
+	<!--Valley of Trials Trainers-->
+		<Vendor Name="Acrypha" Entry="39206" Type="Train" TrainClass="Mage" X="-625.296" Y="-4210.167" Z="38.13415"/>
+		<Vendor Name="Shikrik" Entry="3157" Type="Train" TrainClass="Shaman" X="-623.9393" Y="-4203.878" Z="38.13462"/>
+		<Vendor Name="Rwag" Entry="3155" Type="Train" TrainClass="Rogue" X="-617.059" Y="-4202.635" Z="38.13412"/>
+		<Vendor Name="Karranisha" Entry="39214" Type="Train" TrainClass="Hunter" X="-635.4618" Y="-4227.521" Z="38.13442"/>
+		<Vendor Name="Frang" Entry="3153" Type="Train" TrainClass="Warrior" X="-640.1024" Y="-4229.821" Z="38.13398"/>
+		<Vendor Name="Nartok" Entry="3156" Type="Train" TrainClass="Warlock" X="-590.8021" Y="-4203.484" Z="38.42764"/>
+	<!--Sen'jin Village Vendors-->
+		<Vendor Name="K'waii" Entry="3186" Type="Food" X="-779.0314" Y="-4938.931" Z="22.24685" />
+		<Vendor Name="Trayexir" Entry="10369" Type="Repair" X="-769.1502" Y="-4948.526" Z="22.84936"/>
+	<!--Sen'jin Village Trainers-->
+		<Vendor Name="Bomsanchu" Entry="50002" Type="Train" TrainClass="Mage" X="-789.2239" Y="-4943.434" Z="38.28099"/>
+		<Vendor Name="Cona" Entry="50011" Type="Train" TrainClass="Shaman" X="-841.7292" Y="-4937.272" Z="20.98561"/>
+		<Vendor Name="Munalti" Entry="50015" Type="Train" TrainClass="Rogue" X="-778.5746" Y="-4926.359" Z="22.90205"/>
+		<Vendor Name="Jamai" Entry="50004" Type="Train" TrainClass="Hunter" X="-790.0643" Y="-4908.497" Z="19.60824"/>
+		<Vendor Name="Yeniss" Entry="50006" Type="Train" TrainClass="Warrior" X="-773.3785" Y="-4947.198" Z="22.881"/>
+		<Vendor Name="Gusini" Entry="49998" Type="Train" TrainClass="Warlock" X="-785.9184" Y="-4939.8" Z="38.28124"/>
+		<Vendor Name="Parata" Entry="50001" Type="Train" TrainClass="Priest" X="-784.3837" Y="-4944.821" Z="38.28099"/>
+		<Vendor Name="Den'chulu" Entry="49997" Type="Train" TrainClass="Druid" X="-844.0104" Y="-4932.819" Z="20.98573"/>
+
+
+    <!--Razor Hill Vendors-->
+		<Vendor Name="Innkeeper Grosk" Entry="6928" Type="Food" X="340.3629" Y="-4686.287" Z="16.48928"/>
+		<Vendor Name="Ghrawt" Entry="3165" Type="Repair" X="362.1046" Y="-4763.842" Z="12.46936"/>
+
   </Vendors>
 
 
   <!-- Quest Overrides -->
+    <Quest Id="794" Name="Burning Blade Medallion">
+      <Objective Type="CollectItem" ItemId="4859" CollectCount="1">
+        <CollectFrom>
+          <Mob Name="Yarrog Baneshadow" Id="3183"/>
+        </CollectFrom>
+        <Hotspots>
+          <Hotspot X="-58.1846" Y="-4220.64" Z="62.317245"  />
+        </Hotspots>
+      </Objective>
+    </Quest>
+
     <Quest Id="789" Name="Sting of the Scorpid">
     <Objective Type="CollectItem" ItemId="4862" CollectCount="8">
       <CollectFrom>
@@ -327,7 +367,6 @@
       <TurnIn QuestName="Etched Parchment" QuestId="3087" TurnInName="Jen'shan" TurnInId="3154" />
     </If>
 
-
     <Objective QuestName="Galgar's Cactus Apple Surprise" QuestId="4402" Type="CollectItem" ItemId="11583" CollectCount="10" />
 
       <SetGrindArea>
@@ -381,20 +420,7 @@
     <If Condition="((!HasQuest(6394)) &amp;&amp; (!IsQuestCompleted(6394)))">
       <PickUp QuestName="Thazz'ril's Pick" QuestId="6394" GiverName="Foreman Thazz'ril" GiverId="11378" />
     </If>
-    <If Condition="Me.Level &lt; 4">
-      <SetGrindArea>
-        <GrindArea>
-          <Name>Grind to Level 4 - Vile Familiar</Name>
-          <Factions>7</Factions>
-          <TargetMinLevel>3</TargetMinLevel>
-          <TargetMaxLevel>4</TargetMaxLevel>
-          <Hotspots>
-            <Hotspot X="-252.91" Y="-4381.57" Z="62.57" />
-          </Hotspots>
-        </GrindArea>
-      </SetGrindArea>
-      <GrindTo Level="4" /> <!--  (grind Vile Familiar) -->
-    </If>
+
     <PickUp QuestName="Sarkoth" QuestId="790" GiverName="Hana'zua" GiverId="3287" />
     <Objective QuestName="Sarkoth" QuestId="790" Type="CollectItem" ItemId="4905" CollectCount="1" />
     <Objective QuestName="Sting of the Scorpid" QuestId="789" Type="CollectItem" ItemId="4862" CollectCount="10" />
@@ -405,25 +431,17 @@
     <TurnIn QuestName="Sting of the Scorpid" QuestId="789" TurnInName="Gornek" TurnInId="3143" />
     <TurnIn QuestName="Sarkoth" QuestId="804" TurnInName="Gornek" TurnInId="3143" />
     <Objective QuestName="Thazz'ril's Pick" QuestId="6394" Type="CollectItem" ItemId="16332" CollectCount="1" />
-    <If Condition="Me.Level &lt; 5">
-      <SetGrindArea>
-        <GrindArea>
-          <Name>Grind to Level 5 - Scorpid Worker</Name>
-          <Factions>7</Factions>
-          <TargetMinLevel>3</TargetMinLevel>
-          <TargetMaxLevel>3</TargetMaxLevel>
-          <Hotspots>
-            <Hotspot X="-311.73" Y="-4383.49" Z="55.50" />
-          </Hotspots>
-        </GrindArea>
-      </SetGrindArea>
-      <GrindTo Level="5" /> <!--  (grind Scorpid Worker) -->
-    </If>
+
     <If Condition="(Me.Class != WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="792" Type="KillMob" MobId="3101" KillCount="12" />
+    </If>`
+    <If Condition="HasQuest(6394) ">
+      <CustomBehavior File="WaitTimer" WaitTime="1000" GoalText="Use HS." />
+      <CustomBehavior File="Misc\RunLua" Lua="UseItemByName(6948)" WaitTime="1000" />
+      <CustomBehavior File="WaitTimer" WaitTime="10000" GoalText="Use HS." />
+      <TurnIn QuestName="Thazz'ril's Pick" QuestId="6394" TurnInName="Foreman Thazz'ril" TurnInId="11378" />
     </If>
-    <TurnIn QuestName="Thazz'ril's Pick" QuestId="6394" TurnInName="Foreman Thazz'ril" TurnInId="11378" />
-    <If Condition="(Me.Class != WoWClass.Warlock)">
+      <If Condition="(Me.Class != WoWClass.Warlock)">
       <TurnIn QuestName="Vile Familiars" QuestId="792" TurnInName="Zureetha Fargaze" TurnInId="3145" />
     </If>
     <If Condition="((!HasQuest(794)) &amp;&amp; (!IsQuestCompleted(794)))">
@@ -433,7 +451,8 @@
       <PickUp QuestName="Call of Earth" QuestId="1516" GiverName="Canaga Earthcaller" GiverId="5887" />
     </If>
     <Objective QuestName="Burning Blade Medallion" QuestId="794" Type="CollectItem" ItemId="4859" CollectCount="1" />
-    <If Condition="Me.Level &lt; 6">
+  	<If Condition="(HasQuest(794))" >
+				<CustomBehavior File="Message" Text="We are grinding to level 6 in Durotar" LogColor="Orange" />
       <SetGrindArea>
         <GrindArea>
           <Name>Grind to Level 6 - Yarrog Baneshadow</Name>
@@ -446,7 +465,8 @@
         </GrindArea>
       </SetGrindArea>
       <GrindTo Level="6" /> <!--  (grind Yarrog Baneshadow) -->
-    </If>
+     </If>
+
     <If Condition="(Me.Class == WoWClass.Shaman)">
       <Objective QuestName="Call of Earth" QuestId="1516" Type="CollectItem" ItemId="6640" CollectCount="2" />
     </If>
