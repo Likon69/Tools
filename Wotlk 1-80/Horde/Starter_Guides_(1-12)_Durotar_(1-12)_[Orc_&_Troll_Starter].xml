@@ -289,6 +289,7 @@
   </Quest>
 
   <QuestOrder>
+    <CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Durotar (1-12) [Orc &amp; Troll Starter]" LogColor="Green" />
     <PickUp QuestName="Your Place In The World" QuestId="4641" GiverName="Kaltunk" GiverId="10176" />
     <If Condition="(Me.Class == WoWClass.Warlock)">
@@ -420,6 +421,20 @@
     <If Condition="((!HasQuest(6394)) &amp;&amp; (!IsQuestCompleted(6394)))">
       <PickUp QuestName="Thazz'ril's Pick" QuestId="6394" GiverName="Foreman Thazz'ril" GiverId="11378" />
     </If>
+       
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 4 - Vile Familiar</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>4</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-252.91" Y="-4381.57" Z="62.57" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="4" /> <!--  (grind Vile Familiar) -->
+    
 
     <PickUp QuestName="Sarkoth" QuestId="790" GiverName="Hana'zua" GiverId="3287" />
     <Objective QuestName="Sarkoth" QuestId="790" Type="CollectItem" ItemId="4905" CollectCount="1" />
@@ -431,7 +446,20 @@
     <TurnIn QuestName="Sting of the Scorpid" QuestId="789" TurnInName="Gornek" TurnInId="3143" />
     <TurnIn QuestName="Sarkoth" QuestId="804" TurnInName="Gornek" TurnInId="3143" />
     <Objective QuestName="Thazz'ril's Pick" QuestId="6394" Type="CollectItem" ItemId="16332" CollectCount="1" />
-
+    
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 5 - Scorpid Worker</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>3</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-311.73" Y="-4383.49" Z="55.50" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="5" /> <!--  (grind Scorpid Worker) -->
+    
     <If Condition="(Me.Class != WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="792" Type="KillMob" MobId="3101" KillCount="12" />
     </If>`
