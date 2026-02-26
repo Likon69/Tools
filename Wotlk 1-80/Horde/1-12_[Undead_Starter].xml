@@ -1,15 +1,50 @@
 <HBProfile>
   <Name>Horde\Starter Guides (1-12)\Tirisfal Glades (1-12) [Undead Starter]</Name>
 
-  <MinLevel>1</MinLevel>
-  <MaxLevel>12</MaxLevel>
+	<MinLevel>1</MinLevel>
+	<MaxLevel>10</MaxLevel>
+	
+	<MinDurability>0.2</MinDurability>
+	<MinFreeBagSlots>3</MinFreeBagSlots>
 
-  <MinDurability>0.2</MinDurability>
-  <MinFreeBagSlots>2</MinFreeBagSlots>
+	<MailGrey>False</MailGrey>
+	<MailWhite>False</MailWhite>
+	<MailGreen>False</MailGreen>
+	<MailBlue>False</MailBlue>
+	<MailPurple>True</MailPurple>
+	
+	<SellGrey>True</SellGrey>
+	<SellWhite>True</SellWhite>
+	<SellGreen>True</SellGreen>
+	<SellBlue>False</SellBlue>
+	<SellPurple>False</SellPurple>
 
-  <AvoidMobs />
-  <Blackspots />
-  <Mailboxes />
+
+	<AvoidMobs>
+		<Mob Name="Training Dummy" Entry="44820" /> <!-- Undead Training Dummy -->
+	</AvoidMobs>
+	
+	<Blackspots>
+		<!-- Cold Hearth Manor -->
+		<Blackspot X="2188.518" Y="661.0852" Z="33.29134" Radius="4.017753" />	
+		<Blackspot X="1966.69" Y="1602.635" Z="88.19614" Radius="10" />
+	</Blackspots>
+	
+	<Mailboxes>
+		<!-- Deathknell -->
+		<Mailbox X="1843.379" Y="1584.786" Z="93.73871" />
+	</Mailboxes>
+
+	<Vendors>
+	<!-- Deathknell -->
+		<Vendor Name="Joshua Kien" Entry="2115" Type="Food" X="1866.022" Y="1574.447" Z="94.31525" />
+		<Vendor Name="Archibald Kava" Entry="2113" Type="Repair" X="1860.848" Y="1568.365" Z="94.31361" />
+	
+	<!-- Calston Estate -->
+		<Vendor Name="Franklin Brinklestein" Entry="44034" Type="Food" X="2234.77" Y="1021.9" Z="36.4495" />
+		<Vendor Name="Gordo" Entry="10666" Type="Food" X="2238.43" Y="1001.97" Z="36.58329" />
+	</Vendors>
+
 
   <!-- Quest Overrides -->
   <Quest Id="364" Name="The Mindless Ones">
@@ -233,6 +268,7 @@
 
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Tirisfal Glades (1-12) [Undead Starter]" LogColor="Green" />
+    <CustomBehavior File="Message" Text="Compiling Undead Starter Quests" LogColor="Green" />
     <PickUp QuestName="Rude Awakening" QuestId="363" GiverName="Undertaker Mordo" GiverId="1568" />
     <TurnIn QuestName="Rude Awakening" QuestId="363" TurnInName="Shadow Priest Sarvis" TurnInId="1569" />
     <If Condition="((!HasQuest(364)) &amp;&amp; (!IsQuestCompleted(364)))">

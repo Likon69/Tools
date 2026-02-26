@@ -24,7 +24,7 @@
 	<!--Valley of Trials Trainers-->
 		<Vendor Name="Acrypha" Entry="39206" Type="Train" TrainClass="Mage" X="-625.296" Y="-4210.167" Z="38.13415"/>
 		<Vendor Name="Shikrik" Entry="3157" Type="Train" TrainClass="Shaman" X="-623.9393" Y="-4203.878" Z="38.13462"/>
-		<Vendor Name="Rwag" Entry="3155" Type="Train" TrainClass="Rogue" X="-617.059" Y="-4202.635" Z="38.13412"/>
+		<Vendor Name="Rwag" Entry="3155" Type="Train" TrainClass="Rogue" X="-588.703" Y="-4144.94" Z="41.020264" />
 		<Vendor Name="Karranisha" Entry="39214" Type="Train" TrainClass="Hunter" X="-635.4618" Y="-4227.521" Z="38.13442"/>
 		<Vendor Name="Frang" Entry="3153" Type="Train" TrainClass="Warrior" X="-640.1024" Y="-4229.821" Z="38.13398"/>
 		<Vendor Name="Nartok" Entry="3156" Type="Train" TrainClass="Warlock" X="-590.8021" Y="-4203.484" Z="38.42764"/>
@@ -289,7 +289,7 @@
   </Quest>
 
   <QuestOrder>
-    <CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+    <CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="True" />
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Durotar (1-12) [Orc &amp; Troll Starter]" LogColor="Green" />
     <PickUp QuestName="Your Place In The World" QuestId="4641" GiverName="Kaltunk" GiverId="10176" />
     <If Condition="(Me.Class == WoWClass.Warlock)">
@@ -446,20 +446,7 @@
     <TurnIn QuestName="Sting of the Scorpid" QuestId="789" TurnInName="Gornek" TurnInId="3143" />
     <TurnIn QuestName="Sarkoth" QuestId="804" TurnInName="Gornek" TurnInId="3143" />
     <Objective QuestName="Thazz'ril's Pick" QuestId="6394" Type="CollectItem" ItemId="16332" CollectCount="1" />
-    
-      <SetGrindArea>
-        <GrindArea>
-          <Name>Grind to Level 5 - Scorpid Worker</Name>
-          <Factions>7</Factions>
-          <TargetMinLevel>3</TargetMinLevel>
-          <TargetMaxLevel>3</TargetMaxLevel>
-          <Hotspots>
-            <Hotspot X="-311.73" Y="-4383.49" Z="55.50" />
-          </Hotspots>
-        </GrindArea>
-      </SetGrindArea>
-      <GrindTo Level="5" /> <!--  (grind Scorpid Worker) -->
-    
+
     <If Condition="(Me.Class != WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="792" Type="KillMob" MobId="3101" KillCount="12" />
     </If>`
@@ -479,21 +466,6 @@
       <PickUp QuestName="Call of Earth" QuestId="1516" GiverName="Canaga Earthcaller" GiverId="5887" />
     </If>
     <Objective QuestName="Burning Blade Medallion" QuestId="794" Type="CollectItem" ItemId="4859" CollectCount="1" />
-  	<If Condition="(HasQuest(794))" >
-				<CustomBehavior File="Message" Text="We are grinding to level 6 in Durotar" LogColor="Orange" />
-      <SetGrindArea>
-        <GrindArea>
-          <Name>Grind to Level 6 - Yarrog Baneshadow</Name>
-          <Factions>7</Factions>
-          <TargetMinLevel>5</TargetMinLevel>
-          <TargetMaxLevel>5</TargetMaxLevel>
-          <Hotspots>
-            <Hotspot X="-58.18" Y="-4220.64" Z="62.34" />
-          </Hotspots>
-        </GrindArea>
-      </SetGrindArea>
-      <GrindTo Level="6" /> <!--  (grind Yarrog Baneshadow) -->
-     </If>
 
     <If Condition="(Me.Class == WoWClass.Shaman)">
       <Objective QuestName="Call of Earth" QuestId="1516" Type="CollectItem" ItemId="6640" CollectCount="2" />
@@ -518,6 +490,20 @@
         <PickUp QuestName="Call of Earth" QuestId="1518" GiverName="Minor Manifestation of Earth" GiverId="5891" />
       </If>
       <TurnIn QuestName="Call of Earth" QuestId="1518" TurnInName="Canaga Earthcaller" TurnInId="5887" />
+    </If>
+      	<If Condition="(Me.Level &lt; 6)">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 6 - Yarrog Baneshadow</Name>
+          <Factions>413</Factions>
+          <TargetMinLevel>5</TargetMinLevel>
+          <TargetMaxLevel>5</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-728.6053" Y="-4717.219" Z="33.387856" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="6" /> <!--  (grind Yarrog Baneshadow) -->
     </If>
     <PickUp QuestName="A Peon's Burden" QuestId="2161" GiverName="Ukor" GiverId="6786" />
     <PickUp QuestName="Thwarting Kolkar Aggression" QuestId="786" GiverName="Lar Prowltusk" GiverId="3140" />
