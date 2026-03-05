@@ -13,18 +13,24 @@
       <Blackspot X="-616.7305" Y="-4502.7" Z="52.214825" Radius="2" />
       <Blackspot X="-697.0004" Y="-4358.2285" Z="54.39948" Radius="10"/>
       <Blackspot X="-739.4651" Y="-4289.464" Z="41.213165" Radius="60" />
+      <Blackspot X="-518.09454" Y="-4077.305" Z="69.058586" Radius="3" />
+      <Blackspot X="-540.78235" Y="-4342.5938" Z="49.378113" Radius="10" />
+      <Blackspot X="-383.74078" Y="-4195.472" Z="53.74209" Radius="10" />
+      <Blackspot X="-442.89423" Y="-4226.196" Z="49.32675" Radius="3" />
+      <Blackspot X="-420.0388" Y="-4263.758" Z="42.490154" Radius="5" />
+
 
   </Blackspots>
   <Vendors>
     <Vendor Name="Duokna" Entry="3158" Type="Sell" X="-565.428" Y="-4214.2" Z="41.590523" />
     <Vendor Name="Zlagk" Entry="3882" Type="Food" X="-560.125" Y="-4217.2" Z="41.590534" />
-
+    <Vendor Name="Kzan Thornslash" Entry="3159" Type="Repair" X="-588.829" Y="-4102.27" Z="43.463818" />
     <!--  Durotar Sen'jin Village-->
     <Vendor Name="Tai'tasi" Entry="3187" Type="Repair" X="-792.59" Y="-4945.02" Z="22.246586" />
 	<!--Valley of Trials Trainers-->
-		<Vendor Name="Acrypha" Entry="39206" Type="Train" TrainClass="Mage" X="-625.296" Y="-4210.167" Z="38.13415"/>
+    <Vendor Name="Mai'ah" Entry="5884" Type="Train" TrainClass="Mage" X="-625.296" Y="-4210.17" Z="38.134087" />
 		<Vendor Name="Shikrik" Entry="3157" Type="Train" TrainClass="Shaman" X="-623.9393" Y="-4203.878" Z="38.13462"/>
-		<Vendor Name="Rwag" Entry="3155" Type="Train" TrainClass="Rogue" X="-588.703" Y="-4144.94" Z="41.020264" />
+		<Vendor Name="Rwag" Entry="3155" Type="Train" TrainClass="Rogue" X="-590.4197" Y="-4146.493" Z="41.259594" />
 		<Vendor Name="Karranisha" Entry="39214" Type="Train" TrainClass="Hunter" X="-635.4618" Y="-4227.521" Z="38.13442"/>
 		<Vendor Name="Frang" Entry="3153" Type="Train" TrainClass="Warrior" X="-640.1024" Y="-4229.821" Z="38.13398"/>
 		<Vendor Name="Nartok" Entry="3156" Type="Train" TrainClass="Warlock" X="-590.8021" Y="-4203.484" Z="38.42764"/>
@@ -116,7 +122,6 @@
       </CollectFrom>
       <Hotspots>
         <Hotspot X="-746.49" Y="-4276.66" Z="43.77" />
-        <Hotspot X="-696.94" Y="-4355.8" Z="54.18" />
         <Hotspot X="-674.29" Y="-4300.25" Z="44.95" />
         <Hotspot X="-601.58" Y="-4075.62" Z="75.86" />
         <Hotspot X="-592.09" Y="-4074.48" Z="74.47" />
@@ -289,7 +294,7 @@
   </Quest>
 
   <QuestOrder>
-    <CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="True" />
+    <CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="True" DistancePull="25" />
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Durotar (1-12) [Orc &amp; Troll Starter]" LogColor="Green" />
     <PickUp QuestName="Your Place In The World" QuestId="4641" GiverName="Kaltunk" GiverId="10176" />
     <If Condition="(Me.Class == WoWClass.Warlock)">
@@ -369,7 +374,7 @@
     </If>
 
     <Objective QuestName="Galgar's Cactus Apple Surprise" QuestId="4402" Type="CollectItem" ItemId="11583" CollectCount="10" />
-
+      
       <SetGrindArea>
         <GrindArea>
           <Name>Grind to Level 2 - Mottled Boar</Name>
@@ -382,6 +387,7 @@
         </GrindArea>
       </SetGrindArea>
       <GrindTo Level="3" /> <!--  (grind Mottled Boar) -->
+      
     <If Condition="(Me.Class == WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="1485" Type="CollectItem" ItemId="6487" CollectCount="6" />
     </If>
@@ -421,20 +427,20 @@
     <If Condition="((!HasQuest(6394)) &amp;&amp; (!IsQuestCompleted(6394)))">
       <PickUp QuestName="Thazz'ril's Pick" QuestId="6394" GiverName="Foreman Thazz'ril" GiverId="11378" />
     </If>
-       
+       <!-- <If Condition="(Me.Level &lt; 4)">
       <SetGrindArea>
         <GrindArea>
           <Name>Grind to Level 4 - Vile Familiar</Name>
           <Factions>7</Factions>
           <TargetMinLevel>3</TargetMinLevel>
-          <TargetMaxLevel>4</TargetMaxLevel>
+          <TargetMaxLevel>3</TargetMaxLevel>
           <Hotspots>
             <Hotspot X="-252.91" Y="-4381.57" Z="62.57" />
           </Hotspots>
         </GrindArea>
       </SetGrindArea>
-      <GrindTo Level="4" /> <!--  (grind Vile Familiar) -->
-    
+      <GrindTo Level="4" />
+      </If> -->
 
     <PickUp QuestName="Sarkoth" QuestId="790" GiverName="Hana'zua" GiverId="3287" />
     <Objective QuestName="Sarkoth" QuestId="790" Type="CollectItem" ItemId="4905" CollectCount="1" />
