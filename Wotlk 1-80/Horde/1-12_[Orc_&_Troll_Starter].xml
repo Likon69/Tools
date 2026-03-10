@@ -24,9 +24,7 @@
   <Vendors>
     <Vendor Name="Duokna" Entry="3158" Type="Sell" X="-565.428" Y="-4214.2" Z="41.590523" />
     <Vendor Name="Zlagk" Entry="3882" Type="Food" X="-560.125" Y="-4217.2" Z="41.590534" />
-    <Vendor Name="Kzan Thornslash" Entry="3159" Type="Repair" X="-588.829" Y="-4102.27" Z="43.463818" />
     <!--  Durotar Sen'jin Village-->
-    <Vendor Name="Tai'tasi" Entry="3187" Type="Repair" X="-792.59" Y="-4945.02" Z="22.246586" />
 	<!--Valley of Trials Trainers-->
     <Vendor Name="Mai'ah" Entry="5884" Type="Train" TrainClass="Mage" X="-625.296" Y="-4210.17" Z="38.134087" />
 		<Vendor Name="Shikrik" Entry="3157" Type="Train" TrainClass="Shaman" X="-623.9393" Y="-4203.878" Z="38.13462"/>
@@ -36,7 +34,6 @@
 		<Vendor Name="Nartok" Entry="3156" Type="Train" TrainClass="Warlock" X="-590.8021" Y="-4203.484" Z="38.42764"/>
 	<!--Sen'jin Village Vendors-->
 		<Vendor Name="K'waii" Entry="3186" Type="Food" X="-779.0314" Y="-4938.931" Z="22.24685" />
-		<Vendor Name="Trayexir" Entry="10369" Type="Repair" X="-769.1502" Y="-4948.526" Z="22.84936"/>
 	<!--Sen'jin Village Trainers-->
 		<Vendor Name="Bomsanchu" Entry="50002" Type="Train" TrainClass="Mage" X="-789.2239" Y="-4943.434" Z="38.28099"/>
 		<Vendor Name="Cona" Entry="50011" Type="Train" TrainClass="Shaman" X="-841.7292" Y="-4937.272" Z="20.98561"/>
@@ -50,7 +47,6 @@
 
     <!--Razor Hill Vendors-->
 		<Vendor Name="Innkeeper Grosk" Entry="6928" Type="Food" X="340.3629" Y="-4686.287" Z="16.48928"/>
-		<Vendor Name="Ghrawt" Entry="3165" Type="Repair" X="362.1046" Y="-4763.842" Z="12.46936"/>
 
   </Vendors>
 
@@ -400,12 +396,9 @@
       </If>
       <TurnIn QuestName="Vile Familiars" QuestId="1499" TurnInName="Zureetha Fargaze" TurnInId="3145" />
     </If>
-    <While Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
+    <!-- <While Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
       <If Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
         <CustomBehavior File="UseItemOn" QuestId="5441" MobId="10556" ItemId="16114" NumOfTimes="1" HasAuraId="17743" Range="5" CollectionDistance="1000" X="-621.9144" Y="-4349.424" Z="41.01179" />
-      </If>
-      <If Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
-        <CustomBehavior File="UseItemOn" QuestId="5441" MobId="10556" ItemId="16114" NumOfTimes="1" HasAuraId="17743" Range="5" CollectionDistance="1000" X="-647.916" Y="-4294.271" Z="40.74682" />
       </If>
       <If Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
         <CustomBehavior File="UseItemOn" QuestId="5441" MobId="10556" ItemId="16114" NumOfTimes="1" HasAuraId="17743" Range="5" CollectionDistance="1000" X="-507.4143" Y="-4376.126" Z="46.21875" />
@@ -422,7 +415,10 @@
       <If Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
         <CustomBehavior File="UseItemOn" QuestId="5441" MobId="10556" ItemId="16114" NumOfTimes="1" HasAuraId="17743" Range="5" CollectionDistance="1000" X="-269.557" Y="-4144.897" Z="55.08993" />
       </If>
-    </While>
+    </While> -->
+    	<While Condition="((HasQuest(5441)) &amp;&amp; (!IsQuestCompleted(5441)))" >
+				<CustomBehavior File="UseItemOn" QuestId="5441" MobId="10556" ItemId="16114" NumOfTimes="100" HasAuraId="17743" Range="5" CollectionDistance="1000" X="-413.3748" Y="-4101.751" Z="49.63153" />
+			</While>
     <TurnIn QuestName="Lazy Peons" QuestId="5441" TurnInName="Foreman Thazz'ril" TurnInId="11378" />
     <If Condition="((!HasQuest(6394)) &amp;&amp; (!IsQuestCompleted(6394)))">
       <PickUp QuestName="Thazz'ril's Pick" QuestId="6394" GiverName="Foreman Thazz'ril" GiverId="11378" />

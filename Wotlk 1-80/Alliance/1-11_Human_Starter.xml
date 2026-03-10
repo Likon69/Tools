@@ -12,16 +12,6 @@
   <Mailboxes />
 
   <!-- Quest Overrides -->
-  <Quest Id="1598" Name="The Stolen Tome">
-    <Objective Type="CollectItem" ItemId="6785" CollectCount="1">
-      <CollectFrom>
-        <GameObject Name="Stolen Books" Id="83763" />
-      </CollectFrom>
-      <Hotspots>
-        <Hotspot X="-8957.04" Y="-432.75" Z="64.72" />
-      </Hotspots>
-    </Objective>
-  </Quest>
   <Quest Id="7" Name="Kobold Camp Cleanup">
     <Objective Type="KillMob" MobId="6" KillCount="8">
       <Hotspots>
@@ -98,14 +88,24 @@
       </Hotspots>
     </Objective>
   </Quest>
+<Quest Id="33" Name="Wolves Across the Border">
+	<Objective Type="CollectItem" ItemId="50432" CollectCount="8">
+		<CollectFrom>
+      <Mob Name="Diseased Young Wolf" Id="299" />
+		</CollectFrom>
+		<Hotspots>
+      <Hotspot X="-8858.942" Y="-132.71779" Z="81.18081" />
+      <Hotspot X="-8827.595" Y="-134.84753" Z="80.86149" />
+      <Hotspot X="-8811.302" Y="-100.8303" Z="83.49682" />
+      <Hotspot X="-8832.822" Y="-64.20984" Z="86.64681" />
+      <Hotspot X="-8876.815" Y="-68.97755" Z="83.75557" />
+		</Hotspots>
+	</Objective>
+</Quest>
+
 
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Starter Guides (1-11)\Human Starter (1-11)" LogColor="Green" />
-    <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Human)">
-      <PickUp QuestName="The Stolen Tome" QuestId="1598" GiverName="Drusilla La Salle" GiverId="459" />
-      <Objective QuestName="The Stolen Tome" QuestId="1598" Type="CollectItem" ItemId="6785" CollectCount="1" />
-      <TurnIn QuestName="The Stolen Tome" QuestId="1598" TurnInName="Drusilla La Salle" TurnInId="459" />
-    </If>
     <PickUp QuestName="A Threat Within" QuestId="783" GiverName="Deputy Willem" GiverId="823" />
     <TurnIn QuestName="A Threat Within" QuestId="783" TurnInName="Marshal McBride" TurnInId="197" />
     <If Condition="((!HasQuest(7)) &amp;&amp; (!IsQuestCompleted(7)))">
@@ -116,7 +116,7 @@
     </If>
     <TurnIn QuestName="Eagan Peltskinner" QuestId="5261" TurnInName="Eagan Peltskinner" TurnInId="196" />
     <PickUp QuestName="Wolves Across the Border" QuestId="33" GiverName="Eagan Peltskinner" GiverId="196" />
-    <Objective QuestName="Wolves Across the Border" QuestId="33" Type="CollectItem" ItemId="750" CollectCount="8" />
+    <Objective QuestName="Wolves Across the Border" QuestId="33" Type="CollectItem" ItemId="50432" CollectCount="8" />
     <Objective QuestName="Kobold Camp Cleanup" QuestId="7" Type="KillMob" MobId="6" KillCount="8" />
     <TurnIn QuestName="Wolves Across the Border" QuestId="33" TurnInName="Eagan Peltskinner" TurnInId="196" />
     <TurnIn QuestName="Kobold Camp Cleanup" QuestId="7" TurnInName="Marshal McBride" TurnInId="197" />
