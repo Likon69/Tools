@@ -246,24 +246,45 @@
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12) &amp; Death Knight (55-58)\Death Knight Starter (55-58)" LogColor="Green" />
     <PickUp QuestName="In Service Of The Lich King" QuestId="12593" GiverName="The Lich King" GiverId="25462" />
     <TurnIn QuestName="In Service Of The Lich King" QuestId="12593" TurnInName="Instructor Razuvious" TurnInId="28357" />
+   
     <If Condition="((!HasQuest(12619)) &amp;&amp; (!IsQuestCompleted(12619)))">
       <PickUp QuestName="The Emblazoned Runeblade" QuestId="12619" GiverName="Instructor Razuvious" GiverId="28357" />
     </If>
     <Objective QuestName="The Emblazoned Runeblade" QuestId="12619" Type="CollectItem" ItemId="38607" CollectCount="1" />
-    <While Condition="((HasQuest(12619)) &amp;&amp; (!IsQuestCompleted(12619)))">
-      <CustomBehavior File="UseItemOn" QuestId="12619" MobId="0" ItemId="38607" NumOfTimes="1" Range="5" CollectionDistance="1000" />
-      <CustomBehavior File="WaitTimer" WaitTime="3000" />
-    </While>
-    <Objective QuestName="The Emblazoned Runeblade" QuestId="12619" Type="CollectItem" ItemId="38631" CollectCount="1" />
+    
+
+    <If Condition="HasQuest(12619) &amp;&amp; !IsQuestCompleted(12619)" >
+      <Objective QuestName="The Emblazoned Runeblade" QuestId="12619" Type="CollectItem" ItemId="38607" CollectCount="1" />
+      <While Condition="!IsQuestCompleted(12619)" >
+        <RunTo QuestId="12619" X="2490.266" Y="-5638.453" Z="420.6452" />
+        <CustomBehavior File="Misc\RunLua" QuestId="12619" Lua="UseItemByName(38607)" WaitTime="9000" />
+      </While>
+    </If>
+
+
     <TurnIn QuestName="The Emblazoned Runeblade" QuestId="12619" TurnInName="Instructor Razuvious" TurnInId="28357" />
     <If Condition="((!HasQuest(12842)) &amp;&amp; (!IsQuestCompleted(12842)))">
       <PickUp QuestName="Runeforging: Preparation For Battle" QuestId="12842" GiverName="Instructor Razuvious" GiverId="28357" />
     </If>
+
+    <If Condition="HasQuest(12842) &amp;&amp; !IsQuestCompleted(12842)" >
+      <While Condition="!IsQuestCompleted(12842)" >
+        <RunTo X="2490.266" Y="-5638.453" Z="420.6452" />
+       		<CustomBehavior File="PerformTradeskillOn" QuestId="12842" TradeSkillId="53428" TradeSkillItemId="53341" NumOfTimes="1" CastOnItemId="38707" /> <!-- Runeforging = 53428, spell 53341 is Rune of Cinderglacier (the 'item' that we make, essentially), 38707 is our 2h sword -->
+		      <CustomBehavior File="Misc\RunLua" Lua="CloseTradeSkill()" WaitTime="1000" />
+        <CustomBehavior File="WaitTimer" QuestId="12842" WaitTime="2000" />
+      </While>
+    </If>
     <TurnIn QuestName="Runeforging: Preparation For Battle" QuestId="12842" TurnInName="Instructor Razuvious" TurnInId="28357" />
+    
     <If Condition="((!HasQuest(12848)) &amp;&amp; (!IsQuestCompleted(12848)))">
       <PickUp QuestName="The Endless Hunger" QuestId="12848" GiverName="Instructor Razuvious" GiverId="28357" />
     </If>
-    <Objective QuestName="The Endless Hunger" QuestId="12848" Type="KillMob" MobId="29565" KillCount="1" />
+	<If Condition="HasQuest(12848) &amp;&amp; !IsQuestCompleted(12848)" >
+	  <CustomBehavior File="EquipItem" ItemId="38707" Slot="MainHandSlot" />
+    <CustomBehavior File="UseGameObject" QuestId="12848" ObjectId="191577" NumOfTimes="1" X="2463" Y="-5569" Z="417" />
+    <CustomBehavior File="WaitTimer" WaitTime="16000" />
+	</If>
     <TurnIn QuestName="The Endless Hunger" QuestId="12848" TurnInName="Instructor Razuvious" TurnInId="28357" />
     <If Condition="((!HasQuest(12636)) &amp;&amp; (!IsQuestCompleted(12636)))">
       <PickUp QuestName="The Eye Of Acherus" QuestId="12636" GiverName="Instructor Razuvious" GiverId="28357" />
@@ -272,6 +293,18 @@
     <If Condition="((!HasQuest(12641)) &amp;&amp; (!IsQuestCompleted(12641)))">
       <PickUp QuestName="Death Comes From On High" QuestId="12641" GiverName="The Lich King" GiverId="25462" />
     </If>
+
+      <If Condition="HasQuest(12641) &amp;&amp; !IsQuestCompleted(12641)" >
+        <CustomBehavior File="InteractWith" MobId="191609" ObjectType="GameObject" NumOfTimes="1" X="2344.6533" Y="-5695.1914" Z="426.02908" />
+        <CustomBehavior File="WaitTimer" WaitTime="25000" />
+        <CustomBehavior File="Vehicles\VehicleMover" VehicleId="28511" UseNavigator="false" SpellId="51859" CastTime="7000" X="1654.104" Y="-5996.521" Z="183.0229"/>
+        <CustomBehavior File="Vehicles\VehicleMover" VehicleId="28511" UseNavigator="false" SpellId="51859" CastTime="7000" X="1802.83" Y="-5999.80" Z="170.4593"/>
+        <CustomBehavior File="Vehicles\VehicleMover" VehicleId="28511" UseNavigator="false" SpellId="51859" CastTime="7000" X="1592.047" Y="-5735.208" Z="196.1772"/>
+        <CustomBehavior File="Vehicles\VehicleMover" VehicleId="28511" UseNavigator="false" SpellId="51859" CastTime="7000" X="1384.774" Y="-5701.124" Z="199.2797"/>
+        <CustomBehavior File="WaitTimer" WaitTime="5000"/>
+        <CustomBehavior File="Misc\RunLua" Lua="CastSpellByID(52694)" />
+      </If>
+
     <TurnIn QuestName="Death Comes From On High" QuestId="12641" TurnInName="The Lich King" TurnInId="25462" />
     <If Condition="((!HasQuest(12657)) &amp;&amp; (!IsQuestCompleted(12657)))">
       <PickUp QuestName="The Might Of The Scourge" QuestId="12657" GiverName="The Lich King" GiverId="25462" />
@@ -280,9 +313,9 @@
     <If Condition="((!HasQuest(12850)) &amp;&amp; (!IsQuestCompleted(12850)))">
       <PickUp QuestName="Report To Scourge Commander Thalanor" QuestId="12850" GiverName="Highlord Darion Mograine" GiverId="28444" />
     </If>
-    <If Condition="((!HasQuest(12849)) &amp;&amp; (!IsQuestCompleted(12849)))">
+    <!-- <If Condition="((!HasQuest(12849)) &amp;&amp; (!IsQuestCompleted(12849)))">
       <PickUp QuestName="The Power Of Blood, Frost And Unholy" QuestId="12849" GiverName="Lord Thorval" GiverId="28472" />
-    </If>
+    </If> -->
     <TurnIn QuestName="Report To Scourge Commander Thalanor" QuestId="12850" TurnInName="Scourge Commander Thalanor" TurnInId="28510" />
     <If Condition="((!HasQuest(12670)) &amp;&amp; (!IsQuestCompleted(12670)))">
       <PickUp QuestName="The Scarlet Harvest" QuestId="12670" GiverName="Scourge Commander Thalanor" GiverId="28510" />

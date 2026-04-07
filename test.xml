@@ -2,7 +2,7 @@
   <Name>Test Quest</Name>
 
   <MinLevel>1</MinLevel>
-  <MaxLevel>15</MaxLevel>
+  <MaxLevel>9999999</MaxLevel>
 
   <MinDurability>0</MinDurability>
   <MinFreeBagSlots>2</MinFreeBagSlots>
@@ -12,10 +12,7 @@
   <Mailboxes />
 
   <QuestOrder>
-    <CustomBehavior File="RunMacro" Macro="/say .character level 12" NumOfTimes="1" WaitTime="1000" />
-    <CustomBehavior File="RunMacro" Macro="/say .go xyz -424.542 -2589.88 95.9052" NumOfTimes="1" WaitTime="5000" />
-
-    <PickUp QuestName="Wharfmaster Dizzywig" QuestId="1492" GiverName="Apothecary Helbrim" GiverId="3390" />
-    <PickUp QuestName="Fungal Spores" QuestId="848" GiverName="Apothecary Helbrim" GiverId="3390" />
+    <RunTo X="2352.9338" Y="-5664.559" Z="382.24927" />
+    <RunTo X="2346.9392" Y="-5696.7354" Z="426.02927" />
   </QuestOrder>
 </HBProfile>
