@@ -22,6 +22,21 @@
   <Blackspots />
   <Mailboxes />
 
+  <Vendors>
+    <!--Shadowglen Trainers-->
+    <Vendor Name="Alyissia" Entry="3593" Type="Train" TrainClass="Warrior" X="10526.5996" Y="778.086" Z="1329.6801" />
+    <Vendor Name="Ayanna Everstride" Entry="3596" Type="Train" TrainClass="Hunter" X="10458.5" Y="827.868" Z="1381.02" />
+    <Vendor Name="Frahun Shadewhisper" Entry="3594" Type="Train" TrainClass="Rogue" X="10519.0996" Y="778.014" Z="1329.6801" />
+    <Vendor Name="Shanda" Entry="3595" Type="Train" TrainClass="Priest" X="10458.7998" Y="801.623" Z="1346.84" />
+    <Vendor Name="Mardant Strongoak" Entry="3597" Type="Train" TrainClass="Druid" X="10464" Y="829.538" Z="1381.02" />
+    <!--Dolanaar Trainers-->
+    <Vendor Name="Kyra Windblade" Entry="3598" Type="Train" TrainClass="Warrior" X="9822.2305" Y="952.007" Z="1308.86" />
+    <Vendor Name="Dazalar" Entry="3601" Type="Train" TrainClass="Hunter" X="9812.3301" Y="928.806" Z="1308.1899" />
+    <Vendor Name="Jannok Breezesong" Entry="3599" Type="Train" TrainClass="Rogue" X="9790.3096" Y="943.87" Z="1308.86" />
+    <Vendor Name="Laurna Morninglight" Entry="3600" Type="Train" TrainClass="Priest" X="9905.4404" Y="985.433" Z="1313.92" />
+    <Vendor Name="Kal" Entry="3602" Type="Train" TrainClass="Druid" X="9741.9102" Y="966" Z="1293.78" />
+  </Vendors>
+
   <!-- Quest Overrides -->
   <Quest Id="456" Name="The Balance of Nature">
     <Objective Type="KillMob" MobId="2031" KillCount="7">

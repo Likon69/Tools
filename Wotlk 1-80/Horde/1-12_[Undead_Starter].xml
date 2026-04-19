@@ -39,10 +39,22 @@
 	<!-- Deathknell -->
 		<Vendor Name="Joshua Kien" Entry="2115" Type="Food" X="1866.022" Y="1574.447" Z="94.31525" />
 		<Vendor Name="Archibald Kava" Entry="2113" Type="Repair" X="1860.848" Y="1568.365" Z="94.31361" />
+		<!--Deathknell Trainers-->
+		<Vendor Name="Dannal Stern" Entry="2119" Type="Train" TrainClass="Warrior" X="1862.46" Y="1556.33" Z="94.879" />
+		<Vendor Name="David Trias" Entry="2122" Type="Train" TrainClass="Rogue" X="1859.65" Y="1563.3" Z="94.39" />
+		<Vendor Name="Dark Cleric Duesten" Entry="2123" Type="Train" TrainClass="Priest" X="1848.3199" Y="1627.63" Z="97.0169" />
+		<Vendor Name="Isabella" Entry="2124" Type="Train" TrainClass="Mage" X="1847.39" Y="1635.52" Z="97.0169" />
+		<Vendor Name="Maximillion" Entry="2126" Type="Train" TrainClass="Warlock" X="1839.03" Y="1636.54" Z="97.0169" />
 	
 	<!-- Calston Estate -->
 		<Vendor Name="Franklin Brinklestein" Entry="44034" Type="Food" X="2234.77" Y="1021.9" Z="36.4495" />
 		<Vendor Name="Gordo" Entry="10666" Type="Food" X="2238.43" Y="1001.97" Z="36.58329" />
+		<!--Brill Trainers-->
+		<Vendor Name="Austil de Mon" Entry="2131" Type="Train" TrainClass="Warrior" X="2254.76" Y="238.445" Z="33.717" />
+		<Vendor Name="Marion Call" Entry="2130" Type="Train" TrainClass="Rogue" X="2271.04" Y="242.997" Z="41.1981" />
+		<Vendor Name="Dark Cleric Beryl" Entry="2129" Type="Train" TrainClass="Priest" X="2265.2" Y="251.054" Z="41.1981" />
+		<Vendor Name="Cain Firesong" Entry="2128" Type="Train" TrainClass="Mage" X="2256.8101" Y="233.219" Z="41.1981" />
+		<Vendor Name="Rupert Boch" Entry="2127" Type="Train" TrainClass="Warlock" X="2259.05" Y="250.317" Z="41.1981" />
 	</Vendors>
 
 

@@ -22,6 +22,19 @@
   <Blackspots />
   <Mailboxes />
 
+  <Vendors>
+    <!--Camp Narache Trainers-->
+    <Vendor Name="Harutt Thunderhorn" Entry="3059" Type="Train" TrainClass="Warrior" X="-2880.4299" Y="-213.02" Z="54.9039" />
+    <Vendor Name="Lanka Farshot" Entry="3061" Type="Train" TrainClass="Hunter" X="-2865.3999" Y="-225.731" Z="54.9617" />
+    <Vendor Name="Meela Dawnstrider" Entry="3062" Type="Train" TrainClass="Shaman" X="-2873.8799" Y="-264.709" Z="54.0072" />
+    <Vendor Name="Gart Mistrunner" Entry="3060" Type="Train" TrainClass="Druid" X="-2873.5701" Y="-268.591" Z="54.0531" />
+    <!--Bloodhoof Village Trainers-->
+    <Vendor Name="Krang Stonehoof" Entry="3063" Type="Train" TrainClass="Warrior" X="-2347.98" Y="-495.92" Z="-8.964" />
+    <Vendor Name="Yaw Sharpmane" Entry="3065" Type="Train" TrainClass="Hunter" X="-2180.22" Y="-408.816" Z="-4.5183" />
+    <Vendor Name="Narm Skychaser" Entry="3066" Type="Train" TrainClass="Shaman" X="-2298.96" Y="-437.742" Z="-5.3551" />
+    <Vendor Name="Gennia Runetotem" Entry="3064" Type="Train" TrainClass="Druid" X="-2315.75" Y="-442.634" Z="-5.3551" />
+  </Vendors>
+
   <!-- Quest Overrides -->
   <Quest Id="771" Name="Rite of Vision">
     <Objective Type="CollectItem" ItemId="4809" CollectCount="2">

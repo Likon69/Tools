@@ -1,5 +1,5 @@
 <HBProfile>
-  <Name>Horde\Starter Guides (1-12)\Eversong Woods (1-13) [Blood Elf Starter]</Name>
+  <Name>Horde\1-13 [Blood Elf Starter]</Name>
 
   <MinLevel>1</MinLevel>
   <MaxLevel>13</MaxLevel>
@@ -19,9 +19,29 @@
   <MinFreeBagSlots>2</MinFreeBagSlots>
 
   <AvoidMobs />
-  <Blackspots />
+ 	<Blackspots>
+		<Blackspot X="9147.209" Y="-6994.8" Z="9.03133" Radius="33.13993" />
+	</Blackspots>
   <Mailboxes />
-
+  <Vendors>
+    <!--Sunstrider Isle Trainers-->
+    <Vendor Name="Julia Sunstriker" Entry="15279" Type="Train" TrainClass="Mage" X="10337.2002" Y="-6419.4502" Z="38.6156" />
+    <Vendor Name="Summoner Teli'Larien" Entry="15283" Type="Train" TrainClass="Warlock" X="10337.5996" Y="-6405.0298" Z="38.6156" />
+    <Vendor Name="Jesthenis Sunstriker" Entry="15280" Type="Train" TrainClass="Paladin" X="10366.7002" Y="-6431.5298" Z="38.6157" />
+    <Vendor Name="Matron Arena" Entry="15284" Type="Train" TrainClass="Priest" X="10372.4004" Y="-6428.8398" Z="38.6155" />
+    <Vendor Name="Pathstalker Kariel" Entry="15285" Type="Train" TrainClass="Rogue" X="10384.5" Y="-6404.9902" Z="38.6156" />
+    <Vendor Name="Ranger Sallina" Entry="15513" Type="Train" TrainClass="Hunter" X="10384.7002" Y="-6410.6699" Z="38.6156" />
+    <!--Falconwing Square Trainers-->
+    <Vendor Name="Garridel" Entry="16269" Type="Train" TrainClass="Mage" X="9462.2402" Y="-6853.4502" Z="28.4612" />
+    <Vendor Name="Ponaris" Entry="16276" Type="Train" TrainClass="Priest" X="9466.6201" Y="-6844.23" Z="28.4612" />
+    <Vendor Name="Celoenus" Entry="16266" Type="Train" TrainClass="Warlock" X="9467.6299" Y="-6862.8198" Z="28.4144" />
+    <Vendor Name="Noellene" Entry="16275" Type="Train" TrainClass="Paladin" X="9516.0498" Y="-6870.96" Z="18.8333" />
+    <Vendor Name="Hannovia" Entry="16270" Type="Train" TrainClass="Hunter" X="9529.21" Y="-6864.5801" Z="18.8327" />
+    <Vendor Name="Tannaria" Entry="16279" Type="Train" TrainClass="Rogue" X="9534.1504" Y="-6876" Z="26.2321" />
+    <!--Farstrider Retreat-->
+		<Vendor Name="Zalene Firstlight" Type="Food" Entry="16443" X="8990.876" Y="-7462.583" Z="86.68631"/>
+		<Vendor Name="Areyn" Type="Repair" Entry="16260" X="8980.713" Y="-7411.196" Z="89.40303"/>
+  </Vendors>
   <!-- Quest Overrides -->
   <Quest Id="8325" Name="Reclaiming Sunstrider Isle">
     <Objective Type="KillMob" MobId="15274" KillCount="8">
@@ -209,7 +229,10 @@
   </Quest>
 
   <QuestOrder>
-    <CustomBehavior File="Message" Text="Leveling Guides\Horde\Starter Guides (1-12)\Eversong Woods (1-13) [Blood Elf Starter]" LogColor="Green" />
+    <CustomBehavior File="Message" Text="Compiling Blood Elf Quests (1-13)" LogColor="Aquamarine" />
+    <CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+    <CustomBehavior File="RunMacro" Macro="/script SetCVar('AutoLootDefault', 1)" NumOfTimes="1" WaitTime="1000" />
+
     <PickUp QuestName="Reclaiming Sunstrider Isle" QuestId="8325" GiverName="Magistrix Erona" GiverId="15278" />
     <Objective QuestName="Reclaiming Sunstrider Isle" QuestId="8325" Type="KillMob" MobId="15274" KillCount="8" />
     <If Condition="Me.Level &lt; 2">

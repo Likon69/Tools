@@ -22,6 +22,25 @@
   <Blackspots />
   <Mailboxes />
 
+  <Vendors>
+    <!--Coldridge Valley Trainers-->
+    <Vendor Name="Thran Khorman" Entry="912" Type="Train" TrainClass="Warrior" X="-6084.77" Y="382.141" Z="395.626" />
+    <Vendor Name="Bromos Grummner" Entry="926" Type="Train" TrainClass="Paladin" X="-6120.6802" Y="382.089" Z="395.626" />
+    <Vendor Name="Thorgas Grimson" Entry="895" Type="Train" TrainClass="Hunter" X="-6091.79" Y="365.141" Z="395.623" />
+    <Vendor Name="Solm Hargrin" Entry="916" Type="Train" TrainClass="Rogue" X="-6093.75" Y="404.918" Z="395.62" />
+    <Vendor Name="Branstock Khalder" Entry="837" Type="Train" TrainClass="Priest" X="-6056.7402" Y="393.548" Z="392.843" />
+    <Vendor Name="Marryk Nurribit" Entry="944" Type="Train" TrainClass="Mage" X="-6056.0898" Y="388.175" Z="392.944" />
+    <Vendor Name="Alamar Grimm" Entry="460" Type="Train" TrainClass="Warlock" X="-6048.79" Y="391.078" Z="398.958" />
+    <!--Kharanos Trainers-->
+    <Vendor Name="Granis Swiftaxe" Entry="1229" Type="Train" TrainClass="Warrior" X="-5605.73" Y="-530.385" Z="399.738" />
+    <Vendor Name="Azar Stronghammer" Entry="1232" Type="Train" TrainClass="Paladin" X="-5586.7598" Y="-542.163" Z="403.624" />
+    <Vendor Name="Grif Wildheart" Entry="1231" Type="Train" TrainClass="Hunter" X="-5618.54" Y="-454.071" Z="407.842" />
+    <Vendor Name="Hogral Bakkan" Entry="1234" Type="Train" TrainClass="Rogue" X="-5604.4399" Y="-540.323" Z="399.18" />
+    <Vendor Name="Maxan Anvol" Entry="1226" Type="Train" TrainClass="Priest" X="-5590.5601" Y="-529.657" Z="399.735" />
+    <Vendor Name="Magis Sparkmantle" Entry="1228" Type="Train" TrainClass="Mage" X="-5586.9399" Y="-537.173" Z="403.624" />
+    <Vendor Name="Gimrizz Shadowcog" Entry="5612" Type="Train" TrainClass="Warlock" X="-5640" Y="-528.801" Z="404.379" />
+  </Vendors>
+
   <!-- Quest Overrides -->
   <Quest Id="170" Name="A New Threat">
     <Objective Type="KillMob" MobId="707" KillCount="6">

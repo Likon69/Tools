@@ -23,6 +23,23 @@
   <Blackspots />
   <Mailboxes />
 
+  <Vendors>
+    <!--Northshire Abbey Trainers-->
+    <Vendor Name="Llane Beshere" Entry="911" Type="Train" TrainClass="Warrior" X="-8918.3604" Y="-208.411" Z="82.3088" />
+    <Vendor Name="Brother Sammuel" Entry="925" Type="Train" TrainClass="Paladin" X="-8914.5703" Y="-215.016" Z="82.2996" />
+    <Vendor Name="Jorik Kerridan" Entry="915" Type="Train" TrainClass="Rogue" X="-8863.4697" Y="-210.905" Z="80.755" />
+    <Vendor Name="Priestess Anetta" Entry="375" Type="Train" TrainClass="Priest" X="-8853.5898" Y="-193.336" Z="82.1157" />
+    <Vendor Name="Khelden Bremen" Entry="198" Type="Train" TrainClass="Mage" X="-8851.5703" Y="-188.234" Z="89.4958" />
+    <Vendor Name="Drusilla La Salle" Entry="459" Type="Train" TrainClass="Warlock" X="-8926.7402" Y="-195.589" Z="80.7714" />
+    <!--Goldshire Trainers-->
+    <Vendor Name="Lyria Du Lac" Entry="913" Type="Train" TrainClass="Warrior" X="-9461.8496" Y="109.353" Z="57.8784" />
+    <Vendor Name="Brother Wilhelm" Entry="927" Type="Train" TrainClass="Paladin" X="-9468.1396" Y="108.976" Z="57.6606" />
+    <Vendor Name="Keryn Sylvius" Entry="917" Type="Train" TrainClass="Rogue" X="-9465.79" Y="12.6454" Z="63.9038" />
+    <Vendor Name="Priestess Josetta" Entry="377" Type="Train" TrainClass="Priest" X="-9460.75" Y="33.1338" Z="63.9038" />
+    <Vendor Name="Zaldimar Wefhellt" Entry="328" Type="Train" TrainClass="Mage" X="-9471.6699" Y="34.451" Z="63.9038" />
+    <Vendor Name="Maximillian Crowe" Entry="906" Type="Train" TrainClass="Warlock" X="-9472.7998" Y="-5.3266" Z="49.8778" />
+  </Vendors>
+
   <!-- Quest Overrides -->
   <Quest Id="7" Name="Kobold Camp Cleanup">
     <Objective Type="KillMob" MobId="6" KillCount="8">

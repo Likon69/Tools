@@ -22,6 +22,23 @@
   <Blackspots />
   <Mailboxes />
 
+  <Vendors>
+    <!--Ammen Vale Trainers-->
+    <Vendor Name="Kore" Entry="16503" Type="Train" TrainClass="Warrior" X="-4136.04" Y="-13739.7998" Z="74.6439" />
+    <Vendor Name="Aurelon" Entry="16501" Type="Train" TrainClass="Paladin" X="-4103.1899" Y="-13744.2002" Z="74.621" />
+    <Vendor Name="Keilnei" Entry="16499" Type="Train" TrainClass="Hunter" X="-4143.1899" Y="-13752" Z="74.632" />
+    <Vendor Name="Zalduun" Entry="16502" Type="Train" TrainClass="Priest" X="-4120.9902" Y="-13762.0996" Z="73.588" />
+    <Vendor Name="Firmanvaar" Entry="17089" Type="Train" TrainClass="Shaman" X="-4127.2798" Y="-13727.2002" Z="74.758" />
+    <Vendor Name="Valaatu" Entry="16500" Type="Train" TrainClass="Mage" X="-4117.4702" Y="-13739.5996" Z="74.7147" />
+    <!--Azure Watch Trainers-->
+    <Vendor Name="Ruada" Entry="17480" Type="Train" TrainClass="Warrior" X="-4165.0498" Y="-12536.4004" Z="44.9161" />
+    <Vendor Name="Tullas" Entry="17483" Type="Train" TrainClass="Paladin" X="-4138.98" Y="-12468.5" Z="44.6632" />
+    <Vendor Name="Acteon" Entry="17110" Type="Train" TrainClass="Hunter" X="-4203.6499" Y="-12526.5" Z="45.5265" />
+    <Vendor Name="Guvan" Entry="17482" Type="Train" TrainClass="Priest" X="-4131.6602" Y="-12478.5996" Z="44.6574" />
+    <Vendor Name="Tuluun" Entry="17212" Type="Train" TrainClass="Shaman" X="-4162.3301" Y="-12456.0996" Z="44.3411" />
+    <Vendor Name="Semid" Entry="17481" Type="Train" TrainClass="Mage" X="-4149.6201" Y="-12530.0996" Z="45.1902" />
+  </Vendors>
+
   <!-- Quest Overrides -->
   <Quest Id="10302" Name="Volatile Mutations">
     <Objective Type="KillMob" MobId="16516" KillCount="8">
