@@ -85,8 +85,16 @@
       <If Condition="((!HasQuest(5930)) &amp;&amp; (!IsQuestCompleted(5930)))">
         <PickUp QuestName="Great Bear Spirit" QuestId="5930" GiverName="Dendrite Starblaze" GiverId="11802" />
       </If>
+      <If Condition="(HasQuest(5930) &amp;&amp; !IsQuestCompleted(5930))">
+        <CustomBehavior File="InteractWith" MobId="11956" GossipOptions="1" WaitTime="3000" X="8068.29" Y="-2284.12" Z="496.91928" />
+        <CustomBehavior File="InteractWith" MobId="11956" GossipOptions="1" WaitTime="2000" X="8068.29" Y="-2284.12" Z="496.91928" />
+        <CustomBehavior File="InteractWith" MobId="11956" GossipOptions="1" WaitTime="2000" X="8068.29" Y="-2284.12" Z="496.91928" />
+        <CustomBehavior File="InteractWith" MobId="11956" GossipOptions="1" WaitTime="2000" X="8068.29" Y="-2284.12" Z="496.91928" />
+      </If>
     </If>
-    <TurnIn QuestName="Great Bear Spirit" QuestId="5930" TurnInName="Dendrite Starblaze" TurnInId="11802" />
+    <If Condition="IsQuestCompleted(5930)">
+      <TurnIn QuestName="Great Bear Spirit" QuestId="5930" TurnInName="Dendrite Starblaze" TurnInId="11802" />
+    </If>
     <If Condition="(Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Tauren)">
       <If Condition="((!HasQuest(5932)) &amp;&amp; (!IsQuestCompleted(5932)))">
         <PickUp QuestName="Back to Thunder Bluff" QuestId="5932" GiverName="Dendrite Starblaze" GiverId="11802" />
