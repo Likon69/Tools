@@ -64,7 +64,6 @@
     <TurnIn QuestName="The Super Snapper FX" QuestId="2944" TurnInName="Daryn Lightwind" TurnInId="7907" />
     <TurnIn QuestName="Rise of the Silithid" QuestId="162" TurnInName="Gracina Spiritmight" TurnInId="7740" />
     <PickUp QuestName="March of the Silithid" QuestId="4493" GiverName="Gracina Spiritmight" GiverId="7740" />
-    <CustomBehavior File="SetHearthstone" MobId="6735" AreaId="1657" X="10127.9" Y="2224.79" Z="1328.81" /> <!-- Set hearth: Darnassus -->
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Western Plaguelands (52-52) Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Felwood_(52-53)" />
   </QuestOrder>

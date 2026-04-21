@@ -129,7 +129,6 @@
     <If Condition="((!HasQuest(101)) &amp;&amp; (!IsQuestCompleted(101)))">
       <PickUp QuestName="The Totem of Infliction" QuestId="101" GiverName="Madame Eva" GiverId="265" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6790" AreaId="10" X="-10516.0" Y="-1161.21" Z="28.1161" /> <!-- Set hearth: Darkshire -->
     <PickUp QuestName="The Night Watch" QuestId="56" GiverName="Commander Althea Ebonlocke" GiverId="264" />
     <TurnIn QuestName="The Legend of Stalvan" QuestId="66" TurnInName="Clerk Daltry" TurnInId="267" />
     <If Condition="((!HasQuest(67)) &amp;&amp; (!IsQuestCompleted(67)))">

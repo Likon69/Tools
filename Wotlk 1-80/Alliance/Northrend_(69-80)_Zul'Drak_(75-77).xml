@@ -515,7 +515,6 @@
     <If Condition="((!HasQuest(12740)) &amp;&amp; (!IsQuestCompleted(12740)))">
       <PickUp QuestName="Parachutes for the Argent Crusade" QuestId="12740" GiverName="Commander Falstaav" GiverId="28059" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="28687" AreaId="4395" X="5847.97" Y="635.435" Z="647.574" /> <!-- Set hearth: The Argent Stand -->
     <PickUp QuestName="The Blessing of Zim'Abwa" QuestId="12565" GiverName="Hexxer Ubungo" GiverId="28062" />
     <While Condition="((HasQuest(12740)) &amp;&amp; (!IsQuestCompleted(12740)))">
       <CustomBehavior File="UseItemOn" QuestId="12740" MobId="29060" ItemId="39615" NumOfTimes="100" Range="5" CollectionDistance="1000" />
@@ -778,7 +777,6 @@
     <If Condition="((!HasQuest(12655)) &amp;&amp; (!IsQuestCompleted(12655)))">
       <PickUp QuestName="The Blessing of Zim'Rhuk" QuestId="12655" GiverName="Witch Doctor Khufu" GiverId="28479" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="28684" X="529.56" Y="646.233" Z="777.408" /> <!-- Set hearth: Zim'Torga -->
     <If Condition="((HasQuest(12655)) &amp;&amp; (!IsQuestCompleted(12655)))">
       <CustomBehavior File="InteractWith" QuestId="12655" MobId="190657" NumOfTimes="1" CollectionDistance="1000" WaitTime="3000" />
       <CustomBehavior File="WaitTimer" WaitTime="2000" />

@@ -483,7 +483,6 @@
     <PickUp QuestName="Fierce Enemies" QuestId="10476" GiverName="Warden Moi'bff Jill" GiverId="18408" />
     <TurnIn QuestName="A Message to Telaar" QuestId="9792" TurnInName="Nahuud" TurnInId="18097" />
     <PickUp QuestName="The Ravaged Caravan" QuestId="9956" GiverName="Huntress Kima" GiverId="18416" />
-    <CustomBehavior File="SetHearthstone" MobId="18914" AreaId="3518" X="-2761.41" Y="7300.42" Z="43.5535" /> <!-- Set hearth: Telaar -->
     <PickUp QuestName="I Must Have Them!" QuestId="10109" GiverName="Wazat" GiverId="19035" />
     <Objective QuestName="Do My Eyes Deceive Me" QuestId="9917" Type="CollectItem" ItemId="25468" CollectCount="1" />
     <Objective QuestName="The Tortured Earth" QuestId="9819" Type="KillMob" MobId="17156" KillCount="15" />

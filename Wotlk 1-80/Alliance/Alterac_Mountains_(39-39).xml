@@ -36,7 +36,6 @@
 
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Alterac Mountains (39-39)" LogColor="Green" />
-    <CustomBehavior File="SetHearthstone" MobId="2352" AreaId="267" X="-857.096" Y="-570.751" Z="11.0649" /> <!-- Set hearth: Southshore -->
     <PickUp QuestName="Crushridge Bounty" QuestId="500" GiverName="Marshal Redpath" GiverId="2263" />
     <TurnIn QuestName="Further Mysteries" QuestId="525" TurnInName="Magistrate Henry Maleb" TurnInId="2276" />
     <If Condition="((!HasQuest(537)) &amp;&amp; (!IsQuestCompleted(537)))">

@@ -80,7 +80,6 @@
       <PickUp QuestName="Jes'rimon's Payment to Jediga" QuestId="3563" GiverName="Jes'rimon" GiverId="8659" />
     </If>
     <PickUp QuestName="Bone-Bladed Weapons" QuestId="4300" GiverName="Jes'rimon" GiverId="8659" />
-    <CustomBehavior File="SetHearthstone" MobId="6929" AreaId="1637" X="1633.99" Y="-4439.37" Z="15.7436" /> <!-- Set hearth: Orgrimmar -->
     <TurnIn QuestName="Delivery to Andron Gant" QuestId="3542" TurnInName="Andron Gant" TurnInId="6522" />
     <If Condition="((!HasQuest(3564)) &amp;&amp; (!IsQuestCompleted(3564)))">
       <PickUp QuestName="Andron's Payment to Jediga" QuestId="3564" GiverName="Andron Gant" GiverId="6522" />

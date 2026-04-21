@@ -304,7 +304,6 @@
       <PickUp QuestName="Dwarven Digging" QuestId="746" GiverName="Baine Bloodhoof" GiverId="2993" />
     </If>
     <TurnIn QuestName="A Task Unfinished" QuestId="1656" TurnInName="Innkeeper Kauth" TurnInId="6747" />
-    <CustomBehavior File="SetHearthstone" MobId="6747" AreaId="215" X="-2365.37" Y="-347.31" Z="-8.8736" /> <!-- Set hearth: Bloodhoof Village -->
     <TurnIn QuestName="Rite of Vision" QuestId="767" TurnInName="Zarlman Two-Moons" TurnInId="3054" />
     <If Condition="((!HasQuest(771)) &amp;&amp; (!IsQuestCompleted(771)))">
       <PickUp QuestName="Rite of Vision" QuestId="771" GiverName="Zarlman Two-Moons" GiverId="3054" />

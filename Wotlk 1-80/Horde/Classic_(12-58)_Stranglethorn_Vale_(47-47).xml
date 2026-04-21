@@ -45,7 +45,6 @@
     <If Condition="((!HasQuest(608)) &amp;&amp; (!IsQuestCompleted(608)))">
       <PickUp QuestName="The Bloodsail Buccaneers" QuestId="608" GiverName="Fleet Master Seahorn" GiverId="2487" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="7733" AreaId="440" X="-7158.96" Y="-3841.61" Z="8.8481" /> <!-- Set hearth: Booty Bay -->
     <TurnIn QuestName="Back to Booty Bay" QuestId="1118" TurnInName="Crank Fizzlebub" TurnInId="2498" />
     <TurnIn QuestName="Deliver to MacKinley" QuestId="2874" TurnInName="&quot;Sea Wolf&quot; MacKinley" TurnInId="2501" />
     <Objective QuestName="The Bloodsail Buccaneers" QuestId="608" Type="CollectItem" ItemId="4098" CollectCount="1" />

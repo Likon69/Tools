@@ -78,7 +78,6 @@
     <If Condition="((!HasQuest(4721)) &amp;&amp; (!IsQuestCompleted(4721)))">
       <PickUp QuestName="Wild Guardians" QuestId="4721" GiverName="Trull Failbane" GiverId="10306" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="11118" AreaId="618" X="6695.15" Y="-4673.04" Z="721.65" /> <!-- Set hearth: Everlook -->
     <Objective QuestName="Chillwind Horns" QuestId="4809" Type="CollectItem" ItemId="12444" CollectCount="8" />
     <Objective QuestName="Guarding Secrets" QuestId="4882" Type="CollectItem" ItemId="12558" CollectCount="1" />
     <While Condition="((HasQuest(4721)) &amp;&amp; (!IsQuestCompleted(4721)))">

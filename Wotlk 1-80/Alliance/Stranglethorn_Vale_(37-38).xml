@@ -116,7 +116,6 @@
     <If Condition="((!HasQuest(577)) &amp;&amp; (!IsQuestCompleted(577)))">
       <PickUp QuestName="Some Assembly Required" QuestId="577" GiverName="Drizzlik" GiverId="2495" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="7733" AreaId="440" X="-7158.96" Y="-3841.61" Z="8.8481" /> <!-- Set hearth: Booty Bay -->
     <TurnIn QuestName="The Rumormonger" QuestId="1115" TurnInName="Krazek" TurnInId="773" />
     <PickUp QuestName="Bloodscalp Ears" QuestId="189" GiverName="Kebok" GiverId="737" />
     <If Condition="((!HasQuest(601)) &amp;&amp; (!IsQuestCompleted(601)))">

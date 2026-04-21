@@ -422,7 +422,6 @@
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Northrend (69-80)\Howling Fjord (69-71)" LogColor="Green" />
     <PickUp QuestName="The New Plague" QuestId="11167" GiverName="Apothecary Lysander" GiverId="24126" />
-    <CustomBehavior File="SetHearthstone" MobId="26709" AreaId="3537" X="3468.64" Y="4175.04" Z="17.2764" /> <!-- Set hearth: Vengeance Landing -->
     <If Condition="((!HasQuest(11227)) &amp;&amp; (!IsQuestCompleted(11227)))">
       <PickUp QuestName="Let Them Eat Crow" QuestId="11227" GiverName="Pontius" GiverId="23938" />
     </If>
@@ -596,7 +595,6 @@
     <If Condition="((!HasQuest(11350)) &amp;&amp; (!IsQuestCompleted(11350)))">
       <PickUp QuestName="The Book of Runes" QuestId="11350" GiverName="Longrunner Pembe" GiverId="24362" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="26596" AreaId="3537" X="4178.47" Y="5278.22" Z="26.7764" /> <!-- Set hearth: Camp Winterhoof -->
     <If Condition="((!HasQuest(11297)) &amp;&amp; (!IsQuestCompleted(11297)))">
       <PickUp QuestName="Keeping Watch on the Interlopers" QuestId="11297" GiverName="Junat the Wanderer" GiverId="24234" />
     </If>
@@ -1048,7 +1046,6 @@
     <If Condition="((!HasQuest(11458)) &amp;&amp; (!IsQuestCompleted(11458)))">
       <PickUp QuestName="Avenge Iskaal" QuestId="11458" GiverName="Elder Atuik" GiverId="24755" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="28686" AreaId="4395" X="5671.43" Y="724.478" Z="653.412" /> <!-- Set hearth: Kamagua -->
     <TurnIn QuestName="Grezzix Spindlesnap" QuestId="11508" TurnInName="Grezzix Spindlesnap" TurnInId="24643" />
     <If Condition="((!HasQuest(11509)) &amp;&amp; (!IsQuestCompleted(11509)))">
       <PickUp QuestName="Street &quot;Cred&quot;" QuestId="11509" GiverName="Grezzix Spindlesnap" GiverId="24643" />

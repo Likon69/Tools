@@ -177,7 +177,6 @@
     <If Condition="(Me.Class == WoWClass.Shaman)">
       <PickUp QuestName="Call of Water" QuestId="9501" GiverName="Farseer Nobundo" GiverId="17204" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="16553" AreaId="3524" X="-4129.43" Y="-12469.0" Z="44.0842" /> <!-- Set hearth: The Exodar -->
     <If Condition="(Me.Class == WoWClass.Shaman)">
       <TurnIn QuestName="Call of Water" QuestId="9501" TurnInName="Aqueous" TurnInId="17275" />
       <If Condition="((!HasQuest(9503)) &amp;&amp; (!IsQuestCompleted(9503)))">

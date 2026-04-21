@@ -426,7 +426,6 @@
     <If Condition="((!HasQuest(11596)) &amp;&amp; (!IsQuestCompleted(11596)))">
       <PickUp QuestName="The Defense of Warsong Hold" QuestId="11596" GiverName="High Overlord Saurfang" GiverId="25256" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="26596" AreaId="3537" X="4178.47" Y="5278.22" Z="26.7764" /> <!-- Set hearth: Warsong Hold -->
     <TurnIn QuestName="The Defense of Warsong Hold" QuestId="11596" TurnInName="Overlord Razgor" TurnInId="25279" />
     <If Condition="((!HasQuest(11598)) &amp;&amp; (!IsQuestCompleted(11598)))">
       <PickUp QuestName="Taking Back Mightstone Quarry" QuestId="11598" GiverName="Overlord Razgor" GiverId="25279" />
@@ -868,7 +867,6 @@
     <If Condition="((!HasQuest(11647)) &amp;&amp; (!IsQuestCompleted(11647)))">
       <PickUp QuestName="Neutralizing the Cauldrons" QuestId="11647" GiverName="Sage Aeire" GiverId="24709" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="26985" AreaId="65" X="3830.37" Y="1485.49" Z="92.0606" /> <!-- Set hearth: Taunka'le Village -->
     <While Condition="((HasQuest(11647)) &amp;&amp; (!IsQuestCompleted(11647)))">
       <RunTo X="3747.49" Y="3516.68" Z="69.5826" />
       <CustomBehavior File="UseItemOn" QuestId="11647" MobId="25490" ItemId="34806" NumOfTimes="100" Range="5" CollectionDistance="1000" X="3747.49" Y="3516.68" Z="69.5826" />
@@ -1314,7 +1312,6 @@
     <If Condition="((!HasQuest(11635)) &amp;&amp; (!IsQuestCompleted(11635)))">
       <PickUp QuestName="Farseer Grimwalker's Spirit" QuestId="11635" GiverName="Spirit Talker Snarlfang" GiverId="25339" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="26985" AreaId="65" X="3830.37" Y="1485.49" Z="92.0606" /> <!-- Set hearth: Bor'gorok Outpost -->
     <If Condition="((!HasQuest(11639)) &amp;&amp; (!IsQuestCompleted(11639)))">
       <PickUp QuestName="Revenge Upon Magmoth" QuestId="11639" GiverName="Ortrosh" GiverId="25374" />
     </If>

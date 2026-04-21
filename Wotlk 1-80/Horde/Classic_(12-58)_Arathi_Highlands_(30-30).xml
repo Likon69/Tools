@@ -39,7 +39,6 @@
       <PickUp QuestName="Raising Spirits" QuestId="675" GiverName="Gor'mul" GiverId="2792" />
     </If>
     <TurnIn QuestName="Raising Spirits" QuestId="675" TurnInName="Tor'gan" TurnInId="2706" />
-    <CustomBehavior File="SetHearthstone" MobId="6929" AreaId="1637" X="1633.99" Y="-4439.37" Z="15.7436" /> <!-- Set hearth: Orgrimmar -->
     <If Condition="(Me.Class == WoWClass.Warrior)">
       <PickUp QuestName="The Islander" QuestId="1718" GiverName="Sorek" GiverId="3354" />
       <TurnIn QuestName="The Islander" QuestId="1718" TurnInName="Klannoc Macleod" TurnInId="6236" />

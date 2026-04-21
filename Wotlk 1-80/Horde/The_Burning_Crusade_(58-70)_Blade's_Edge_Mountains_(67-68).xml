@@ -264,7 +264,6 @@
     <If Condition="((!HasQuest(10526)) &amp;&amp; (!IsQuestCompleted(10526)))">
       <PickUp QuestName="The Thunderspike" QuestId="10526" GiverName="Rokgah Bloodgrip" GiverId="21311" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="18905" X="-568.976" Y="4151.49" Z="68.217" /> <!-- Set hearth: Thunderlord Stronghold -->
     <Objective QuestName="Felling an Ancient Tree" QuestId="10489" Type="CollectItem" ItemId="30177" CollectCount="1" />
     <Objective QuestName="Dust from the Drakes" QuestId="10487" Type="CollectItem" ItemId="30174" CollectCount="4" />
     <PickUp QuestName="They Stole Me Hookah and Me Brews!" QuestId="10542" GiverName="T'chali the Witch Doctor" GiverId="21349" />
@@ -465,7 +464,6 @@
     <If Condition="((!HasQuest(10786)) &amp;&amp; (!IsQuestCompleted(10786)))">
       <PickUp QuestName="Slaughter at Boulder'mok" QuestId="10786" GiverName="Tor'chunk Twoclaws" GiverId="21147" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="22485" AreaId="3521" X="963.428" Y="7399.58" Z="29.3317" /> <!-- Set hearth: Evergrove -->
     <TurnIn QuestName="Wyrmskull Watcher" QuestId="10894" TurnInName="Watcher Moonshade" TurnInId="22386" />
     <If Condition="((!HasQuest(10893)) &amp;&amp; (!IsQuestCompleted(10893)))">
       <PickUp QuestName="Longtail is the Lynchpin" QuestId="10893" GiverName="Watcher Moonshade" GiverId="22386" />

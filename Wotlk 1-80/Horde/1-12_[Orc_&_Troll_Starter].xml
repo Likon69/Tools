@@ -537,7 +537,6 @@
       <PickUp QuestName="Encroachment" QuestId="837" GiverName="Gar'Thok" GiverId="3139" />
     </If>
     <TurnIn QuestName="A Peon's Burden" QuestId="2161" TurnInName="Innkeeper Grosk" TurnInId="6928" />
-    <CustomBehavior File="SetHearthstone" MobId="6928" AreaId="14" X="340.362" Y="-4686.29" Z="16.5411" /> <!-- Set hearth: Razor Hill -->
     <PickUp QuestName="Break a Few Eggs" QuestId="815" GiverName="Cook Torka" GiverId="3191" />
     <PickUp QuestName="Carry Your Weight" QuestId="791" GiverName="Furl Scornbrow" GiverId="3147" />
     <Objective QuestName="A Solvent Spirit" QuestId="818" Type="CollectItem" ItemId="4888" CollectCount="8" />

@@ -294,7 +294,6 @@
     <If Condition="((!HasQuest(112)) &amp;&amp; (!IsQuestCompleted(112)))">
       <PickUp QuestName="Collecting Kelp" QuestId="112" GiverName="William Pestle" GiverId="253" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="295" AreaId="12" X="-9462.66" Y="16.1915" Z="57.0459" /> <!-- Set hearth: Goldshire -->
     <Objective QuestName="Collecting Kelp" QuestId="112" Type="CollectItem" ItemId="1256" CollectCount="4" />
     <TurnIn QuestName="Further Concerns" QuestId="35" TurnInName="Guard Thomas" TurnInId="261" />
     <If Condition="((!HasQuest(37)) &amp;&amp; (!IsQuestCompleted(37)))">

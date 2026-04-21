@@ -239,7 +239,6 @@
     <PickUp QuestName="Spleendid!" QuestId="10661" GiverName="Gnomus" GiverId="21777" />
     <PickUp QuestName="The Hand of Gul'dan" QuestId="10680" GiverName="Earthmender Sophurus" GiverId="21937" />
     <PickUp QuestName="Put On Yer Kneepads..." QuestId="10703" GiverName="Thane Yoregar" GiverId="21773" />
-    <CustomBehavior File="SetHearthstone" MobId="21088" AreaId="3522" X="2227.13" Y="4717.91" Z="162.075" /> <!-- Set hearth: Wildhammer Stronghold -->
     <While Condition="((HasQuest(10563)) &amp;&amp; (!IsQuestCompleted(10563)))">
       <CustomBehavior File="UseItemOn" QuestId="10563" MobId="21502" ItemId="30638" NumOfTimes="100" Range="5" CollectionDistance="1000" />
       <CustomBehavior File="WaitTimer" WaitTime="3000" />
@@ -387,7 +386,6 @@
     <If Condition="((!HasQuest(10683)) &amp;&amp; (!IsQuestCompleted(10683)))">
       <PickUp QuestName="Tablets of Baa'ri" QuestId="10683" GiverName="Arcanist Thelis" GiverId="21955" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="23143" AreaId="3520" X="-5142.57" Y="581.328" Z="84.1357" /> <!-- Set hearth: Sanctum of the Stars -->
     <TurnIn QuestName="Teron Gorefiend - Lore and Legend" QuestId="10644" TurnInName="Ancient Shadowmoon Spirit" TurnInId="21797" />
     <If Condition="((!HasQuest(10635)) &amp;&amp; (!IsQuestCompleted(10635)))">
       <PickUp QuestName="Divination: Gorefiend's Cloak" QuestId="10635" GiverName="Ancient Shadowmoon Spirit" GiverId="21797" />
@@ -418,7 +416,6 @@
     <If Condition="((!HasQuest(10619)) &amp;&amp; (!IsQuestCompleted(10619)))">
       <PickUp QuestName="The Ashtongue Tribe" QuestId="10619" GiverName="Vindicator Aluumen" GiverId="21822" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="22484" X="61.12" Y="28.24" Z="0" /> <!-- Set hearth: Altar of Sha'tar -->
     <If Condition="((!HasQuest(10568)) &amp;&amp; (!IsQuestCompleted(10568)))">
       <PickUp QuestName="Tablets of Baa'ri" QuestId="10568" GiverName="Anchorite Ceyla" GiverId="21402" />
     </If>

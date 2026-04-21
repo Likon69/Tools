@@ -131,7 +131,6 @@
     <PickUp QuestName="War on the Woodpaw" QuestId="2862" GiverName="Hadoken Swiftstrider" GiverId="7875" />
     <PickUp QuestName="The Mark of Quality" QuestId="2822" GiverName="Jangdor Swiftstrider" GiverId="7854" />
     <PickUp QuestName="A Strange Request" QuestId="3121" GiverName="Witch Doctor Uzer'i" GiverId="8115" />
-    <CustomBehavior File="SetHearthstone" MobId="7737" AreaId="357" X="-4460.1" Y="242.722" Z="39.1908" /> <!-- Set hearth: Camp Mojache -->
     <Objective QuestName="The Gordunni Scroll" QuestId="2978" Type="CollectItem" ItemId="9370" CollectCount="1" />
     <While Condition="((HasQuest(3121)) &amp;&amp; (!IsQuestCompleted(3121)))">
       <CustomBehavior File="UseItemOn" QuestId="3121" MobId="0" ItemId="9370" NumOfTimes="1" Range="5" CollectionDistance="1000" />

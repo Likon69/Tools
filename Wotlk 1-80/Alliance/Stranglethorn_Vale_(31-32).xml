@@ -141,7 +141,6 @@
     <If Condition="((!HasQuest(1264)) &amp;&amp; (!IsQuestCompleted(1264)))">
       <PickUp QuestName="The Missing Diplomat" QuestId="1264" GiverName="Mikhail" GiverId="4963" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="23995" AreaId="15" X="-4629.94" Y="-3176.12" Z="41.2235" /> <!-- Set hearth: Deepwater Tavern -->
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Stranglethorn Vale (31-32) Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Hillsbrad_Foothills_(32-33)" />
   </QuestOrder>

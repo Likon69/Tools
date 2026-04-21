@@ -327,7 +327,6 @@
       <PickUp QuestName="Evershine" QuestId="318" GiverName="Pilot Bellowfiz" GiverId="1378" />
     </If>
     <TurnIn QuestName="The Grizzled Den" QuestId="313" TurnInName="Pilot Stonegear" TurnInId="1377" />
-    <CustomBehavior File="SetHearthstone" MobId="5111" AreaId="1537" X="-4840.67" Y="-857.094" Z="501.997" /> <!-- Set hearth: Thunderbrew Distillery -->
     <PickUp QuestName="Operation Recombobulation" QuestId="412" GiverName="Razzle Sprysprocket" GiverId="1269" />
     <PickUp QuestName="Tundra MacGrann's Stolen Stash" QuestId="312" GiverName="Tundra MacGrann" GiverId="1266" />
     <Objective QuestName="Tundra MacGrann's Stolen Stash" QuestId="312" Type="CollectItem" ItemId="2667" CollectCount="1" />
@@ -413,7 +412,6 @@
       <TurnIn QuestName="The Slaughtered Lamb" QuestId="1715" TurnInName="Gakin the Darkbinder" TurnInId="6122" />
       <PickUp QuestName="Surena Caledon" QuestId="1688" GiverName="Gakin the Darkbinder" GiverId="6122" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6740" AreaId="1519" X="-8867.79" Y="673.673" Z="97.9864" /> <!-- Set hearth: Stormwind City -->
     <If Condition="(Me.Class == WoWClass.Warlock) &amp;&amp; (Me.Race == WoWRace.Gnome)">
       <Objective QuestName="Surena Caledon" QuestId="1688" Type="CollectItem" ItemId="6810" CollectCount="1" />
       <TurnIn QuestName="Surena Caledon" QuestId="1688" TurnInName="Gakin the Darkbinder" TurnInId="6122" />

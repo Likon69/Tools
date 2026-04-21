@@ -51,7 +51,6 @@
     <If Condition="((!HasQuest(5887)) &amp;&amp; (!IsQuestCompleted(5887)))">
       <PickUp QuestName="Salve via Hunting" QuestId="5887" GiverName="Maybess Riverbreeze" GiverId="9529" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6929" AreaId="1637" X="1633.99" Y="-4439.37" Z="15.7436" /> <!-- Set hearth: Orgrimmar -->
     <TurnIn QuestName="Seeking Spiritual Aid" QuestId="5158" TurnInName="Islen Waterseer" TurnInId="5901" />
     <TurnIn QuestName="The Strength of Corruption" QuestId="4120" TurnInName="Talo Thornhoof" TurnInId="7776" />
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\Felwood (56-56) Complete" LogColor="Orange" />

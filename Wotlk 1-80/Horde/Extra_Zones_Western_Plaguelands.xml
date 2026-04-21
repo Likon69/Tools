@@ -134,7 +134,6 @@
 
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Extra Zones\Western Plaguelands" LogColor="Green" />
-    <CustomBehavior File="SetHearthstone" MobId="6741" AreaId="1497" X="1635.4" Y="223.331" Z="-43.0198" /> <!-- Set hearth: Undercity -->
     <Objective QuestName="The Everlook Report" QuestId="6029" Type="CollectItem" ItemId="15788" CollectCount="1" />
     <Objective QuestName="Duke Nicholas Zverenhoff" QuestId="6030" Type="CollectItem" ItemId="15790" CollectCount="1" />
     <Objective QuestName="A Sample of Slime..." QuestId="4293" Type="CollectItem" ItemId="12230" CollectCount="40" />
@@ -359,7 +358,6 @@
     </If>
     <Objective QuestName="Skeletal Fragments" QuestId="964" Type="CollectItem" ItemId="14619" CollectCount="15" />
     <TurnIn QuestName="Skeletal Fragments" QuestId="964" TurnInName="Apothecary Dithers" TurnInId="11057" />
-    <CustomBehavior File="SetHearthstone" MobId="6929" AreaId="1637" X="1633.99" Y="-4439.37" Z="15.7436" /> <!-- Set hearth: Orgrimmar -->
     <Objective QuestName="Are We There, Yeti?" QuestId="5163" Type="CollectItem" ItemId="12928" CollectCount="1" />
     <Objective QuestName="Melding of Influences" QuestId="4642" Type="CollectItem" ItemId="12288" CollectCount="1" />
     <If Condition="((!HasQuest(8276)) &amp;&amp; (!IsQuestCompleted(8276)))">

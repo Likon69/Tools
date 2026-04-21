@@ -88,7 +88,6 @@
     <Objective QuestName="Vorsha the Lasher" QuestId="6641" Type="KillMob" MobId="12940" KillCount="1" />
     <TurnIn QuestName="Vorsha the Lasher" QuestId="6641" TurnInName="Warsong Runner" TurnInId="12863" />
     <PickUp QuestName="Stonetalon Standstill" QuestId="25" GiverName="Mastok Wrilehiss" GiverId="12737" />
-    <CustomBehavior File="SetHearthstone" MobId="12196" AreaId="331" X="2341.86" Y="-2566.99" Z="102.857" /> <!-- Set hearth: Splintertree Post -->
     <PickUp QuestName="Ashenvale Outrunners" QuestId="6503" GiverName="Kuray'bin" GiverId="12867" />
     <Objective QuestName="Ashenvale Outrunners" QuestId="6503" Type="KillMob" MobId="12856" KillCount="9" />
     <PickUp QuestName="Torek's Assault" QuestId="6544" GiverName="Torek" GiverId="12858" />

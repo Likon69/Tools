@@ -79,7 +79,6 @@
     <Objective QuestName="Elune's Tear" QuestId="1033" Type="CollectItem" ItemId="5493" CollectCount="1" />
     <Objective QuestName="Culling the Threat" QuestId="1054" Type="CollectItem" ItemId="5544" CollectCount="1" />
     <TurnIn QuestName="Culling the Threat" QuestId="1054" TurnInName="Raene Wolfrunner" TurnInId="3691" />
-    <CustomBehavior File="SetHearthstone" MobId="6738" AreaId="331" X="2781.16" Y="-432.997" Z="116.665" /> <!-- Set hearth: Astranaar -->
     <TurnIn QuestName="Elune's Tear" QuestId="1033" TurnInName="Pelturas Whitemoon" TurnInId="3894" />
     <If Condition="((!HasQuest(1034)) &amp;&amp; (!IsQuestCompleted(1034)))">
       <PickUp QuestName="The Ruins of Stardust" QuestId="1034" GiverName="Pelturas Whitemoon" GiverId="3894" />

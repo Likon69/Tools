@@ -97,7 +97,6 @@
       <PickUp QuestName="Better Late Than Never" QuestId="5022" GiverName="Janice Felstone" GiverId="10778" />
     </If>
     <TurnIn QuestName="Return to Chillwind Camp" QuestId="5217" TurnInName="High Priestess MacDonnell" TurnInId="11053" />
-    <CustomBehavior File="SetHearthstone" MobId="2352" AreaId="267" X="-857.096" Y="-570.751" Z="11.0649" /> <!-- Set hearth: Southshore -->
     <If Condition="((!HasQuest(8275)) &amp;&amp; (!IsQuestCompleted(8275)))">
       <PickUp QuestName="Taking Back Silithus" QuestId="8275" GiverName="Cenarion Emissary Jademoon" GiverId="15187" />
     </If>

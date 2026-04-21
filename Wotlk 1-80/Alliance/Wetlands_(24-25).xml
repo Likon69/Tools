@@ -87,7 +87,6 @@
     <PickUp QuestName="Claws from the Deep" QuestId="279" GiverName="Karl Boran" GiverId="1242" />
     <PickUp QuestName="The Third Fleet" QuestId="288" GiverName="First Mate Fitzsimmons" GiverId="1239" />
     <PickUp QuestName="The Greenwarden" QuestId="463" GiverName="First Mate Fitzsimmons" GiverId="1239" />
-    <CustomBehavior File="SetHearthstone" MobId="23995" AreaId="15" X="-4629.94" Y="-3176.12" Z="41.2235" /> <!-- Set hearth: Deepwater Tavern -->
     <TurnIn QuestName="The Absent Minded Prospector" QuestId="942" TurnInName="Archaeologist Flagongut" TurnInId="2911" />
     <TurnIn QuestName="The Third Fleet" QuestId="288" TurnInName="First Mate Fitzsimmons" TurnInId="1239" />
     <PickUp QuestName="Digging Through the Ooze" QuestId="470" GiverName="Sida" GiverId="2111" />

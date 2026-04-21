@@ -77,7 +77,6 @@
     </If>
     <Objective QuestName="Helcular's Revenge" QuestId="553" Type="CollectItem" ItemId="3710" CollectCount="1" />
     <PickUp QuestName="The Hammer May Fall" QuestId="676" GiverName="Tallow" GiverId="2770" />
-    <CustomBehavior File="SetHearthstone" MobId="9501" AreaId="45" X="-912.374" Y="-3524.92" Z="72.7679" /> <!-- Set hearth: Hammerfall -->
     <TurnIn QuestName="Trollbane" QuestId="638" TurnInName="Zengu" TurnInId="2703" />
     <PickUp QuestName="Foul Magics" QuestId="671" GiverName="Tor'gan" GiverId="2706" />
     <If Condition="((!HasQuest(701)) &amp;&amp; (!IsQuestCompleted(701)))">

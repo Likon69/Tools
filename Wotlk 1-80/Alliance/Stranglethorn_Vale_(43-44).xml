@@ -53,7 +53,6 @@
     <If Condition="((!HasQuest(600)) &amp;&amp; (!IsQuestCompleted(600)))">
       <PickUp QuestName="Venture Company Mining" QuestId="600" GiverName="Crank Fizzlebub" GiverId="2498" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="7733" AreaId="440" X="-7158.96" Y="-3841.61" Z="8.8481" /> <!-- Set hearth: Booty Bay -->
     <TurnIn QuestName="Ansirem's Key" QuestId="603" TurnInName="Catelyn the Blade" TurnInId="2542" />
     <If Condition="((!HasQuest(610)) &amp;&amp; (!IsQuestCompleted(610)))">
       <PickUp QuestName="&quot;Pretty Boy&quot; Duncan" QuestId="610" GiverName="Catelyn the Blade" GiverId="2542" />

@@ -353,7 +353,6 @@
     <If Condition="((!HasQuest(7383)) &amp;&amp; (!IsQuestCompleted(7383)))">
       <PickUp QuestName="Crown of the Earth" QuestId="7383" GiverName="Corithras Moonrage" GiverId="3515" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6736" AreaId="141" X="9802.21" Y="982.608" Z="1313.98" /> <!-- Set hearth: Dolanaar -->
     <PickUp QuestName="The Road to Darnassus" QuestId="487" GiverName="Moon Priestess Amara" GiverId="2151" />
     <Objective QuestName="The Road to Darnassus" QuestId="487" Type="KillMob" MobId="2152" KillCount="6" />
     <PickUp QuestName="The Enchanted Glade" QuestId="937" GiverName="Sentinel Arynia Cloudsbreak" GiverId="3519" />

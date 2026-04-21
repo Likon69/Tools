@@ -404,7 +404,6 @@
     </If>
     <TurnIn QuestName="Travel to Azure Watch" QuestId="9313" TurnInName="Technician Dyvuun" TurnInId="16551" />
     <TurnIn QuestName="Word from Azure Watch" QuestId="9314" TurnInName="Caregiver Chellan" TurnInId="16553" />
-    <CustomBehavior File="SetHearthstone" MobId="16553" AreaId="3524" X="-4129.43" Y="-12469.0" Z="44.0842" /> <!-- Set hearth: Azure Watch -->
     <If Condition="(Me.Class == WoWClass.Priest) &amp;&amp; (Me.Race == WoWRace.Draenei)">
       <PickUp QuestName="Help Tavara" QuestId="9586" GiverName="Guvan" GiverId="17482" />
       <TurnIn QuestName="Help Tavara" QuestId="9586" TurnInName="Guvan" TurnInId="17482" />

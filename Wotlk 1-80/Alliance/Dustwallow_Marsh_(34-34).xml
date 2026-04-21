@@ -60,8 +60,6 @@
         <PickUp QuestName="The Windwatcher" QuestId="1791" GiverName="Klannoc Macleod" GiverId="6236" />
       </If>
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6791" AreaId="17" X="-1050.04" Y="-3664.8" Z="23.9684" /> <!-- Set hearth: Ratchet -->
-    <CustomBehavior File="SetHearthstone" MobId="6791" AreaId="17" X="-1050.04" Y="-3664.8" Z="23.9684" /> <!-- Set hearth: Ratchet -->
     <TurnIn QuestName="Goblin Sponsorship" QuestId="1178" TurnInName="Gazlowe" TurnInId="3391" />
     <If Condition="((!HasQuest(1180)) &amp;&amp; (!IsQuestCompleted(1180)))">
       <PickUp QuestName="Goblin Sponsorship" QuestId="1180" GiverName="Gazlowe" GiverId="3391" />

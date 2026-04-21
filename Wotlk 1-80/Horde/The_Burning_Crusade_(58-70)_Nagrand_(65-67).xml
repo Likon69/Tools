@@ -429,7 +429,6 @@
     <If Condition="((!HasQuest(9805)) &amp;&amp; (!IsQuestCompleted(9805)))">
       <PickUp QuestName="Blessing of Incineratus" QuestId="9805" GiverName="Elementalist Lo'ap" GiverId="18073" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="18907" AreaId="3521" X="-174.478" Y="5529.21" Z="29.4909" /> <!-- Set hearth: Garadar -->
     <Objective QuestName="Windroc Mastery" QuestId="9855" Type="KillMob" MobId="18220" KillCount="30" />
     <PickUp QuestName="I Must Have Them!" QuestId="10109" GiverName="Wazat" GiverId="19035" />
     <Objective QuestName="I Must Have Them!" QuestId="10109" Type="CollectItem" ItemId="27807" CollectCount="3" />

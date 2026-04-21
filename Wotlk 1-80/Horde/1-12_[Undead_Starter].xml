@@ -459,7 +459,6 @@
     <PickUp QuestName="Wanted: Maggot Eye" QuestId="398" GiverName="Executor Zygand" GiverId="1515" />
     <PickUp QuestName="Graverobbers" QuestId="358" GiverName="Magistrate Sevren" GiverId="1499" />
     <TurnIn QuestName="A Rogue's Deal" QuestId="8" TurnInName="Innkeeper Renee" TurnInId="5688" />
-    <CustomBehavior File="SetHearthstone" MobId="5688" AreaId="85" X="2269.51" Y="244.944" Z="34.3402" /> <!-- Set hearth: Gallows' End Tavern -->
     <Objective QuestName="A New Plague" QuestId="367" Type="CollectItem" ItemId="2858" CollectCount="5" />
     <If Condition="Me.Level &lt; 7">
       <SetGrindArea>

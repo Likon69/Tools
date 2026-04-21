@@ -126,7 +126,6 @@
     <TurnIn QuestName="Tran'rek" QuestId="2864" TurnInName="Tran'rek" TurnInId="7876" />
     <PickUp QuestName="WANTED: Caliph Scorpidsting" QuestId="2781" GiverName="Tran'rek" GiverId="7876" />
     <PickUp QuestName="WANTED: Andre Firebeard" QuestId="2875" GiverName="Tran'rek" GiverId="7876" />
-    <CustomBehavior File="SetHearthstone" MobId="6807" AreaId="33" X="-14457.7" Y="495.348" Z="15.2129" /> <!-- Set hearth: Gadgetzan -->
     <PickUp QuestName="Water Pouch Bounty" QuestId="1707" GiverName="Spigot Operator Luglunket" GiverId="7408" />
     <PickUp QuestName="Wastewander Justice" QuestId="1690" GiverName="Chief Engineer Bilgewhizzle" GiverId="7407" />
     <Objective QuestName="Rumors for Kravel" QuestId="1117" Type="CollectItem" ItemId="5804" CollectCount="1" />

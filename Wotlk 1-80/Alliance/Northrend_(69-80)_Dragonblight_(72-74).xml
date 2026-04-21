@@ -340,7 +340,6 @@
     <If Condition="((!HasQuest(12166)) &amp;&amp; (!IsQuestCompleted(12166)))">
       <PickUp QuestName="The Liquid Fire of Elune" QuestId="12166" GiverName="Warden Jodi Moonsong" GiverId="26973" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="27148" AreaId="495" X="704.029" Y="-2932.88" Z="-2.9851" /> <!-- Set hearth: Stars' Rest -->
     <If Condition="((!HasQuest(12171)) &amp;&amp; (!IsQuestCompleted(12171)))">
       <PickUp QuestName="Of Traitors and Treason" QuestId="12171" GiverName="Courier Lanson" GiverId="27060" />
     </If>
@@ -580,7 +579,6 @@
     <If Condition="((!HasQuest(12269)) &amp;&amp; (!IsQuestCompleted(12269)))">
       <PickUp QuestName="Not In Our Mine" QuestId="12269" GiverName="Highlord Leoric Von Zeldig" GiverId="27156" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="27069" AreaId="3537" X="4506.36" Y="5707.32" Z="81.6039" /> <!-- Set hearth: Wintergarde Keep -->
     <Objective QuestName="Imprints on the Past" QuestId="12282" Type="CollectItem" ItemId="37538" CollectCount="1" />
     <Objective QuestName="The Fate of the Dead" QuestId="12258" Type="KillMob" MobId="27370" KillCount="15" />
     <TurnIn QuestName="The Search for Slinkin" QuestId="12276" TurnInName="Illusia Lune" TurnInId="27412" />
@@ -906,7 +904,6 @@
       <CustomBehavior File="WaitTimer" WaitTime="3000" />
     </While>
     <TurnIn QuestName="Seeds of the Lashers" QuestId="12458" TurnInName="Lord Itharius" TurnInId="27785" />
-    <CustomBehavior File="SetHearthstone" MobId="28686" AreaId="4395" X="5671.43" Y="724.478" Z="653.412" /> <!-- Set hearth: Wyrmrest Temple -->
     <TurnIn QuestName="Canyon Chase" QuestId="12143" TurnInName="Duane" TurnInId="26978" />
     <PickUp QuestName="Return to Sender" QuestId="12469" GiverName="Nozzlerust Supply Runner" GiverId="26896" />
     <PickUp QuestName="Nozzlerust Defense" QuestId="12043" GiverName="Narf" GiverId="26647" />

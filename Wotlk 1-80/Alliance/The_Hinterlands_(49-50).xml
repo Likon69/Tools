@@ -180,7 +180,6 @@
     <TurnIn QuestName="Reclaiming the Eggs" QuestId="9475" TurnInName="Ambassador Rualeth" TurnInId="17223" />
     <TurnIn QuestName="Troll Necklace Bounty" QuestId="2880" TurnInName="Fraggar Thundermantle" TurnInId="7884" />
     <PickUp QuestName="Skulk Rock Clean-up" QuestId="2877" GiverName="Fraggar Thundermantle" GiverId="7884" />
-    <CustomBehavior File="SetHearthstone" MobId="21088" AreaId="3522" X="2227.13" Y="4717.91" Z="162.075" /> <!-- Set hearth: Wildhammer Keep -->
     <TurnIn QuestName="Witherbark Cages" QuestId="2988" TurnInName="Gryphon Master Talonaxe" TurnInId="5636" />
     <If Condition="((!HasQuest(2989)) &amp;&amp; (!IsQuestCompleted(2989)))">
       <PickUp QuestName="The Altar of Zul" QuestId="2989" GiverName="Gryphon Master Talonaxe" GiverId="5636" />
@@ -210,7 +209,6 @@
       <PickUp QuestName="The Smoldering Ruins of Thaurissan" QuestId="3701" GiverName="Royal Historian Archesonus" GiverId="8879" />
     </If>
     <Objective QuestName="Caught!" QuestId="4449" Type="CollectItem" ItemId="4306" CollectCount="15" />
-    <CustomBehavior File="SetHearthstone" MobId="5111" AreaId="1537" X="-4840.67" Y="-857.094" Z="501.997" /> <!-- Set hearth: Ironforge -->
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\The Hinterlands (49-50) Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Searing_Gorge_(50-51)" />
   </QuestOrder>

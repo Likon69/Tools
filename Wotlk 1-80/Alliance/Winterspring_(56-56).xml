@@ -77,7 +77,6 @@
     <Objective QuestName="Troubled Spirits of Kel'Theril" QuestId="5245" Type="CollectItem" ItemId="12898" CollectCount="1" />
     <Objective QuestName="Troubled Spirits of Kel'Theril" QuestId="5245" Type="CollectItem" ItemId="12896" CollectCount="1" />
     <PickUp QuestName="Are We There, Yeti?" QuestId="3783" GiverName="Umi Rumplesnicker" GiverId="10305" />
-    <CustomBehavior File="SetHearthstone" MobId="11118" AreaId="618" X="6695.15" Y="-4673.04" Z="721.65" /> <!-- Set hearth: Everlook -->
     <Objective QuestName="Felnok Steelspring" QuestId="4808" Type="CollectItem" ItemId="12438" CollectCount="1" />
     <TurnIn QuestName="Felnok Steelspring" QuestId="4808" TurnInName="Felnok Steelspring" TurnInId="10468" />
     <Objective QuestName="Are We There, Yeti?" QuestId="3783" Type="CollectItem" ItemId="12366" CollectCount="10" />

@@ -142,7 +142,6 @@
     <If Condition="((!HasQuest(1691)) &amp;&amp; (!IsQuestCompleted(1691)))">
       <PickUp QuestName="More Wastewander Justice" QuestId="1691" GiverName="Chief Engineer Bilgewhizzle" GiverId="7407" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6807" AreaId="33" X="-14457.7" Y="495.348" Z="15.2129" /> <!-- Set hearth: Gadgetzan -->
     <If Condition="((!HasQuest(5863)) &amp;&amp; (!IsQuestCompleted(5863)))">
       <PickUp QuestName="The Dunemaul Compound" QuestId="5863" GiverName="Andi Lynn" GiverId="11758" />
     </If>

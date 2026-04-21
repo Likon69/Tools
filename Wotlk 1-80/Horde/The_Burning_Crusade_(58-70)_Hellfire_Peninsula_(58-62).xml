@@ -247,7 +247,6 @@
     <If Condition="((!HasQuest(10291)) &amp;&amp; (!IsQuestCompleted(10291)))">
       <PickUp QuestName="Report to Nazgrel" QuestId="10291" GiverName="General Krakork" GiverId="19255" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="16826" AreaId="3483" X="-708.871" Y="2739.13" Z="94.8168" /> <!-- Set hearth: Thrallmar -->
     <TurnIn QuestName="Report to Nazgrel" QuestId="10291" TurnInName="Nazgrel" TurnInId="3230" />
     <If Condition="((!HasQuest(10121)) &amp;&amp; (!IsQuestCompleted(10121)))">
       <PickUp QuestName="Eradicate the Burning Legion" QuestId="10121" GiverName="Nazgrel" GiverId="3230" />
@@ -676,7 +675,6 @@
     <TurnIn QuestName="Marking the Path" QuestId="9391" TurnInName="Ranger Captain Venn'ren" TurnInId="16789" />
     <Objective QuestName="A Pilgrim's Plight" QuestId="9376" Type="CollectItem" ItemId="23343" CollectCount="1" />
     <TurnIn QuestName="A Pilgrim's Plight" QuestId="9376" TurnInName="Taleris Dawngazer" TurnInId="17015" />
-    <CustomBehavior File="SetHearthstone" MobId="16602" AreaId="3483" X="190.876" Y="2610.93" Z="87.3669" /> <!-- Set hearth: Falcon Watch -->
     <TurnIn QuestName="Arelion's Secret" QuestId="10286" TurnInName="Magister Aledis" TurnInId="20159" />
     <If Condition="((!HasQuest(10287)) &amp;&amp; (!IsQuestCompleted(10287)))">
       <PickUp QuestName="The Mistress Revealed" QuestId="10287" GiverName="Magister Aledis" GiverId="20159" />

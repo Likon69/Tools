@@ -443,7 +443,6 @@
     <If Condition="((!HasQuest(10021)) &amp;&amp; (!IsQuestCompleted(10021)))">
       <PickUp QuestName="Restoring the Light" QuestId="10021" GiverName="Ishanah" GiverId="18538" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="19046" AreaId="3703" X="-1904.29" Y="5765.5" Z="131.296" /> <!-- Set hearth: Shattrath City -->
     <If Condition="((!HasQuest(10553)) &amp;&amp; (!IsQuestCompleted(10553)))">
       <PickUp QuestName="Voren'thal the Seer" QuestId="10553" GiverName="Archmage Khadgar" GiverId="18166" />
     </If>
@@ -451,7 +450,6 @@
       <PickUp QuestName="Firewing Signets" QuestId="10412" GiverName="Magistrix Fyalenn" GiverId="18531" />
     </If>
     <TurnIn QuestName="Voren'thal the Seer" QuestId="10553" TurnInName="Voren'thal the Seer" TurnInId="18530" />
-    <CustomBehavior File="SetHearthstone" MobId="19046" AreaId="3703" X="-1904.29" Y="5765.5" Z="131.296" /> <!-- Set hearth: Shattrath City -->
     <Objective QuestName="Rather Be Fishin'" QuestId="10037" Type="CollectItem" ItemId="25891" CollectCount="8" />
     <TurnIn QuestName="What's Wrong at Cenarion Thicket?" QuestId="9957" TurnInName="Earthbinder Tavgren" TurnInId="18446" />
     <If Condition="((!HasQuest(9968)) &amp;&amp; (!IsQuestCompleted(9968)))">

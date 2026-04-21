@@ -416,7 +416,6 @@
     <If Condition="((!HasQuest(13060)) &amp;&amp; (!IsQuestCompleted(13060)))">
       <PickUp QuestName="When All Else Fails" QuestId="13060" GiverName="Ricket" GiverId="29428" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="29904" X="6124.42" Y="-1080.96" Z="402.624" /> <!-- Set hearth: K3 -->
     <While Condition="((HasQuest(12833)) &amp;&amp; (!IsQuestCompleted(12833)))">
       <RunTo X="6358.48" Y="-1188.55" Z="427.016" />
       <CustomBehavior File="UseItemOn" QuestId="12833" MobId="29619" ItemId="40676" NumOfTimes="100" Range="5" CollectionDistance="1000" X="6358.48" Y="-1188.55" Z="427.016" />
@@ -439,7 +438,6 @@
     <TurnIn QuestName="Overstock" QuestId="12833" TurnInName="Ricket" TurnInId="29428" />
     <TurnIn QuestName="When All Else Fails" QuestId="13060" TurnInName="Olut Alegut" TurnInId="30472" />
     <PickUp QuestName="Ancient Relics" QuestId="12882" GiverName="Olut Alegut" GiverId="30472" />
-    <CustomBehavior File="SetHearthstone" MobId="29583" X="5761.11" Y="-3562.79" Z="387.133" /> <!-- Set hearth: Grom'arsh Crash-Site -->
     <PickUp QuestName="The Missing Bronzebeard" QuestId="12895" GiverName="Boktar Bloodfury" GiverId="29651" />
     <PickUp QuestName="The Missing Tracker" QuestId="13054" GiverName="Blood Guard Lorga" GiverId="30247" />
     <If Condition="((!HasQuest(13000)) &amp;&amp; (!IsQuestCompleted(13000)))">
@@ -682,7 +680,6 @@
     <TurnIn QuestName="Norgannon's Shell" QuestId="12928" TurnInName="Brann Bronzebeard" TurnInId="29579" />
     <PickUp QuestName="The Earthen of Ulduar" QuestId="12929" GiverName="Brann Bronzebeard" GiverId="29579" />
     <PickUp QuestName="Going After the Core" QuestId="13273" GiverName="Brann Bronzebeard" GiverId="29579" />
-    <CustomBehavior File="SetHearthstone" MobId="30005" AreaId="67" X="7114.15" Y="-1633.32" Z="820.568" /> <!-- Set hearth: Bouldercrag's Refuge -->
     <TurnIn QuestName="The Earthen of Ulduar" QuestId="12929" TurnInName="Bouldercrag the Rockshaper" TurnInId="29801" />
     <If Condition="((!HasQuest(12930)) &amp;&amp; (!IsQuestCompleted(12930)))">
       <PickUp QuestName="Rare Earth" QuestId="12930" GiverName="Bouldercrag the Rockshaper" GiverId="29801" />
@@ -845,7 +842,6 @@
     <If Condition="((!HasQuest(12924)) &amp;&amp; (!IsQuestCompleted(12924)))">
       <PickUp QuestName="Forging an Alliance" QuestId="12924" GiverName="Thorim" GiverId="29445" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="29583" X="5761.11" Y="-3562.79" Z="387.133" /> <!-- Set hearth: Grom'arsh Crash-Site -->
     <TurnIn QuestName="Forging the Keystone" QuestId="13285" TurnInName="Boktar Bloodfury" TurnInId="29651" />
     <PickUp QuestName="Xarantaur, the Witness" QuestId="13426" GiverName="Boktar Bloodfury" GiverId="29651" />
     <PickUp QuestName="You Can't Miss Him" QuestId="12966" GiverName="King Jokkum" GiverId="30105" />

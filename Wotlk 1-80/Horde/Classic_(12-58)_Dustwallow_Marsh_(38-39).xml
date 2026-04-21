@@ -80,7 +80,6 @@
       <PickUp QuestName="The Black Shield" QuestId="1322" GiverName="Do'gol" GiverId="5087" />
     </If>
     <PickUp QuestName="The Hermit of Witch Hill" QuestId="11225" GiverName="Draz'Zilb" GiverId="4501" />
-    <CustomBehavior File="SetHearthstone" MobId="11116" AreaId="400" X="-5477.85" Y="-2460.43" Z="89.3671" /> <!-- Set hearth: Brackenwall Village -->
     <PickUp QuestName="Hungry!" QuestId="1177" GiverName="Mudcrush Durtfeet" GiverId="4503" />
     <Objective QuestName="Theramore Spies" QuestId="1201" Type="KillMob" MobId="4834" KillCount="1" />
     <Objective QuestName="Theramore Spies" QuestId="1201" Type="KillMob" MobId="4834" KillCount="1" />

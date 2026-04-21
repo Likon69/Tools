@@ -190,7 +190,6 @@
       <PickUp QuestName="The People's Militia" QuestId="14" GiverName="Gryan Stoutmantle" GiverId="234" />
     </If>
     <PickUp QuestName="The Defias Brotherhood" QuestId="65" GiverName="Gryan Stoutmantle" GiverId="234" />
-    <CustomBehavior File="SetHearthstone" MobId="8931" AreaId="40" X="-10653.4" Y="1166.52" Z="34.4647" /> <!-- Set hearth: Sentinel Hill -->
     <Objective QuestName="The People's Militia" QuestId="14" Type="KillMob" MobId="121" KillCount="5" />
     <Objective QuestName="The People's Militia" QuestId="14" Type="KillMob" MobId="449" KillCount="5" />
     <Objective QuestName="The People's Militia" QuestId="14" Type="KillMob" MobId="122" KillCount="15" />

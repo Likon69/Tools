@@ -580,7 +580,6 @@
     <PickUp QuestName="Securing the Shaleskin Shale" QuestId="10342" GiverName="Boots" GiverId="19617" />
     <TurnIn QuestName="Off To Area 52" QuestId="10183" TurnInName="Rocket-Chief Fuselage" TurnInId="19570" />
     <PickUp QuestName="You're Hired!" QuestId="10186" GiverName="Rocket-Chief Fuselage" GiverId="19570" />
-    <CustomBehavior File="SetHearthstone" MobId="20123" AreaId="3703" X="-1683.44" Y="5367.12" Z="-41.1595" /> <!-- Set hearth: Area 52 -->
     <If Condition="((!HasQuest(10189)) &amp;&amp; (!IsQuestCompleted(10189)))">
       <PickUp QuestName="Manaforge B'naar" QuestId="10189" GiverName="Spymaster Thalodien" GiverId="19468" />
     </If>
@@ -1107,7 +1106,6 @@
       <PickUp QuestName="A Defector" QuestId="10202" GiverName="Magistrix Larynna" GiverId="19469" />
     </If>
     <TurnIn QuestName="Doctor Vomisa, Ph.T." QuestId="10247" TurnInName="Doctor Vomisa, Ph.T." TurnInId="19832" />
-    <CustomBehavior File="SetHearthstone" MobId="19495" AreaId="3522" X="2098.18" Y="6903.92" Z="183.313" /> <!-- Set hearth: The Stormspire -->
     <While Condition="((HasQuest(10426)) &amp;&amp; (!IsQuestCompleted(10426)))">
       <CustomBehavior File="UseItemOn" QuestId="10426" MobId="20983" ItemId="29818" NumOfTimes="100" Range="5" CollectionDistance="1000" />
       <CustomBehavior File="WaitTimer" WaitTime="3000" />

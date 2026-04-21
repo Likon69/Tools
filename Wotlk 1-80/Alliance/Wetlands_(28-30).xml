@@ -167,7 +167,6 @@
       <PickUp QuestName="The Cursed Crew" QuestId="289" GiverName="First Mate Fitzsimmons" GiverId="1239" />
     </If>
     <TurnIn QuestName="The Doomed Fleet" QuestId="270" TurnInName="Glorin Steelbrow" TurnInId="1217" />
-    <CustomBehavior File="SetHearthstone" MobId="23995" AreaId="15" X="-4629.94" Y="-3176.12" Z="41.2235" /> <!-- Set hearth: Deepwater Tavern -->
     <If Condition="((!HasQuest(943)) &amp;&amp; (!IsQuestCompleted(943)))">
       <PickUp QuestName="The Absent Minded Prospector" QuestId="943" GiverName="Archaeologist Flagongut" GiverId="2911" />
     </If>

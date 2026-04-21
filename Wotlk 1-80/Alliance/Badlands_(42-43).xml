@@ -108,7 +108,6 @@
     <TurnIn QuestName="Study of the Elements: Rock" QuestId="712" TurnInName="Lotwil Veriatus" TurnInId="2921" />
     <TurnIn QuestName="Barbecued Buzzard Wings" QuestId="703" TurnInName="Rigglefuzz" TurnInId="2817" />
     <TurnIn QuestName="Scrounging" QuestId="733" TurnInName="Sigrun Ironhew" TurnInId="2860" />
-    <CustomBehavior File="SetHearthstone" MobId="5111" AreaId="1537" X="-4840.67" Y="-857.094" Z="501.997" /> <!-- Set hearth: Stoutlager Inn -->
     <TurnIn QuestName="Badlands Reagent Run" QuestId="2500" TurnInName="Ghak Healtouch" TurnInId="1470" />
     <TurnIn QuestName="Murdaloc" QuestId="739" TurnInName="Prospector Ironband" TurnInId="1344" />
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Badlands (42-43) Complete" LogColor="Orange" />

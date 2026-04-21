@@ -107,7 +107,6 @@
     <If Condition="((!HasQuest(567)) &amp;&amp; (!IsQuestCompleted(567)))">
       <PickUp QuestName="Dangerous!" QuestId="567" GiverName="High Executor Darthalia" GiverId="2215" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="2388" AreaId="267" X="-5.9687" Y="-942.282" Z="57.1621" /> <!-- Set hearth: Tarren Mill -->
     <PickUp QuestName="Helcular's Revenge" QuestId="552" GiverName="Novice Thaivand" GiverId="2429" />
     <Objective QuestName="Elixir of Agony" QuestId="509" Type="CollectItem" ItemId="3502" CollectCount="6" />
     <Objective QuestName="Elixir of Pain" QuestId="501" Type="CollectItem" ItemId="3496" CollectCount="10" />

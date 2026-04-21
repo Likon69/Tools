@@ -358,7 +358,6 @@
       <PickUp QuestName="Onward to Camp Oneqwah" QuestId="12451" GiverName="Sergeant Nazgrim" GiverId="27388" />
     </If>
     <PickUp QuestName="My Enemy's Friend" QuestId="12412" GiverName="Conqueror Krenna" GiverId="26860" />
-    <CustomBehavior File="SetHearthstone" MobId="29336" X="20.8" Y="64.58" Z="0" /> <!-- Set hearth: Conquest Hold -->
     <Objective QuestName="My Enemy's Friend" QuestId="12412" Type="CollectItem" ItemId="37830" CollectCount="1" />
     <While Condition="((HasQuest(12412)) &amp;&amp; (!IsQuestCompleted(12412)))">
       <RunTo X="3110.83" Y="-3091.04" Z="128.052" />
@@ -856,7 +855,6 @@
     <If Condition="((!HasQuest(12199)) &amp;&amp; (!IsQuestCompleted(12199)))">
       <PickUp QuestName="Bringing Down the Iron Thane" QuestId="12199" GiverName="Prospector Rokar" GiverId="27227" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="28799" AreaId="66" X="5405.65" Y="-2650.05" Z="304.037" /> <!-- Set hearth: Camp Oneqwah -->
     <While Condition="((HasQuest(12199)) &amp;&amp; (!IsQuestCompleted(12199)))">
       <RunTo X="3317.76" Y="-5112.08" Z="300.462" />
       <CustomBehavior File="UseItemOn" QuestId="12199" MobId="26405" ItemId="36865" NumOfTimes="100" Range="5" CollectionDistance="1000" X="3317.76" Y="-5112.08" Z="300.462" />

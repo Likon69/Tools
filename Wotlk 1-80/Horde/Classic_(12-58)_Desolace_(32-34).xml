@@ -256,7 +256,6 @@
     </If>
     <PickUp QuestName="Hunting in Stranglethorn" QuestId="5763" GiverName="Roon Wildmane" GiverId="11877" />
     <PickUp QuestName="Hand of Iruxos" QuestId="5381" GiverName="Taiga Wisemane" GiverId="11624" />
-    <CustomBehavior File="SetHearthstone" MobId="11106" AreaId="405" X="-1592.84" Y="3150.27" Z="46.5777" /> <!-- Set hearth: Shadowprey Village -->
     <If Condition="((!HasQuest(6143)) &amp;&amp; (!IsQuestCompleted(6143)))">
       <PickUp QuestName="Other Fish to Fry" QuestId="6143" GiverName="Drulzegar Skraghook" GiverId="12340" />
     </If>

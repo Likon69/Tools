@@ -117,7 +117,6 @@
       <PickUp QuestName="Threat of the Winterfall" QuestId="5082" GiverName="Donova Snowden" GiverId="9298" />
     </If>
     <PickUp QuestName="Are We There, Yeti?" QuestId="3783" GiverName="Umi Rumplesnicker" GiverId="10305" />
-    <CustomBehavior File="SetHearthstone" MobId="11118" AreaId="618" X="6695.15" Y="-4673.04" Z="721.65" /> <!-- Set hearth: Everlook -->
     <PickUp QuestName="The Everlook Report" QuestId="6029" GiverName="Gregor Greystone" GiverId="10431" />
     <TurnIn QuestName="Felnok Steelspring" QuestId="4808" TurnInName="Felnok Steelspring" TurnInId="10468" />
     <If Condition="((!HasQuest(4809)) &amp;&amp; (!IsQuestCompleted(4809)))">

@@ -407,7 +407,6 @@
     </If>
     <Objective QuestName="Salvaging the Data" QuestId="9628" Type="CollectItem" ItemId="23932" CollectCount="1" />
     <PickUp QuestName="Restoring Sanctity" QuestId="9687" GiverName="Prince Toreth" GiverId="17674" />
-    <CustomBehavior File="SetHearthstone" MobId="16739" AreaId="3557" X="-3746.37" Y="-11696.1" Z="-105.87" /> <!-- Set hearth: Blood Watch -->
     <TurnIn QuestName="Salvaging the Data" QuestId="9628" TurnInName="Harbinger Mikolaas" TurnInId="17423" />
     <If Condition="((!HasQuest(9584)) &amp;&amp; (!IsQuestCompleted(9584)))">
       <PickUp QuestName="The Second Sample" QuestId="9584" GiverName="Harbinger Mikolaas" GiverId="17423" />

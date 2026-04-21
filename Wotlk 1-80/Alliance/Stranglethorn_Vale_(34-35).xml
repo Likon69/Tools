@@ -109,7 +109,6 @@
     <If Condition="((!HasQuest(1181)) &amp;&amp; (!IsQuestCompleted(1181)))">
       <PickUp QuestName="Goblin Sponsorship" QuestId="1181" GiverName="Wharfmaster Lozgil" GiverId="4631" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="7733" AreaId="440" X="-7158.96" Y="-3841.61" Z="8.8481" /> <!-- Set hearth: Booty Bay -->
     <PickUp QuestName="Singing Blue Shards" QuestId="605" GiverName="Crank Fizzlebub" GiverId="2498" />
     <PickUp QuestName="Investigate the Camp" QuestId="201" GiverName="Krazek" GiverId="773" />
     <PickUp QuestName="Supplies to Private Thorsen" QuestId="198" GiverName="Krazek" GiverId="773" />

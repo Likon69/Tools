@@ -175,7 +175,6 @@
     <TurnIn QuestName="A Plague Upon Thee" QuestId="6389" TurnInName="Nathaniel Dumah" TurnInId="11616" />
     <TurnIn QuestName="Brother Carlin" QuestId="5210" TurnInName="Carlin Redpath" TurnInId="11063" />
     <TurnIn QuestName="The Blightcaller Cometh" QuestId="6186" TurnInName="King Varian Wrynn" TurnInId="29611" />
-    <CustomBehavior File="SetHearthstone" MobId="6791" AreaId="17" X="-1050.04" Y="-3664.8" Z="23.9684" /> <!-- Set hearth: Ratchet -->
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Western Plaguelands (58-59) Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Silithus_(59-60)" />
   </QuestOrder>

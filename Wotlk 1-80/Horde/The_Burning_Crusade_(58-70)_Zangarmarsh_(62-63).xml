@@ -269,7 +269,6 @@
       <PickUp QuestName="Plants of Zangarmarsh" QuestId="9802" GiverName="Lauranna Thar'well" GiverId="17909" />
     </If>
     <PickUp QuestName="The Dying Balance" QuestId="9895" GiverName="Lethyn Moonfire" GiverId="17834" />
-    <CustomBehavior File="SetHearthstone" MobId="18907" AreaId="3521" X="-174.478" Y="5529.21" Z="29.4909" /> <!-- Set hearth: Cenarion Refuge -->
     <TurnIn QuestName="The Cenarion Expedition" QuestId="9912" TurnInName="Ysiel Windsinger" TurnInId="17841" />
     <PickUp QuestName="Disturbance at Umbrafen Lake" QuestId="9716" GiverName="Ysiel Windsinger" GiverId="17841" />
     <PickUp QuestName="Warden Hamoot" QuestId="9778" GiverName="Ysiel Windsinger" GiverId="17841" />
@@ -515,7 +514,6 @@
     <Objective QuestName="The Sharpest Blades" QuestId="9842" Type="CollectItem" ItemId="24493" CollectCount="10" />
     <TurnIn QuestName="A Spirit Ally?" QuestId="9847" TurnInName="Seer Janidi" TurnInId="18017" />
     <TurnIn QuestName="The Sharpest Blades" QuestId="9842" TurnInName="Gambarinka" TurnInId="18015" />
-    <CustomBehavior File="SetHearthstone" MobId="18245" AreaId="3521" X="228.163" Y="7933.88" Z="25.1611" /> <!-- Set hearth: Zabra'jin -->
     <Objective QuestName="Wanted: Chieftain Mummaki" QuestId="10117" Type="CollectItem" ItemId="27943" CollectCount="1" />
     <While Condition="((HasQuest(9816)) &amp;&amp; (!IsQuestCompleted(9816)))">
       <RunTo X="1177.67" Y="8130.76" Z="19.6219" />

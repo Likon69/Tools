@@ -76,7 +76,6 @@
       <PickUp QuestName="Vengeance on the Northspring" QuestId="3063" GiverName="Talo Thornhoof" GiverId="7776" />
     </If>
     <PickUp QuestName="The Strength of Corruption" QuestId="4120" GiverName="Talo Thornhoof" GiverId="7776" />
-    <CustomBehavior File="SetHearthstone" MobId="7737" AreaId="357" X="-4460.1" Y="242.722" Z="39.1908" /> <!-- Set hearth: Camp Mojache -->
     <PickUp QuestName="Zapped Giants" QuestId="7003" GiverName="Zorbin Fandazzle" GiverId="14637" />
     <PickUp QuestName="Fuel for the Zapping" QuestId="7721" GiverName="Zorbin Fandazzle" GiverId="14637" />
     <While Condition="((HasQuest(7003)) &amp;&amp; (!IsQuestCompleted(7003)))">

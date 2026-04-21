@@ -179,7 +179,6 @@
     <If Condition="((!HasQuest(903)) &amp;&amp; (!IsQuestCompleted(903)))">
       <PickUp QuestName="Prowlers of the Barrens" QuestId="903" GiverName="Sergra Darkthorn" GiverId="3338" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="5814" AreaId="33" X="-12434.4" Y="211.559" Z="2.4485" /> <!-- Set hearth: The Crossroads -->
     <Objective QuestName="Supplies for the Crossroads" QuestId="5041" Type="CollectItem" ItemId="12708" CollectCount="1" />
     <Objective QuestName="The Disruption Ends" QuestId="872" Type="CollectItem" ItemId="5063" CollectCount="1" />
     <PickUp QuestName="Southsea Freebooters" QuestId="887" GiverName="Gazlowe" GiverId="3391" />

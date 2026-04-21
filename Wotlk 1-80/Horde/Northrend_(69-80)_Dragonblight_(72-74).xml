@@ -408,7 +408,6 @@
     <PickUp QuestName="Funding the War Effort" QuestId="12303" GiverName="Quartermaster Bartlett" GiverId="27267" />
     <PickUp QuestName="Materiel Plunder" QuestId="12209" GiverName="Quartermaster Bartlett" GiverId="27267" />
     <PickUp QuestName="Wanted: The Scarlet Onslaught" QuestId="12205" GiverName="Quartermaster Bartlett" GiverId="27267" />
-    <CustomBehavior File="SetHearthstone" MobId="27042" AreaId="65" X="3647.95" Y="-717.195" Z="215.034" /> <!-- Set hearth: Venomspite -->
     <PickUp QuestName="Blighted Last Rites" QuestId="12206" GiverName="Apothecary Vicky Levine" GiverId="27248" />
     <While Condition="((HasQuest(12206)) &amp;&amp; (!IsQuestCompleted(12206)))">
       <CustomBehavior File="UseItemOn" QuestId="12206" MobId="27253" ItemId="37129" NumOfTimes="100" Range="5" CollectionDistance="1000" />
@@ -513,7 +512,6 @@
     </If>
     <TurnIn QuestName="Agmar's Hammer" QuestId="12008" TurnInName="Overlord Agmar" TurnInId="26379" />
     <PickUp QuestName="Victory Nears..." QuestId="12034" GiverName="Overlord Agmar" GiverId="26379" />
-    <CustomBehavior File="SetHearthstone" MobId="27148" AreaId="495" X="704.029" Y="-2932.88" Z="-2.9851" /> <!-- Set hearth: Agmar's Hammer -->
     <TurnIn QuestName="Victory Nears..." QuestId="12034" TurnInName="Senior Sergeant Juktok" TurnInId="26415" />
     <If Condition="((!HasQuest(12036)) &amp;&amp; (!IsQuestCompleted(12036)))">
       <PickUp QuestName="From the Depths of Azjol-Nerub" QuestId="12036" GiverName="Senior Sergeant Juktok" GiverId="26415" />
@@ -725,7 +723,6 @@
     </While>
     <TurnIn QuestName="Where the Wild Things Roam" QuestId="12111" TurnInName="Soar Hawkfury" TurnInId="26504" />
     <TurnIn QuestName="Slay Loguhn" QuestId="11959" TurnInName="Elder Ko'nani" TurnInId="26194" />
-    <CustomBehavior File="SetHearthstone" MobId="28686" AreaId="4395" X="5671.43" Y="724.478" Z="653.412" /> <!-- Set hearth: Moa'ki Harbor -->
     <If Condition="((!HasQuest(12028)) &amp;&amp; (!IsQuestCompleted(12028)))">
       <PickUp QuestName="Spiritual Insight" QuestId="12028" GiverName="Toalu'u the Mystic" GiverId="26595" />
     </If>
@@ -882,7 +879,6 @@
     <If Condition="((!HasQuest(12239)) &amp;&amp; (!IsQuestCompleted(12239)))">
       <PickUp QuestName="The Spy in New Hearthglen" QuestId="12239" GiverName="Spy Mistress Repine" GiverId="27337" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="27042" AreaId="65" X="3647.95" Y="-717.195" Z="215.034" /> <!-- Set hearth: Venomspite -->
     <TurnIn QuestName="A Means to an End" QuestId="12240" TurnInName="Apothecary Vicky Levine" TurnInId="27248" />
     <If Condition="((!HasQuest(12243)) &amp;&amp; (!IsQuestCompleted(12243)))">
       <PickUp QuestName="Fire Upon the Waters" QuestId="12243" GiverName="Apothecary Vicky Levine" GiverId="27248" />
@@ -994,7 +990,6 @@
     <If Condition="((!HasQuest(12496)) &amp;&amp; (!IsQuestCompleted(12496)))">
       <PickUp QuestName="Audience With The Dragon Queen" QuestId="12496" GiverName="Saurfang the Younger" GiverId="25257" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="28686" AreaId="4395" X="5671.43" Y="724.478" Z="653.412" /> <!-- Set hearth: Wyrmrest Temple -->
     <TurnIn QuestName="Gaining an Audience" QuestId="12122" TurnInName="Tariolstrasz" TurnInId="26443" />
     <If Condition="((!HasQuest(12767)) &amp;&amp; (!IsQuestCompleted(12767)))">
       <PickUp QuestName="Speak with your Ambassador" QuestId="12767" GiverName="Tariolstrasz" GiverId="26443" />

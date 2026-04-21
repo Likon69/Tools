@@ -39,7 +39,6 @@
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\Stranglethorn Vale (39-39)" LogColor="Green" />
     <PickUp QuestName="The Bloodsail Buccaneers" QuestId="595" GiverName="First Mate Crazz" GiverId="2490" />
     <PickUp QuestName="Scaring Shaky" QuestId="606" GiverName="&quot;Sea Wolf&quot; MacKinley" GiverId="2501" />
-    <CustomBehavior File="SetHearthstone" MobId="7733" AreaId="440" X="-7158.96" Y="-3841.61" Z="8.8481" /> <!-- Set hearth: Booty Bay -->
     <TurnIn QuestName="The Rumormonger" QuestId="1115" TurnInName="Krazek" TurnInId="773" />
     <If Condition="((!HasQuest(1116)) &amp;&amp; (!IsQuestCompleted(1116)))">
       <PickUp QuestName="Dream Dust in the Swamp" QuestId="1116" GiverName="Krazek" GiverId="773" />
@@ -107,7 +106,6 @@
     <If Condition="((!HasQuest(573)) &amp;&amp; (!IsQuestCompleted(573)))">
       <PickUp QuestName="Mok'thardin's Enchantment" QuestId="573" GiverName="Far Seer Mok'thardin" GiverId="2465" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="12196" AreaId="331" X="2341.86" Y="-2566.99" Z="102.857" /> <!-- Set hearth: Grom'gol Base Camp -->
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\Stranglethorn Vale (39-39) Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Classic_(12-58)_Swamp_of_Sorrows_(39-40)" />
   </QuestOrder>

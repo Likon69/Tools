@@ -74,7 +74,6 @@
     <If Condition="((!HasQuest(1459)) &amp;&amp; (!IsQuestCompleted(1459)))">
       <PickUp QuestName="Reagents for Reclaimers Inc." QuestId="1459" GiverName="Kreldig Ungor" GiverId="5638" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="11103" AreaId="405" X="255.615" Y="1253.76" Z="192.224" /> <!-- Set hearth: Nijel's Point -->
     <TurnIn QuestName="Vahlarriel's Search" QuestId="1437" TurnInName="Object_50961" TurnInType="Object" TurnInId="50961" />
     <If Condition="((!HasQuest(1465)) &amp;&amp; (!IsQuestCompleted(1465)))">
       <PickUp QuestName="Vahlarriel's Search" QuestId="1465" GiverName="Christi Galvanis" GiverId="12960" />

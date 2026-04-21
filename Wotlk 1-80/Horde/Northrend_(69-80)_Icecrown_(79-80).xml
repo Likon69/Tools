@@ -674,7 +674,6 @@
     <If Condition="((!HasQuest(13072)) &amp;&amp; (!IsQuestCompleted(13072)))">
       <PickUp QuestName="A Hero Remains" QuestId="13072" GiverName="Crusader Bridenbrad" GiverId="30562" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="30724" AreaId="1638" X="-990.886" Y="218.127" Z="104.399" /> <!-- Set hearth: Sunreaver Pavilion -->
     <While Condition="((HasQuest(12892)) &amp;&amp; (!IsQuestCompleted(12892)))">
       <CustomBehavior File="UseItemOn" QuestId="12892" MobId="29803" ItemId="41265" NumOfTimes="100" Range="5" CollectionDistance="1000" />
       <CustomBehavior File="WaitTimer" WaitTime="3000" />

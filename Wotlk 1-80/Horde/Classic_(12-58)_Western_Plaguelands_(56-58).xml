@@ -118,7 +118,6 @@
 
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\Western Plaguelands (56-58)" LogColor="Green" />
-    <CustomBehavior File="SetHearthstone" MobId="6741" AreaId="1497" X="1635.4" Y="223.331" Z="-43.0198" /> <!-- Set hearth: Undercity -->
     <Objective QuestName="The Everlook Report" QuestId="6029" Type="CollectItem" ItemId="15788" CollectCount="1" />
     <Objective QuestName="Duke Nicholas Zverenhoff" QuestId="6030" Type="CollectItem" ItemId="15790" CollectCount="1" />
     <Objective QuestName="A Sample of Slime..." QuestId="4293" Type="CollectItem" ItemId="12230" CollectCount="20" />

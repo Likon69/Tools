@@ -90,7 +90,6 @@
     <If Condition="((!HasQuest(6282)) &amp;&amp; (!IsQuestCompleted(6282)))">
       <PickUp QuestName="Harpies Threaten" QuestId="6282" GiverName="Maggran Earthbinder" GiverId="11860" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6930" AreaId="8" X="-10487.3" Y="-3258.84" Z="21.1127" /> <!-- Set hearth: Sun Rock Retreat -->
     <TurnIn QuestName="Boulderslide Ravine" QuestId="6421" TurnInName="Mor'rogal" TurnInId="11861" />
     <PickUp QuestName="Elemental War" QuestId="6393" GiverName="Tsunaman" GiverId="11862" />
     <Objective QuestName="Cycle of Rebirth" QuestId="6301" Type="CollectItem" ItemId="16205" CollectCount="10" />

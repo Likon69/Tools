@@ -524,7 +524,6 @@
     <If Condition="((!HasQuest(11333)) &amp;&amp; (!IsQuestCompleted(11333)))">
       <PickUp QuestName="Into the World of Spirits" QuestId="11333" GiverName="Thoralius the Wise" GiverId="23975" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="26709" AreaId="3537" X="3468.64" Y="4175.04" Z="17.2764" /> <!-- Set hearth: Valgarde -->
     <If Condition="((!HasQuest(11420)) &amp;&amp; (!IsQuestCompleted(11420)))">
       <PickUp QuestName="The Path to Payback" QuestId="11420" GiverName="Guard Captain Zorek" GiverId="23728" />
     </If>
@@ -827,7 +826,6 @@
     <If Condition="((!HasQuest(11458)) &amp;&amp; (!IsQuestCompleted(11458)))">
       <PickUp QuestName="Avenge Iskaal" QuestId="11458" GiverName="Elder Atuik" GiverId="24755" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="28686" AreaId="4395" X="5671.43" Y="724.478" Z="653.412" /> <!-- Set hearth: Kamagua -->
     <TurnIn QuestName="Grezzix Spindlesnap" QuestId="11508" TurnInName="Grezzix Spindlesnap" TurnInId="24643" />
     <If Condition="((!HasQuest(11509)) &amp;&amp; (!IsQuestCompleted(11509)))">
       <PickUp QuestName="Street &quot;Cred&quot;" QuestId="11509" GiverName="Grezzix Spindlesnap" GiverId="24643" />
@@ -990,7 +988,6 @@
     <If Condition="((!HasQuest(11331)) &amp;&amp; (!IsQuestCompleted(11331)))">
       <PickUp QuestName="You Tell Him ...Hic!" QuestId="11331" GiverName="Peppy Wrongnozzle" GiverId="24283" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="27148" AreaId="495" X="704.029" Y="-2932.88" Z="-2.9851" /> <!-- Set hearth: Westguard Inn -->
     <TurnIn QuestName="You Tell Him ...Hic!" QuestId="11331" TurnInName="Captain Adams" TurnInId="23749" />
     <If Condition="((!HasQuest(11332)) &amp;&amp; (!IsQuestCompleted(11332)))">
       <PickUp QuestName="Mission: Plague This!" QuestId="11332" GiverName="Captain Adams" GiverId="23749" />
@@ -1199,8 +1196,6 @@
     </While>
     <Objective QuestName="The Rune of Command" QuestId="11348" Type="KillMob" MobId="24334" KillCount="1" />
     <TurnIn QuestName="The Rune of Command" QuestId="11348" TurnInName="Prospector Belvar" TurnInId="24328" />
-    <CustomBehavior File="SetHearthstone" MobId="26709" AreaId="3537" X="3468.64" Y="4175.04" Z="17.2764" /> <!-- Set hearth: Fort Wildervar -->
-    <CustomBehavior File="SetHearthstone" MobId="27148" AreaId="495" X="704.029" Y="-2932.88" Z="-2.9851" /> <!-- Set hearth: Westguard Inn -->
     <TurnIn QuestName="Leader of the Deranged" QuestId="11240" TurnInName="Sapper Steelring" TurnInId="23976" />
     <TurnIn QuestName="The Cleansing" QuestId="11322" TurnInName="Watcher Moonleaf" TurnInId="24273" />
     <If Condition="((!HasQuest(11325)) &amp;&amp; (!IsQuestCompleted(11325)))">

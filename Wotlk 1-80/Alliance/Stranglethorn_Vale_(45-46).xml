@@ -84,7 +84,6 @@
     <Objective QuestName="Up to Snuff" QuestId="587" Type="CollectItem" ItemId="3910" CollectCount="15" />
     <Objective QuestName="Keep An Eye Out" QuestId="576" Type="CollectItem" ItemId="3897" CollectCount="1" />
     <TurnIn QuestName="Keep An Eye Out" QuestId="576" TurnInName="Dizzy One-Eye" TurnInId="2493" />
-    <CustomBehavior File="SetHearthstone" MobId="7733" AreaId="440" X="-7158.96" Y="-3841.61" Z="8.8481" /> <!-- Set hearth: Booty Bay -->
     <TurnIn QuestName="Up to Snuff" QuestId="587" TurnInName="Deeg" TurnInId="2488" />
     <TurnIn QuestName="The Bloodsail Buccaneers" QuestId="604" TurnInName="Fleet Master Seahorn" TurnInId="2487" />
     <If Condition="((!HasQuest(608)) &amp;&amp; (!IsQuestCompleted(608)))">

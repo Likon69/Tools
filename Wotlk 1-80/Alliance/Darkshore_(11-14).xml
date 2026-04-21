@@ -123,7 +123,6 @@
       <PickUp QuestName="The Fragments Within" QuestId="4813" GiverName="Sentinel Glynda Nal'Shea" GiverId="2930" />
     </If>
     <TurnIn QuestName="The Fragments Within" QuestId="4813" TurnInName="Sentinel Glynda Nal'Shea" TurnInId="2930" />
-    <CustomBehavior File="SetHearthstone" MobId="6736" AreaId="141" X="9802.21" Y="982.608" Z="1313.98" /> <!-- Set hearth: Auberdine -->
     <TurnIn QuestName="Thundris Windweaver" QuestId="4761" TurnInName="Thundris Windweaver" TurnInId="3649" />
     <If Condition="((!HasQuest(4762)) &amp;&amp; (!IsQuestCompleted(4762)))">
       <PickUp QuestName="The Cliffspring River" QuestId="4762" GiverName="Thundris Windweaver" GiverId="3649" />

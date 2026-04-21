@@ -100,7 +100,6 @@
     <Objective QuestName="Identifying the Brood" QuestId="1169" Type="CollectItem" ItemId="5840" CollectCount="7" />
     <Objective QuestName="Identifying the Brood" QuestId="1169" Type="CollectItem" ItemId="5841" CollectCount="7" />
     <TurnIn QuestName="Catch a Dragon by the Tail" QuestId="11217" TurnInName="Gizzix Grimegurgle" TurnInId="23570" />
-    <CustomBehavior File="SetHearthstone" MobId="23995" AreaId="15" X="-4629.94" Y="-3176.12" Z="41.2235" /> <!-- Set hearth: Mudsprocket -->
     <Objective QuestName="Overlord Mok'Morokk's Concern" QuestId="1166" Type="CollectItem" ItemId="5834" CollectCount="1" />
     <Objective QuestName="Overlord Mok'Morokk's Concern" QuestId="1166" Type="CollectItem" ItemId="5835" CollectCount="1" />
     <Objective QuestName="Banner of the Stonemaul" QuestId="11160" Type="CollectItem" ItemId="33086" CollectCount="1" />

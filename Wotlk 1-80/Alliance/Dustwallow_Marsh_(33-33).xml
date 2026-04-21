@@ -26,7 +26,6 @@
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Dustwallow Marsh (33-33)" LogColor="Green" />
     <PickUp QuestName="Traitors Among Us" QuestId="11126" GiverName="Calia Hastings" GiverId="23566" />
     <TurnIn QuestName="Traitors Among Us" QuestId="11126" TurnInName="Calia Hastings" TurnInId="23566" />
-    <CustomBehavior File="SetHearthstone" MobId="6272" AreaId="15" X="-3616.13" Y="-4470.82" Z="14.3286" /> <!-- Set hearth: Theramore Isle -->
     <TurnIn QuestName="James Hyal" QuestId="1302" TurnInName="Clerk Lendry" TurnInId="5083" />
     <If Condition="((!HasQuest(11123)) &amp;&amp; (!IsQuestCompleted(11123)))">
       <PickUp QuestName="Inspecting the Ruins" QuestId="11123" GiverName="Captain Garran Vimes" GiverId="4944" />

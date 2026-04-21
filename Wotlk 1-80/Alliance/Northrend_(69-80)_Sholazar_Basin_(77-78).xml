@@ -341,7 +341,6 @@
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Northrend (69-80)\Sholazar Basin (77-78)" LogColor="Green" />
     <PickUp QuestName="Where in the World is Hemet Nesingwary?" QuestId="12521" GiverName="Archmage Pentarus" GiverId="28160" />
-    <CustomBehavior File="SetHearthstone" MobId="31557" AreaId="4395" X="5888.69" Y="507.898" Z="641.653" /> <!-- Set hearth: Dalaran -->
     <TurnIn QuestName="Where in the World is Hemet Nesingwary?" QuestId="12521" TurnInName="Monte Muzzleshot" TurnInId="27987" />
     <If Condition="((!HasQuest(12489)) &amp;&amp; (!IsQuestCompleted(12489)))">
       <PickUp QuestName="Welcome to Sholazar Basin" QuestId="12489" GiverName="Monte Muzzleshot" GiverId="27987" />

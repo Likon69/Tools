@@ -113,7 +113,6 @@
       <PickUp QuestName="Arikara" QuestId="5088" GiverName="Magatha Grimtotem" GiverId="4046" />
     </If>
     <TurnIn QuestName="Grimtotem Spying" QuestId="5064" TurnInName="Cliffwatcher Longhorn" TurnInId="10537" />
-    <CustomBehavior File="SetHearthstone" MobId="7731" AreaId="406" X="893.652" Y="927.947" Z="106.364" /> <!-- Set hearth: Freewind Post -->
     <Objective QuestName="Arikara" QuestId="5088" Type="CollectItem" ItemId="12925" CollectCount="1" />
     <Objective QuestName="Wanted - Arnak Grimtotem" QuestId="5147" Type="CollectItem" ItemId="12884" CollectCount="1" />
     <PickUp QuestName="Free at Last" QuestId="4904" GiverName="Lakota Windsong" GiverId="10646" />

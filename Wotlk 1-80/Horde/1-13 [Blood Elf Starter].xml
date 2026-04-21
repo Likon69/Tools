@@ -437,7 +437,6 @@
     </If>
     <PickUp QuestName="Major Malfunction" QuestId="8472" GiverName="Magister Jaronis" GiverId="15418" />
     <TurnIn QuestName="Completing the Delivery" QuestId="8350" TurnInName="Innkeeper Delaniel" TurnInId="15433" />
-    <CustomBehavior File="SetHearthstone" MobId="15397" AreaId="3430" X="8700.38" Y="-6638.36" Z="72.8276" /> <!-- Set hearth: Falconwing Inn -->
     <PickUp QuestName="Wanted: Thaelis the Hungerer" QuestId="8468" GiverName="Innkeeper Delaniel" GiverId="15433" />
     <PickUp QuestName="Unstable Mana Crystals" QuestId="8463" GiverName="Aeldon Sunbrand" GiverId="15403" />
     <Objective QuestName="Wanted: Thaelis the Hungerer" QuestId="8468" Type="CollectItem" ItemId="21781" CollectCount="1" />
@@ -518,7 +517,6 @@
     <PickUp QuestName="Pelt Collection" QuestId="8491" GiverName="Velan Brightoak" GiverId="15417" />
     <PickUp QuestName="The Wayward Apprentice" QuestId="9254" GiverName="Magistrix Landra Dawnstrider" GiverId="16210" />
     <PickUp QuestName="Ranger Sareyn" QuestId="9358" GiverName="Marniel Amberlight" GiverId="15397" />
-    <CustomBehavior File="SetHearthstone" MobId="16542" AreaId="3433" X="7553.37" Y="-6897.35" Z="96.11" /> <!-- Set hearth: Fairbreeze Village -->
     <PickUp QuestName="The Scorched Grove" QuestId="9258" GiverName="Ardeyn Riverwind" GiverId="16397" />
     <If Condition="((!HasQuest(8892)) &amp;&amp; (!IsQuestCompleted(8892)))">
       <PickUp QuestName="Situation at Sunsail Anchorage" QuestId="8892" GiverName="Ranger Degolien" GiverId="15939" />

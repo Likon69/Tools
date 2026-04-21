@@ -567,7 +567,6 @@
     </If>
     <TurnIn QuestName="Investigate the Amani Catacombs" QuestId="9193" TurnInName="Advisor Valwyn" TurnInId="16289" />
     <TurnIn QuestName="Troll Juju" QuestId="9199" TurnInName="Deathstalker Maltendis" TurnInId="16251" />
-    <CustomBehavior File="SetHearthstone" MobId="16618" AreaId="3487" X="9684.1" Y="-7363.6" Z="12.0145" /> <!-- Set hearth: Tranquillien -->
     <Objective QuestName="Dar'Khan's Lieutenants" QuestId="9170" Type="KillMob" MobId="16248" KillCount="1" />
     <Objective QuestName="Dar'Khan's Lieutenants" QuestId="9170" Type="KillMob" MobId="16249" KillCount="1" />
     <Objective QuestName="Dar'Khan's Lieutenants" QuestId="9170" Type="KillMob" MobId="16247" KillCount="1" />

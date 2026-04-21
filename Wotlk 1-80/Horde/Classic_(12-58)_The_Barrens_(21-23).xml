@@ -63,7 +63,6 @@
     <If Condition="((!HasQuest(893)) &amp;&amp; (!IsQuestCompleted(893)))">
       <PickUp QuestName="Weapons of Choice" QuestId="893" GiverName="Tatternack Steelforge" GiverId="3433" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="7714" AreaId="17" X="-2376.27" Y="-1995.74" Z="96.7881" /> <!-- Set hearth: Camp Taurajo -->
     <Objective QuestName="Owatanka" QuestId="884" Type="CollectItem" ItemId="5102" CollectCount="1" />
     <While Condition="((HasQuest(893)) &amp;&amp; (!IsQuestCompleted(893)))">
       <CustomBehavior File="UseItemOn" QuestId="893" MobId="0" ItemId="5102" NumOfTimes="1" Range="5" CollectionDistance="1000" />

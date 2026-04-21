@@ -203,7 +203,6 @@
     <PickUp QuestName="Malaise" QuestId="10555" GiverName="Daranelle" GiverId="21469" />
     <PickUp QuestName="Into the Draenethyst Mine" QuestId="10510" GiverName="Bronwyn Stouthammer" GiverId="21197" />
     <PickUp QuestName="Strange Brew" QuestId="10511" GiverName="Borgrim Stouthammer" GiverId="21151" />
-    <CustomBehavior File="SetHearthstone" MobId="22922" AreaId="3522" X="3023.56" Y="5435.18" Z="146.617" /> <!-- Set hearth: Sylvanaar -->
     <Objective QuestName="The Encroaching Wilderness" QuestId="10455" Type="KillMob" MobId="21022" KillCount="12" />
     <Objective QuestName="Malaise" QuestId="10555" Type="CollectItem" ItemId="30529" CollectCount="18" />
     <TurnIn QuestName="Malaise" QuestId="10555" TurnInName="Object_184825" TurnInType="Object" TurnInId="184825" />
@@ -300,7 +299,6 @@
     <If Condition="((!HasQuest(10609)) &amp;&amp; (!IsQuestCompleted(10609)))">
       <PickUp QuestName="What Came First, the Drake or the Egg?" QuestId="10609" GiverName="Fizit &quot;Doc&quot; Clocktock" GiverId="21110" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="22056" X="60.98" Y="68.11" Z="0" /> <!-- Set hearth: Toshley's Station -->
     <PickUp QuestName="Test Flight: The Zephyrium Capacitorium" QuestId="10557" GiverName="Tally Zapnabber" GiverId="21460" />
     <TurnIn QuestName="Test Flight: The Zephyrium Capacitorium" QuestId="10557" TurnInName="Tally Zapnabber" TurnInId="21460" />
     <If Condition="((!HasQuest(10710)) &amp;&amp; (!IsQuestCompleted(10710)))">
@@ -519,7 +517,6 @@
     <If Condition="((!HasQuest(10803)) &amp;&amp; (!IsQuestCompleted(10803)))">
       <PickUp QuestName="Slaughter at Boulder'mok" QuestId="10803" GiverName="Lieutenant Fairweather" GiverId="22150" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="22485" AreaId="3521" X="963.428" Y="7399.58" Z="29.3317" /> <!-- Set hearth: Evergrove -->
     <TurnIn QuestName="Wyrmskull Watcher" QuestId="10894" TurnInName="Watcher Moonshade" TurnInId="22386" />
     <If Condition="((!HasQuest(10893)) &amp;&amp; (!IsQuestCompleted(10893)))">
       <PickUp QuestName="Longtail is the Lynchpin" QuestId="10893" GiverName="Watcher Moonshade" GiverId="22386" />

@@ -103,7 +103,6 @@
     <PickUp QuestName="Handle With Care" QuestId="3022" GiverName="Curgle Cranklehop" GiverId="7763" />
     <Objective QuestName="Screecher Spirits" QuestId="3520" Type="CollectItem" ItemId="10699" CollectCount="1" />
     <PickUp QuestName="The Mark of Quality" QuestId="2821" GiverName="Pratt McGrubben" GiverId="7852" />
-    <CustomBehavior File="SetHearthstone" MobId="7736" AreaId="357" X="-4381.59" Y="3289.45" Z="13.6266" /> <!-- Set hearth: Feathermoon Stronghold -->
     <PickUp QuestName="The Missing Courier" QuestId="4124" GiverName="Latronicus Moonspear" GiverId="7877" />
     <PickUp QuestName="The Ruins of Solarsal" QuestId="2866" GiverName="Shandris Feathermoon" GiverId="3936" />
     <PickUp QuestName="In Search of Knowledge" QuestId="2939" GiverName="Troyas Moonbreeze" GiverId="7764" />

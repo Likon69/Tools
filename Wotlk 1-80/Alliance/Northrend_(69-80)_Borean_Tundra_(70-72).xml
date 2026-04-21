@@ -291,7 +291,6 @@
 
   <QuestOrder>
     <CustomBehavior File="Message" Text="Leveling Guides\Alliance\Northrend (69-80)\Borean Tundra (70-72)" LogColor="Green" />
-    <CustomBehavior File="SetHearthstone" MobId="26669" AreaId="1196" X="232.563" Y="-394.029" Z="104.829" /> <!-- Set hearth: Valiance Keep -->
     <PickUp QuestName="Enlistment Day" QuestId="11672" GiverName="Recruitment Officer Blythe" GiverId="25307" />
     <TurnIn QuestName="Enlistment Day" QuestId="11672" TurnInName="General Arlos" TurnInId="25250" />
     <If Condition="((!HasQuest(11727)) &amp;&amp; (!IsQuestCompleted(11727)))">
@@ -859,7 +858,6 @@
     <If Condition="((!HasQuest(11788)) &amp;&amp; (!IsQuestCompleted(11788)))">
       <PickUp QuestName="Lefty Loosey, Righty Tighty" QuestId="11788" GiverName="Jinky Wingnut" GiverId="25747" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="26895" X="57.12" Y="18.72" Z="0" /> <!-- Set hearth: Fizzcrank Airstrip -->
     <Objective QuestName="Lefty Loosey, Righty Tighty" QuestId="11788" Type="KillMob" MobId="25830" KillCount="1" />
     <Objective QuestName="Lefty Loosey, Righty Tighty" QuestId="11788" Type="KillMob" MobId="25831" KillCount="1" />
     <Objective QuestName="Lefty Loosey, Righty Tighty" QuestId="11788" Type="KillMob" MobId="25832" KillCount="1" />

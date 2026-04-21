@@ -345,7 +345,6 @@
       <PickUp QuestName="Plants of Zangarmarsh" QuestId="9802" GiverName="Lauranna Thar'well" GiverId="17909" />
     </If>
     <PickUp QuestName="The Dying Balance" QuestId="9895" GiverName="Lethyn Moonfire" GiverId="17834" />
-    <CustomBehavior File="SetHearthstone" MobId="18907" AreaId="3521" X="-174.478" Y="5529.21" Z="29.4909" /> <!-- Set hearth: Cenarion Refuge -->
     <TurnIn QuestName="The Cenarion Expedition" QuestId="9912" TurnInName="Ysiel Windsinger" TurnInId="17841" />
     <PickUp QuestName="Disturbance at Umbrafen Lake" QuestId="9716" GiverName="Ysiel Windsinger" GiverId="17841" />
     <PickUp QuestName="Warden Hamoot" QuestId="9778" GiverName="Ysiel Windsinger" GiverId="17841" />
@@ -592,7 +591,6 @@
       <PickUp QuestName="Idols of the Feralfen" QuestId="9787" GiverName="Anchorite Ahuurn" GiverId="18003" />
     </If>
     <TurnIn QuestName="Blacksting's Bane" QuestId="9896" TurnInName="Prospector Conall" TurnInId="18295" />
-    <CustomBehavior File="SetHearthstone" MobId="18906" AreaId="3483" X="229.118" Y="4333.73" Z="119.083" /> <!-- Set hearth: Orebor Harborage -->
     <Objective QuestName="Maktu's Revenge" QuestId="9905" Type="KillMob" MobId="18286" KillCount="1" />
     <Objective QuestName="Idols of the Feralfen" QuestId="9787" Type="CollectItem" ItemId="24422" CollectCount="6" />
     <TurnIn QuestName="Familiar Fungi" QuestId="9708" TurnInName="Watcher Leesa'oh" TurnInId="17831" />

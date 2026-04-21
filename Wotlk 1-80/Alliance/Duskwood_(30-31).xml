@@ -137,7 +137,6 @@
     <If Condition="((!HasQuest(58)) &amp;&amp; (!IsQuestCompleted(58)))">
       <PickUp QuestName="The Night Watch" QuestId="58" GiverName="Commander Althea Ebonlocke" GiverId="264" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6790" AreaId="10" X="-10516.0" Y="-1161.21" Z="28.1161" /> <!-- Set hearth: Darkshire -->
     <TurnIn QuestName="The Missing Diplomat" QuestId="1243" TurnInName="Watcher Backus" TurnInId="840" />
     <If Condition="((!HasQuest(1244)) &amp;&amp; (!IsQuestCompleted(1244)))">
       <PickUp QuestName="The Missing Diplomat" QuestId="1244" GiverName="Watcher Backus" GiverId="840" />

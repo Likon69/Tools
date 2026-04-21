@@ -95,7 +95,6 @@
     <If Condition="((!HasQuest(1196)) &amp;&amp; (!IsQuestCompleted(1196)))">
       <PickUp QuestName="The Sacred Flame" QuestId="1196" GiverName="Zangen Stonehoof" GiverId="4721" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6746" AreaId="1638" X="-1300.28" Y="38.4858" Z="129.292" /> <!-- Set hearth: Thunder Bluff -->
     <CustomBehavior File="Message" Text="Leveling Guides\Horde\Classic (12-58)\Stonetalon Mountains (26-27) Complete" LogColor="Orange" />
     <CustomBehavior File="LoadProfile" ProfileName="Classic_(12-58)_Thousand_Needles_(27-29)" />
   </QuestOrder>

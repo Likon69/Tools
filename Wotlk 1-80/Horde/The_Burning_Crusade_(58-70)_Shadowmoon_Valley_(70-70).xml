@@ -264,7 +264,6 @@
     <If Condition="((!HasQuest(10599)) &amp;&amp; (!IsQuestCompleted(10599)))">
       <PickUp QuestName="The Deathforge" QuestId="10599" GiverName="Blood Guard Gulmok" GiverId="21359" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="19319" AreaId="3520" X="-2965.0" Y="2562.0" Z="78.6" /> <!-- Set hearth: Shadowmoon Village -->
     <Objective QuestName="What Strange Creatures..." QuestId="10660" Type="CollectItem" ItemId="30819" CollectCount="8" />
     <Objective QuestName="A Haunted History" QuestId="10624" Type="CollectItem" ItemId="30716" CollectCount="15" />
     <TurnIn QuestName="The Hand of Gul'dan" QuestId="10681" TurnInName="Earthmender Torlok" TurnInId="21024" />
@@ -379,7 +378,6 @@
     <If Condition="((!HasQuest(10683)) &amp;&amp; (!IsQuestCompleted(10683)))">
       <PickUp QuestName="Tablets of Baa'ri" QuestId="10683" GiverName="Arcanist Thelis" GiverId="21955" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="23143" AreaId="3520" X="-5142.57" Y="581.328" Z="84.1357" /> <!-- Set hearth: Sanctum of the Stars -->
     <TurnIn QuestName="Teron Gorefiend - Lore and Legend" QuestId="10633" TurnInName="Ancient Shadowmoon Spirit" TurnInId="21797" />
     <If Condition="((!HasQuest(10635)) &amp;&amp; (!IsQuestCompleted(10635)))">
       <PickUp QuestName="Divination: Gorefiend's Cloak" QuestId="10635" GiverName="Ancient Shadowmoon Spirit" GiverId="21797" />
@@ -409,7 +407,6 @@
     <If Condition="((!HasQuest(10619)) &amp;&amp; (!IsQuestCompleted(10619)))">
       <PickUp QuestName="The Ashtongue Tribe" QuestId="10619" GiverName="Vindicator Aluumen" GiverId="21822" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="22484" X="61.12" Y="28.24" Z="0" /> <!-- Set hearth: Altar of Sha'tar -->
     <If Condition="((!HasQuest(10568)) &amp;&amp; (!IsQuestCompleted(10568)))">
       <PickUp QuestName="Tablets of Baa'ri" QuestId="10568" GiverName="Anchorite Ceyla" GiverId="21402" />
     </If>

@@ -432,7 +432,6 @@
     <If Condition="((!HasQuest(12295)) &amp;&amp; (!IsQuestCompleted(12295)))">
       <PickUp QuestName="An Exercise in Diplomacy" QuestId="12295" GiverName="Lieutenant Dumont" GiverId="26875" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="27174" AreaId="65" X="2779.23" Y="927.021" Z="22.6099" /> <!-- Set hearth: Amberpine Lodge -->
     <If Condition="((!HasQuest(12222)) &amp;&amp; (!IsQuestCompleted(12222)))">
       <PickUp QuestName="Secrets of the Flamebinders" QuestId="12222" GiverName="Woodsman Drake" GiverId="27391" />
     </If>
@@ -670,7 +669,6 @@
       <PickUp QuestName="Hollowstone Mine" QuestId="12158" GiverName="Captain Gryan Stoutmantle" GiverId="26212" />
     </If>
     <PickUp QuestName="Softening the Blow" QuestId="11998" GiverName="Captain Gryan Stoutmantle" GiverId="26212" />
-    <CustomBehavior File="SetHearthstone" MobId="29583" X="5761.11" Y="-3562.79" Z="387.133" /> <!-- Set hearth: Westfall Brigade Encampment -->
     <TurnIn QuestName="Hollowstone Mine" QuestId="12158" TurnInName="Petrov" TurnInId="26932" />
     <If Condition="((!HasQuest(12159)) &amp;&amp; (!IsQuestCompleted(12159)))">
       <PickUp QuestName="Souls at Unrest" QuestId="12159" GiverName="Petrov" GiverId="26932" />

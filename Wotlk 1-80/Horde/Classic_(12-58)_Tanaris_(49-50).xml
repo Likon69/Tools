@@ -152,7 +152,6 @@
     </If>
     <TurnIn QuestName="Thistleshrub Valley" QuestId="3362" TurnInName="Tran'rek" TurnInId="7876" />
     <TurnIn QuestName="The Dunemaul Compound" QuestId="5863" TurnInName="Andi Lynn" TurnInId="11758" />
-    <CustomBehavior File="SetHearthstone" MobId="6807" AreaId="33" X="-14457.7" Y="495.348" Z="15.2129" /> <!-- Set hearth: Gadgetzan -->
     <TurnIn QuestName="Gahz'ridian" QuestId="3161" TurnInName="Marvon Rivetseeker" TurnInId="7771" />
     <Objective QuestName="The Scrimshank Redemption" QuestId="10" Type="CollectItem" ItemId="8593" CollectCount="1" />
     <TurnIn QuestName="The Scrimshank Redemption" QuestId="10" TurnInName="Senior Surveyor Fizzledowser" TurnInId="7724" />

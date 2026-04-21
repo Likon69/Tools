@@ -101,7 +101,6 @@
     <If Condition="((!HasQuest(1204)) &amp;&amp; (!IsQuestCompleted(1204)))">
       <PickUp QuestName="Mudrock Soup and Bugs" QuestId="1204" GiverName="Morgan Stern" GiverId="4794" />
     </If>
-    <CustomBehavior File="SetHearthstone" MobId="6272" AreaId="15" X="-3616.13" Y="-4470.82" Z="14.3286" /> <!-- Set hearth: Theramore Isle -->
     <PickUp QuestName="Mission to Mudsprocket" QuestId="11214" GiverName="Lieutenant Aden" GiverId="23951" />
     <If Condition="((!HasQuest(11128)) &amp;&amp; (!IsQuestCompleted(11128)))">
       <PickUp QuestName="Propaganda War" QuestId="11128" GiverName="Calia Hastings" GiverId="23566" />

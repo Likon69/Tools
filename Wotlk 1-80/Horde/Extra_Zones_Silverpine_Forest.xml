@@ -75,7 +75,6 @@
     <Objective QuestName="Wild Hearts" QuestId="429" Type="CollectItem" ItemId="3164" CollectCount="6" />
     <PickUp QuestName="Prove Your Worth" QuestId="421" GiverName="Dalar Dawnweaver" GiverId="1938" />
     <PickUp QuestName="Border Crossings" QuestId="477" GiverName="Shadow Priest Allister" GiverId="2121" />
-    <CustomBehavior File="SetHearthstone" MobId="6739" AreaId="130" X="510.916" Y="1636.47" Z="126.027" /> <!-- Set hearth: The Sepulcher -->
     <If Condition="(Me.Race == WoWRace.Undead)">
       <PickUp QuestName="Supplying the Sepulcher" QuestId="6321" GiverName="Deathguard Podrig" GiverId="6389" />
       <TurnIn QuestName="Delivery to Silverpine Forest" QuestId="445" TurnInName="Apothecary Renferrel" TurnInId="1937" />
