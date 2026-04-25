@@ -434,7 +434,7 @@
     <If Condition="((!HasQuest(6394)) &amp;&amp; (!IsQuestCompleted(6394)))">
       <PickUp QuestName="Thazz'ril's Pick" QuestId="6394" GiverName="Foreman Thazz'ril" GiverId="11378" />
     </If>
-       <!-- <If Condition="(Me.Level &lt; 4)">
+       <If Condition="(Me.Level &lt; 4)">
       <SetGrindArea>
         <GrindArea>
           <Name>Grind to Level 4 - Vile Familiar</Name>
@@ -447,7 +447,7 @@
         </GrindArea>
       </SetGrindArea>
       <GrindTo Level="4" />
-      </If> -->
+      </If>
 
     <PickUp QuestName="Sarkoth" QuestId="790" GiverName="Hana'zua" GiverId="3287" />
     <Objective QuestName="Sarkoth" QuestId="790" Type="CollectItem" ItemId="4905" CollectCount="1" />
@@ -459,7 +459,20 @@
     <TurnIn QuestName="Sting of the Scorpid" QuestId="789" TurnInName="Gornek" TurnInId="3143" />
     <TurnIn QuestName="Sarkoth" QuestId="804" TurnInName="Gornek" TurnInId="3143" />
     <Objective QuestName="Thazz'ril's Pick" QuestId="6394" Type="CollectItem" ItemId="16332" CollectCount="1" />
-
+    <If Condition="Me.Level &lt; 5">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 5 - Scorpid Worker</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>3</TargetMinLevel>
+          <TargetMaxLevel>3</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-311.73" Y="-4383.49" Z="55.50" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="5" /> <!--  (grind Scorpid Worker) -->
+    </If>
     <If Condition="(Me.Class != WoWClass.Warlock)">
       <Objective QuestName="Vile Familiars" QuestId="792" Type="KillMob" MobId="3101" KillCount="12" />
     </If>`
@@ -479,6 +492,22 @@
       <PickUp QuestName="Call of Earth" QuestId="1516" GiverName="Canaga Earthcaller" GiverId="5887" />
     </If>
     <Objective QuestName="Burning Blade Medallion" QuestId="794" Type="CollectItem" ItemId="4859" CollectCount="1" />
+
+     <If Condition="Me.Level &lt; 6">
+      <SetGrindArea>
+        <GrindArea>
+          <Name>Grind to Level 6 - Yarrog Baneshadow</Name>
+          <Factions>7</Factions>
+          <TargetMinLevel>5</TargetMinLevel>
+          <TargetMaxLevel>5</TargetMaxLevel>
+          <Hotspots>
+            <Hotspot X="-58.18" Y="-4220.64" Z="62.34" />
+          </Hotspots>
+        </GrindArea>
+      </SetGrindArea>
+      <GrindTo Level="6" /> <!--  (grind Yarrog Baneshadow) -->
+    </If>
+
 
     <If Condition="(Me.Class == WoWClass.Shaman)">
       <Objective QuestName="Call of Earth" QuestId="1516" Type="CollectItem" ItemId="6640" CollectCount="2" />
@@ -504,20 +533,7 @@
       </If>
       <TurnIn QuestName="Call of Earth" QuestId="1518" TurnInName="Canaga Earthcaller" TurnInId="5887" />
     </If>
-      	<If Condition="(Me.Level &lt; 6)">
-      <SetGrindArea>
-        <GrindArea>
-          <Name>Grind to Level 6 - Yarrog Baneshadow</Name>
-          <Factions>413</Factions>
-          <TargetMinLevel>5</TargetMinLevel>
-          <TargetMaxLevel>5</TargetMaxLevel>
-          <Hotspots>
-            <Hotspot X="-728.6053" Y="-4717.219" Z="33.387856" />
-          </Hotspots>
-        </GrindArea>
-      </SetGrindArea>
-      <GrindTo Level="6" /> <!--  (grind Yarrog Baneshadow) -->
-    </If>
+
     <PickUp QuestName="A Peon's Burden" QuestId="2161" GiverName="Ukor" GiverId="6786" />
     <PickUp QuestName="Thwarting Kolkar Aggression" QuestId="786" GiverName="Lar Prowltusk" GiverId="3140" />
     <TurnIn QuestName="Report to Sen'jin Village" QuestId="805" TurnInName="Master Gadrin" TurnInId="3188" />

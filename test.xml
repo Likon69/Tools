@@ -12,7 +12,10 @@
   <Mailboxes />
 
   <QuestOrder>
-    <RunTo X="1595.7268" Y="245.1794" Z="60.1508" />
+
+  
+    <TurnIn QuestName="Find the Lost Guards" QuestId="37" TurnInName="A half-eaten body" TurnInId="55" X="-9335.764" Y="-986.4834" Z="67.69179" />
+
 
   </QuestOrder>
 </HBProfile>

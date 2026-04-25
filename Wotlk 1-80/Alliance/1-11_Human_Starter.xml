@@ -300,12 +300,12 @@
       <PickUp QuestName="Find the Lost Guards" QuestId="37" GiverName="Guard Thomas" GiverId="261" />
     </If>
     <PickUp QuestName="Protect the Frontier" QuestId="52" GiverName="Guard Thomas" GiverId="261" />
-    <TurnIn QuestName="Find the Lost Guards" QuestId="37" TurnInName="Object_55" TurnInType="Object" TurnInId="55" />
+		<TurnIn QuestName="Find the Lost Guards" QuestId="37" TurnInName="A half-eaten body" TurnInId="55" X="-9335.764" Y="-986.4834" Z="67.69179" />
     <If Condition="((!HasQuest(45)) &amp;&amp; (!IsQuestCompleted(45)))">
-      <PickUp QuestName="Discover Rolf's Fate" QuestId="45" GiverName="Guard Thomas" GiverId="261" />
+		<PickUp QuestName="Discover Rolf's Fate" QuestId="45" GiverType="Object" GiverId="55" X="-9335.764" Y="-986.4834" Z="67.69179" />
     </If>
     <PickUp QuestName="A Bundle of Trouble" QuestId="5545" GiverName="Supervisor Raelen" GiverId="10616" />
-    <TurnIn QuestName="Discover Rolf's Fate" QuestId="45" TurnInName="Object_56" TurnInType="Object" TurnInId="56" />
+		<TurnIn QuestName="Discover Rolf's Fate" QuestId="45" TurnInType="Object" TurnInId="56" X="-9224.173" Y="-1234.316" Z="73.73194" />
     <If Condition="((!HasQuest(71)) &amp;&amp; (!IsQuestCompleted(71)))">
       <PickUp QuestName="Report to Thomas" QuestId="71" GiverName="Rallic Finn" GiverId="1198" />
     </If>
