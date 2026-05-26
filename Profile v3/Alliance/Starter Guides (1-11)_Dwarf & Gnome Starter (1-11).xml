@@ -35,6 +35,15 @@
 		<Vendor Name="Maxan Anvol" Entry="1226" Type="Train" TrainClass="Priest" X="-5590.5601" Y="-529.657" Z="399.735" />
 		<Vendor Name="Magis Sparkmantle" Entry="1228" Type="Train" TrainClass="Mage" X="-5586.9399" Y="-537.173" Z="403.624" />
 		<Vendor Name="Gimrizz Shadowcog" Entry="5612" Type="Train" TrainClass="Warlock" X="-5640" Y="-528.801" Z="404.379" />
+
+		<!--Coldridge Valley Vendors-->
+		<Vendor Name="Rybrad Coldbank" Entry="945" Type="Repair" X="-6101.1" Y="390.569" Z="395.54266" />
+		<Vendor Name="Adlin Pridedrift" Entry="829" Type="Food" X="-6225.24" Y="320.372" Z="383.1172" />
+		<Vendor Name="Adlin Pridedrift" Entry="829" Type="Ammo" X="-6225.24" Y="320.372" Z="383.1172" />
+		<!--Kharanos Vendors-->
+		<Vendor Name="Thrawn Boltar" Entry="1690" Type="Repair" X="-5568.99" Y="-429.114" Z="397.32614" />
+		<Vendor Name="Innkeeper Belm" Entry="1247" Type="Food" X="-5601.6" Y="-531.203" Z="399.65335" />
+		<Vendor Name="Kreg Bilmn" Entry="1691" Type="Ammo" X="-5597.66" Y="-521.852" Z="399.6554" />
 	</Vendors>
 
 	<AvoidMobs />
