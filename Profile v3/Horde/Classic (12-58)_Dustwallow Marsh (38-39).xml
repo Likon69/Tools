@@ -97,7 +97,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Theramore Spies" QuestId="1201" GiverName="Nazeer Bloodpike" GiverId="4791" />
 		<PickUp QuestName="Check Up on Tabetha" QuestId="11213" GiverName="Nazeer Bloodpike" GiverId="4791" />

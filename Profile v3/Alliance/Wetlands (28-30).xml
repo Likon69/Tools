@@ -160,7 +160,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Reclaiming Goods" QuestId="281" GiverName="Karl Boran" GiverId="1242" />
 		<PickUp QuestName="The Cursed Crew" QuestId="289" GiverName="First Mate Fitzsimmons" GiverId="1239" />

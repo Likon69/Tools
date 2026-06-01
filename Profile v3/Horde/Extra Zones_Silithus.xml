@@ -115,7 +115,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Wasteland" QuestId="1124" TurnInName="Layo Starstrike" TurnInId="13220" />
 		<PickUp QuestName="The Spirits of Southwind" QuestId="1125" GiverName="Layo Starstrike" GiverId="13220" />

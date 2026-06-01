@@ -310,7 +310,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Clean Up" QuestId="12818" GiverName="Jeer Sparksocket" GiverId="29431" />
 		<PickUp QuestName="They Took Our Men!" QuestId="12843" GiverName="Gretchen Fizzlespark" GiverId="29473" />

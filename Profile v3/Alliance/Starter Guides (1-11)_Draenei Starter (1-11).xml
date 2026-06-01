@@ -274,7 +274,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Race == WoWRace.Draenei)">
 			<PickUp QuestName="You Survived!" QuestId="9279" GiverName="Megelon" GiverId="16475" />

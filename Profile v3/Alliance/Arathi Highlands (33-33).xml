@@ -49,7 +49,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Northfold Manor" QuestId="681" GiverName="Captain Nials" GiverId="2700" />
 		<TurnIn QuestName="Malin's Request" QuestId="690" TurnInName="Skuerto" TurnInId="2789" />

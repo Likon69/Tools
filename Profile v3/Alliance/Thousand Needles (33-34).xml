@@ -75,7 +75,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Lonebrow's Journal" QuestId="1100" Type="CollectItem" ItemId="5791" CollectCount="1" />
 		<PickUp QuestName="Lonebrow's Journal" QuestId="1100" />

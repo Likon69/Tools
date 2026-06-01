@@ -239,6 +239,234 @@
 		</Objective>
 	</Quest>
 
+
+	<Quest Id="6394" Name="Thazz'ril's Pick">
+		<Objective Type="CollectItem" ItemId="16332" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-88.00977" Y="-4275.6274" Z="65.49696" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<!-- Quest hotspot blocks added to fix missing hotspot errors -->
+
+	<Quest Id="789" Name="Sting of the Scorpid">
+		<Objective Type="CollectItem" ItemId="4862" CollectCount="10">
+			<Hotspots>
+				<Hotspot X="-349.29" Y="-4184.41" Z="59.20" />
+				<Hotspot X="-382.13" Y="-4181.93" Z="56.41" />
+				<Hotspot X="-415.53" Y="-4188.62" Z="51.14" />
+				<Hotspot X="-308.83" Y="-4217.85" Z="52.60" />
+				<Hotspot X="-519.19" Y="-4314.91" Z="39.38" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="790" Name="Sarkoth">
+		<Objective Type="CollectItem" ItemId="4905" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-380.00" Y="-4352.00" Z="55.00" />
+				<Hotspot X="-364.00" Y="-4335.00" Z="57.00" />
+				<Hotspot X="-349.29" Y="-4184.41" Z="59.20" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="791" Name="Carry Your Weight">
+		<Objective Type="CollectItem" ItemId="4870" CollectCount="8">
+			<Hotspots>
+				<Hotspot X="236.47" Y="-4818.39" Z="11.43" />
+				<Hotspot X="257.23" Y="-4855.71" Z="9.97" />
+				<Hotspot X="197.48" Y="-4870.11" Z="12.78" />
+				<Hotspot X="283.91" Y="-4789.44" Z="12.01" />
+				<Hotspot X="315.66" Y="-4822.55" Z="12.54" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="794" Name="Burning Blade Medallion">
+		<Objective Type="CollectItem" ItemId="4859" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="72.53" Y="-4614.87" Z="44.11" />
+				<Hotspot X="82.96" Y="-4643.34" Z="37.46" />
+				<Hotspot X="55.18" Y="-4634.22" Z="43.37" />
+				<Hotspot X="110.59" Y="-4572.87" Z="58.22" />
+				<Hotspot X="85.42" Y="-4543.75" Z="58.07" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="806" Name="Dark Storms">
+		<Objective Type="CollectItem" ItemId="4869" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="236.47" Y="-4818.39" Z="11.43" />
+				<Hotspot X="257.23" Y="-4855.71" Z="9.97" />
+				<Hotspot X="315.66" Y="-4822.55" Z="12.54" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="808" Name="Minshina's Skull">
+		<Objective Type="CollectItem" ItemId="4864" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-1582.71" Y="-5246.67" Z="5.48" />
+				<Hotspot X="-1552.34" Y="-5312.45" Z="3.21" />
+				<Hotspot X="-1524.88" Y="-5289.12" Z="4.07" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="813" Name="Finding the Antidote">
+		<Objective Type="CollectItem" ItemId="4886" CollectCount="4">
+			<Hotspots>
+				<Hotspot X="-1091.36" Y="-5623.13" Z="4.18" />
+				<Hotspot X="-953.29" Y="-5207.47" Z="3.64" />
+				<Hotspot X="-821.38" Y="-5646.50" Z="5.35" />
+				<Hotspot X="-1096.89" Y="-5395.87" Z="11.18" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="816" Name="Lost But Not Forgotten">
+		<Objective Type="CollectItem" ItemId="4891" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-1582.71" Y="-5246.67" Z="5.48" />
+				<Hotspot X="-1352.60" Y="-5123.35" Z="1.76" />
+				<Hotspot X="-1312.84" Y="-5571.70" Z="7.27" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="817" Name="Practical Prey">
+		<Objective Type="CollectItem" ItemId="4892" CollectCount="4">
+			<Hotspots>
+				<Hotspot X="-272.46" Y="-5110.77" Z="25.24" />
+				<Hotspot X="-218.59" Y="-5056.10" Z="21.28" />
+				<Hotspot X="-85.99" Y="-5052.96" Z="16.32" />
+				<Hotspot X="-47.26" Y="-5019.83" Z="13.35" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="818" Name="A Solvent Spirit">
+		<Objective Type="CollectItem" ItemId="4888" CollectCount="8">
+			<Hotspots>
+				<Hotspot X="-1091.36" Y="-5623.13" Z="4.18" />
+				<Hotspot X="-953.29" Y="-5207.47" Z="3.64" />
+				<Hotspot X="-821.38" Y="-5646.50" Z="5.35" />
+				<Hotspot X="-1112.72" Y="-5152.75" Z="0.91" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="4887" CollectCount="4">
+			<Hotspots>
+				<Hotspot X="-1091.36" Y="-5623.13" Z="4.18" />
+				<Hotspot X="-953.29" Y="-5207.47" Z="3.64" />
+				<Hotspot X="-821.38" Y="-5646.50" Z="5.35" />
+				<Hotspot X="-1112.72" Y="-5152.75" Z="0.91" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="826" Name="Zalazane">
+		<Objective Type="CollectItem" ItemId="4866" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-1582.71" Y="-5246.67" Z="5.48" />
+				<Hotspot X="-1552.34" Y="-5312.45" Z="3.21" />
+				<Hotspot X="-1524.88" Y="-5289.12" Z="4.07" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="827" Name="Skull Rock">
+		<Objective Type="CollectItem" ItemId="4871" CollectCount="6">
+			<Hotspots>
+				<Hotspot X="72.53" Y="-4614.87" Z="44.11" />
+				<Hotspot X="82.96" Y="-4643.34" Z="37.46" />
+				<Hotspot X="55.18" Y="-4634.22" Z="43.37" />
+				<Hotspot X="110.59" Y="-4572.87" Z="58.22" />
+				<Hotspot X="85.42" Y="-4543.75" Z="58.07" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="1485" Name="Vile Familiars (Troll)">
+		<Objective Type="CollectItem" ItemId="6487" CollectCount="6">
+			<Hotspots>
+				<Hotspot X="-252.92" Y="-4381.57" Z="62.57" />
+				<Hotspot X="-213.20" Y="-4382.11" Z="63.66" />
+				<Hotspot X="-198.09" Y="-4333.76" Z="68.35" />
+				<Hotspot X="-211.55" Y="-4351.95" Z="64.49" />
+				<Hotspot X="-166.44" Y="-4320.16" Z="71.10" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="1498" Name="Path of Defense">
+		<Objective Type="CollectItem" ItemId="6486" CollectCount="5">
+			<Hotspots>
+				<Hotspot X="-252.92" Y="-4381.57" Z="62.57" />
+				<Hotspot X="-213.20" Y="-4382.11" Z="63.66" />
+				<Hotspot X="-198.09" Y="-4333.76" Z="68.35" />
+				<Hotspot X="-166.44" Y="-4320.16" Z="71.10" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="1504" Name="The Binding">
+		<Objective Type="KillMob" MobId="5676" KillCount="1">
+			<Hotspots>
+				<Hotspot X="-252.92" Y="-4381.57" Z="62.57" />
+				<Hotspot X="-213.20" Y="-4382.11" Z="63.66" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="1516" Name="Call of Earth">
+		<Objective Type="CollectItem" ItemId="6640" CollectCount="2">
+			<Hotspots>
+				<Hotspot X="-349.29" Y="-4184.41" Z="59.20" />
+				<Hotspot X="-382.13" Y="-4181.93" Z="56.41" />
+				<Hotspot X="-415.53" Y="-4188.62" Z="51.14" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="1525" Name="Call of Fire (1)">
+		<Objective Type="CollectItem" ItemId="5026" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-349.29" Y="-4184.41" Z="59.20" />
+				<Hotspot X="-382.13" Y="-4181.93" Z="56.41" />
+			</Hotspots>
+		</Objective>
+		<Objective Type="CollectItem" ItemId="6652" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-349.29" Y="-4184.41" Z="59.20" />
+				<Hotspot X="-382.13" Y="-4181.93" Z="56.41" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="1526" Name="Call of Fire (2)">
+		<Objective Type="CollectItem" ItemId="6655" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="-272.46" Y="-5110.77" Z="25.24" />
+				<Hotspot X="-218.59" Y="-5056.10" Z="21.28" />
+				<Hotspot X="-191.90" Y="-5092.67" Z="22.14" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
+	<Quest Id="5726" Name="Hidden Enemies">
+		<Objective Type="CollectItem" ItemId="14544" CollectCount="1">
+			<Hotspots>
+				<Hotspot X="72.53" Y="-4614.87" Z="44.11" />
+				<Hotspot X="82.96" Y="-4643.34" Z="37.46" />
+				<Hotspot X="110.59" Y="-4572.87" Z="58.22" />
+				<Hotspot X="85.42" Y="-4543.75" Z="58.07" />
+			</Hotspots>
+		</Objective>
+	</Quest>
+
 	<QuestOrder>
 		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
 

@@ -28,7 +28,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Cleansed Water Returns to Felwood" QuestId="5159" TurnInName="Greta Mosshoof" TurnInId="10922" />
 		<PickUp QuestName="Dousing the Flames of Protection" QuestId="5165" GiverName="Greta Mosshoof" GiverId="10922" />

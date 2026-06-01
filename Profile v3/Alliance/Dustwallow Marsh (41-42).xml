@@ -116,7 +116,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Deserters" QuestId="1286" GiverName="Captain Garran Vimes" GiverId="4944" />
 		<PickUp QuestName="Tabetha's Farm" QuestId="11212" GiverName="Guard Byron" GiverId="4921" />

@@ -25,7 +25,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Crisis at the Sunwell" QuestId="11481" GiverName="Adyen the Lightwarden" GiverId="18537" />
 		<PickUp QuestName="Duty Calls" QuestId="11482" GiverName="Dathris Sunstriker" GiverId="18594" />

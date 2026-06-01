@@ -66,7 +66,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Taking Back Silithus" QuestId="8275" TurnInName="Windcaller Proudhorn" TurnInId="15191" />
 		<PickUp QuestName="Securing the Supply Lines" QuestId="8280" GiverName="Windcaller Proudhorn" GiverId="15191" />

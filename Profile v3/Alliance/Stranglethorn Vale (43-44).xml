@@ -37,7 +37,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Sunken Treasure" QuestId="669" Type="CollectItem" ItemId="4502" CollectCount="1" />
 		<PickUp QuestName="Mazen's Behest" QuestId="1363" GiverName="Mazen Mac'Nadir" GiverId="338" />

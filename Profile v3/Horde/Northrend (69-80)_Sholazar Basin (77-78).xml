@@ -347,7 +347,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Where in the World is Hemet Nesingwary?" QuestId="12521" GiverName="Archmage Pentarus" GiverId="28160" />
 		<TurnIn QuestName="Where in the World is Hemet Nesingwary?" QuestId="12521" TurnInName="Monte Muzzleshot" TurnInId="27987" />

@@ -62,7 +62,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Voodoo Dues" QuestId="609" GiverName="&quot;Sea Wolf&quot; MacKinley" GiverId="2501" />
 		<PickUp QuestName="Whiskey Slim's Lost Grog" QuestId="580" GiverName="Whiskey Slim" GiverId="2491" />

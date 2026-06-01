@@ -343,7 +343,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Delivery to Tranquillien" QuestId="9148" GiverName="Courier Dawnstrider" GiverId="16183" />
 		<TurnIn QuestName="Delivery to Tranquillien" QuestId="9148" TurnInName="Arcanist Vandril" TurnInId="16197" />

@@ -42,7 +42,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Coolant Heads Prevail" QuestId="713" Type="CollectItem" ItemId="3829" CollectCount="1" />
 		<Objective QuestName="Gyro... What?" QuestId="714" Type="CollectItem" ItemId="4389" CollectCount="1" />

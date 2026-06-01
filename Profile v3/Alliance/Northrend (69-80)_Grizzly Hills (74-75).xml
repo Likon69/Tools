@@ -395,7 +395,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Mmm... Amberseeds!" QuestId="12225" GiverName="Vana Grey" GiverId="26880" />
 		<TurnIn QuestName="Mmm... Amberseeds!" QuestId="12225" TurnInName="Master Woodsman Anderhol" TurnInId="27277" />

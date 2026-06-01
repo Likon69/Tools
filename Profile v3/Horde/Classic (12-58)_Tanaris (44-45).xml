@@ -126,7 +126,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Tran'rek" QuestId="2864" TurnInName="Tran'rek" TurnInId="7876" />
 		<PickUp QuestName="WANTED: Caliph Scorpidsting" QuestId="2781" GiverName="Tran'rek" GiverId="7876" />

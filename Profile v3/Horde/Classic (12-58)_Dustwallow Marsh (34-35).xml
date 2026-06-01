@@ -30,7 +30,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Suspicious Hoofprints" QuestId="1268" />
 		<PickUp QuestName="Lieutenant Paval Reethe" QuestId="1269" />

@@ -28,7 +28,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Cenarion Battlegear" QuestId="8800" GiverName="Windcaller Kaldon" GiverId="15540" />
 		<TurnIn QuestName="Cenarion Battlegear" QuestId="8800" TurnInName="Vargus" TurnInId="15176" />

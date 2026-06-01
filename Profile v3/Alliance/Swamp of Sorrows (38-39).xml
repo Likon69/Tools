@@ -72,7 +72,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="In Search of The Temple" QuestId="1448" GiverName="Brohann Caskbelly" GiverId="5384" />
 		<PickUp QuestName="Morgan Stern" QuestId="1260" GiverName="Angus Stern" GiverId="1141" />

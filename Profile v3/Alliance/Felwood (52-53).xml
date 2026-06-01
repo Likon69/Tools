@@ -184,7 +184,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Cleansing Felwood" QuestId="4101" GiverName="Arathandris Silversky" GiverId="9528" />
 		<PickUp QuestName="Forces of Jaedenar" QuestId="5155" GiverName="Greta Mosshoof" GiverId="10922" />

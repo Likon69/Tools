@@ -298,7 +298,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Reallocating Resources" QuestId="12770" TurnInName="Sergeant Riannah" TurnInId="29137" />
 		<PickUp QuestName="This Just In: Fire Still Hot!" QuestId="12859" GiverName="Elder Shaman Moky" GiverId="29733" />

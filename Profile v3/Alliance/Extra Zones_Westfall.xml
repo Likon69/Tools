@@ -130,7 +130,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Forgotten Heirloom" QuestId="64" GiverName="Farmer Furlbrow" GiverId="237" />
 		<PickUp QuestName="Westfall Stew" QuestId="36" GiverName="Verna Furlbrow" GiverId="238" />

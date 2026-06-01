@@ -249,7 +249,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="In Service Of The Lich King" QuestId="12593" GiverName="The Lich King" GiverId="25462" />
 		<TurnIn QuestName="In Service Of The Lich King" QuestId="12593" TurnInName="Instructor Razuvious" TurnInId="28357" />

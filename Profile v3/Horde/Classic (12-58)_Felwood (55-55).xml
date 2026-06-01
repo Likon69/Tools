@@ -165,7 +165,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Timbermaw Ally" QuestId="8460" GiverName="Grazle" GiverId="11554" />
 		<Objective QuestName="Timbermaw Ally" QuestId="8460" Type="KillMob" MobId="7153" KillCount="6" />

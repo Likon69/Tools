@@ -52,7 +52,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Stormpike's Deciphering" QuestId="554" TurnInName="Prospector Stormpike" TurnInId="1356" />
 		<PickUp QuestName="Ironband Wants You!" QuestId="707" GiverName="Prospector Stormpike" GiverId="1356" />

@@ -46,7 +46,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="It's a Secret to Everybody" QuestId="3908" TurnInName="Donova Snowden" TurnInId="9298" />
 		<Objective QuestName="Moontouched Wildkin" QuestId="978" Type="CollectItem" ItemId="12383" CollectCount="10" />

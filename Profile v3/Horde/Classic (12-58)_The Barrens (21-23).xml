@@ -30,7 +30,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Further Instructions" QuestId="1094" TurnInName="Sputtervalve" TurnInId="3442" />
 		<PickUp QuestName="Further Instructions" QuestId="1095" GiverName="Sputtervalve" GiverId="3442" />

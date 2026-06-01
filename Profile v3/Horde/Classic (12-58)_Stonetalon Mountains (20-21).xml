@@ -77,7 +77,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Letter to Jin'Zil" QuestId="1060" TurnInName="Witch Doctor Jin'Zil" TurnInId="3995" />
 		<PickUp QuestName="Jin'Zil's Forest Magic" QuestId="1058" GiverName="Witch Doctor Jin'Zil" GiverId="3995" />

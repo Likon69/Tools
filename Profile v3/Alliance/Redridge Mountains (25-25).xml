@@ -36,7 +36,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="A Watchful Eye" QuestId="94" GiverName="Theocritus" GiverId="313" />
 		<PickUp QuestName="Encroaching Gnolls" QuestId="244" GiverName="Guard Parker" GiverId="464" />

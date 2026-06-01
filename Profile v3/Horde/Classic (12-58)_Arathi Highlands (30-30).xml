@@ -28,7 +28,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Hammerfall" QuestId="655" GiverName="Gor'mul" GiverId="2792" />
 		<TurnIn QuestName="Hammerfall" QuestId="655" TurnInName="Tor'gan" TurnInId="2706" />

@@ -36,7 +36,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Prison Break In" QuestId="544" GiverName="Magus Wordeen Voidglare" GiverId="2410" />
 		<PickUp QuestName="Stone Tokens" QuestId="556" GiverName="Keeper Bel'varil" GiverId="2437" />

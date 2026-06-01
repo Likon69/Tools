@@ -324,7 +324,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Supplemental Income" QuestId="12436" GiverName="Provisioner Lorkran" GiverId="26868" />
 		<PickUp QuestName="Gray Worg Hides" QuestId="12175" GiverName="Hidetrader Jun'ik" GiverId="27037" />

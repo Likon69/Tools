@@ -28,7 +28,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Vital Supplies" QuestId="1477" TurnInName="Watchmaster Sorigal" TurnInId="5464" />
 		<TurnIn QuestName="Cortello's Riddle" QuestId="624" TurnInName="Object_2553" TurnInType="Object" TurnInId="2553" />

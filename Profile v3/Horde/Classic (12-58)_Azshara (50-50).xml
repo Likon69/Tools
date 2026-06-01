@@ -40,7 +40,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Stealing Knowledge" QuestId="3517" GiverName="Jediga" GiverId="8587" />
 		<Objective QuestName="Stealing Knowledge" QuestId="3517" Type="CollectItem" ItemId="10540" CollectCount="1" />

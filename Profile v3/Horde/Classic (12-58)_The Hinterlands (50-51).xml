@@ -79,7 +79,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Ripple Recovery" QuestId="650" TurnInName="Gilveradin Sunchaser" TurnInId="7801" />
 		<TurnIn QuestName="The Atal'ai Exile" QuestId="1429" TurnInName="Atal'ai Exile" TurnInId="5598" />

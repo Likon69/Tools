@@ -194,7 +194,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="No Time for Curiosity" QuestId="9794" GiverName="Timothy Daniels" GiverId="18019" />
 		<PickUp QuestName="Killing the Crawlers" QuestId="10927" GiverName="Sentinel Moonwhisper" GiverId="22488" />

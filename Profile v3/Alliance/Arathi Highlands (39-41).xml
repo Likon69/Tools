@@ -110,7 +110,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Hints of a New Plague?" QuestId="658" Type="CollectItem" ItemId="4482" CollectCount="1" />
 		<PickUp QuestName="Worth Its Weight in Gold" QuestId="691" GiverName="Apprentice Kryten" GiverId="2788" />

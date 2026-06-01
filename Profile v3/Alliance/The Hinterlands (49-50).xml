@@ -154,7 +154,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Rhapsody's Kalimdor Kocktail" QuestId="1452" Type="CollectItem" ItemId="6257" CollectCount="3" />
 		<Objective QuestName="Rhapsody's Kalimdor Kocktail" QuestId="1452" Type="CollectItem" ItemId="6258" CollectCount="3" />

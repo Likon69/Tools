@@ -25,7 +25,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Class == WoWClass.Rogue)">
 			<PickUp QuestName="The Shattered Salute" QuestId="2460" GiverName="Shenthul" GiverId="3401" />

@@ -526,7 +526,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Hell Has Frozen Over..." QuestId="11228" GiverName="Macalroy" GiverId="23547" />
 		<TurnIn QuestName="Hell Has Frozen Over..." QuestId="11228" TurnInName="Vice Admiral Keller" TurnInId="23546" />

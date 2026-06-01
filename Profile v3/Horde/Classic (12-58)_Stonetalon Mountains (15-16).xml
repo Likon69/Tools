@@ -67,7 +67,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Goblin Invaders" QuestId="1062" GiverName="Seereth Stonebreak" GiverId="4049" />
 		<PickUp QuestName="Avenge My Village" QuestId="6548" GiverName="Makaba Flathoof" GiverId="11857" />

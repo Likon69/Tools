@@ -176,7 +176,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="!((Me.Class == WoWClass.Druid) &amp;&amp; (Me.Race == WoWRace.Undead))">
 			<Objective QuestName="The Corrupter" QuestId="1482" Type="CollectItem" ItemId="5996" CollectCount="4" />

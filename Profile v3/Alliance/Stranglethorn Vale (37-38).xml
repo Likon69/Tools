@@ -113,7 +113,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Some Assembly Required" QuestId="577" GiverName="Drizzlik" GiverId="2495" />
 		<TurnIn QuestName="The Rumormonger" QuestId="1115" TurnInName="Krazek" TurnInId="773" />

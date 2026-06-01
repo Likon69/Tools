@@ -91,7 +91,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="A Taste of Flame" QuestId="4022" Type="CollectItem" ItemId="10575" CollectCount="1" />
 		<TurnIn QuestName="A Little Slime Goes a Long Way" QuestId="4512" TurnInName="Laris Geardawdle" TurnInId="9616" />

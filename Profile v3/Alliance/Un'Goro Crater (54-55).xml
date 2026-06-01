@@ -76,7 +76,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="The Bait for Lar'korwi" QuestId="4292" Type="CollectItem" ItemId="11568" CollectCount="1" />
 		<Objective QuestName="Chasing A-Me 01" QuestId="4244" Type="CollectItem" ItemId="10561" CollectCount="1" />

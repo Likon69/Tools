@@ -75,7 +75,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="To Steal From Thieves" QuestId="1164" GiverName="Genavie Callow" GiverId="4486" />
 		<Objective QuestName="Helcular's Revenge" QuestId="553" Type="CollectItem" ItemId="3710" CollectCount="1" />

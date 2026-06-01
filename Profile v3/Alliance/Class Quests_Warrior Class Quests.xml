@@ -66,7 +66,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Human)">
 			<PickUp QuestName="A Warrior's Training" QuestId="1638" GiverName="Lyria Du Lac" GiverId="913" />

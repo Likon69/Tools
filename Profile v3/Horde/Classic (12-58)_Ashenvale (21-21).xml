@@ -30,7 +30,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Class == WoWClass.Shaman)">
 			<PickUp QuestName="Call of Water" QuestId="1528" GiverName="Searn Firewarder" GiverId="5892" />

@@ -240,7 +240,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Through the Dark Portal" QuestId="9407" GiverName="Warlord Dar'toon" GiverId="19254" />
 		<TurnIn QuestName="Through the Dark Portal" QuestId="9407" TurnInName="Lieutenant General Orion" TurnInId="19253" />

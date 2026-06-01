@@ -59,7 +59,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Rumors for Kravel" QuestId="1117" Type="CollectItem" ItemId="5804" CollectCount="1" />
 		<Objective QuestName="Razzeric's Tweaking" QuestId="1187" Type="CollectItem" ItemId="5862" CollectCount="1" />

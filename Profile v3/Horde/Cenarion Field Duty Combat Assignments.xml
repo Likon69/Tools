@@ -161,7 +161,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Field Duty" QuestId="8731" GiverName="Windcaller Kaldon" GiverId="15540" />
 		<Objective QuestName="Field Duty" QuestId="8507" Type="CollectItem" ItemId="23024" CollectCount="1" />

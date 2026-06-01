@@ -408,7 +408,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Give it a Name" QuestId="12181" GiverName="Chief Plaguebringer Harris" GiverId="24251" />
 		<TurnIn QuestName="Give it a Name" QuestId="12181" TurnInName="Tobias Sarkhoff" TurnInId="24155" />

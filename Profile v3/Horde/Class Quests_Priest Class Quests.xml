@@ -25,7 +25,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Class == WoWClass.Priest) &amp;&amp; (Me.Race == WoWRace.Troll)">
 			<PickUp QuestName="Hex of Weakness" QuestId="5652" GiverName="Tai'jin" GiverId="3706" />

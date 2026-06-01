@@ -101,7 +101,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Thistleshrub Valley" QuestId="3362" GiverName="Tran'rek" GiverId="7876" />
 		<PickUp QuestName="Super Sticky" QuestId="4504" GiverName="Tran'rek" GiverId="7876" />

@@ -134,7 +134,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Costly Menace" QuestId="564" GiverName="Darren Malvew" GiverId="2382" />
 		<TurnIn QuestName="Southshore" QuestId="538" TurnInName="Loremaster Dibbs" TurnInId="2277" />

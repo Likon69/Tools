@@ -115,7 +115,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Class == WoWClass.Warrior) &amp;&amp; (Me.Race == WoWRace.Tauren)">
 			<PickUp QuestName="Veteran Uzzek" QuestId="1505" GiverName="Krang Stonehoof" GiverId="3063" />

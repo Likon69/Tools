@@ -96,7 +96,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="!((Me.Class == WoWClass.Shaman))">
 			<PickUp QuestName="Journey to Hillsbrad Foothills" QuestId="493" GiverName="Apothecary Renferrel" GiverId="1937" />

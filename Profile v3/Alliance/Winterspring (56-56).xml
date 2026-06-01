@@ -63,7 +63,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Toxic Horrors" QuestId="5086" TurnInName="Donova Snowden" TurnInId="9298" />
 		<PickUp QuestName="Winterfall Runners" QuestId="5087" GiverName="Donova Snowden" GiverId="9298" />

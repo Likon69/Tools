@@ -28,7 +28,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Wild Guardians" QuestId="4521" TurnInName="Trull Failbane" TurnInId="10306" />
 		<TurnIn QuestName="Forces of Jaedenar" QuestId="5155" TurnInName="Greta Mosshoof" TurnInId="10922" />

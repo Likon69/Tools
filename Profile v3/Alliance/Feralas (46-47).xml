@@ -104,7 +104,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Handle With Care" QuestId="3022" GiverName="Curgle Cranklehop" GiverId="7763" />
 		<Objective QuestName="Screecher Spirits" QuestId="3520" Type="CollectItem" ItemId="10699" CollectCount="1" />

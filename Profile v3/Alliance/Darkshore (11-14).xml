@@ -77,7 +77,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="For Love Eternal" QuestId="963" GiverName="Cerellean Whiteclaw" GiverId="3644" />
 		<PickUp QuestName="Buzzbox 827" QuestId="983" GiverName="Wizbang Cranktoggle" GiverId="3666" />

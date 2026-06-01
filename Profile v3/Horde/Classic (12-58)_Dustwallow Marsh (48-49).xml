@@ -48,7 +48,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Brood of Onyxia" QuestId="1172" GiverName="Draz'Zilb" GiverId="4501" />
 		<TurnIn QuestName="Cortello's Riddle" QuestId="625" TurnInName="Object_2555" TurnInType="Object" TurnInId="2555" />

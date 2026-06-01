@@ -179,7 +179,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Balance of Nature" QuestId="456" GiverName="Conservator Ilthalaine" GiverId="2079" />
 		<Objective QuestName="The Balance of Nature" QuestId="456" Type="KillMob" MobId="2031" KillCount="7" />

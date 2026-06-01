@@ -141,7 +141,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Thirsty Goblin" QuestId="2605" GiverName="Marin Noggenfogger" GiverId="7564" />
 		<PickUp QuestName="More Wastewander Justice" QuestId="1691" GiverName="Chief Engineer Bilgewhizzle" GiverId="7407" />

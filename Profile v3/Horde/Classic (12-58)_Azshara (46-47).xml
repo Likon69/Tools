@@ -73,7 +73,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Spiritual Unrest" QuestId="5535" GiverName="Loh'atu" GiverId="11548" />
 		<PickUp QuestName="A Land Filled with Hatred" QuestId="5536" GiverName="Loh'atu" GiverId="11548" />

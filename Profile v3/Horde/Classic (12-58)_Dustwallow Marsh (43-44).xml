@@ -77,7 +77,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Overlord Mok'Morokk's Concern" QuestId="1166" GiverName="Overlord Mok'Morokk" GiverId="4500" />
 		<PickUp QuestName="Identifying the Brood" QuestId="1169" GiverName="Draz'Zilb" GiverId="4501" />

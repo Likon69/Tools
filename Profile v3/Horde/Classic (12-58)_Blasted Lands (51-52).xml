@@ -25,7 +25,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Return to Fel'Zerul" QuestId="1444" TurnInName="Fel'zerul" TurnInId="1443" />
 		<PickUp QuestName="Snickerfang Jowls" QuestId="2581" GiverName="Bloodmage Drazial" GiverId="7505" />

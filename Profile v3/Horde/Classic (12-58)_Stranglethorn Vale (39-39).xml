@@ -37,7 +37,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Bloodsail Buccaneers" QuestId="595" GiverName="First Mate Crazz" GiverId="2490" />
 		<PickUp QuestName="Scaring Shaky" QuestId="606" GiverName="&quot;Sea Wolf&quot; MacKinley" GiverId="2501" />

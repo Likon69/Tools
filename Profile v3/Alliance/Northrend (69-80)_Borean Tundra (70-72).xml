@@ -298,7 +298,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Enlistment Day" QuestId="11672" GiverName="Recruitment Officer Blythe" GiverId="25307" />
 		<TurnIn QuestName="Enlistment Day" QuestId="11672" TurnInName="General Arlos" TurnInId="25250" />

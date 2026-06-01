@@ -125,7 +125,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Legend of Stalvan" QuestId="66" GiverName="Madame Eva" GiverId="265" />
 		<PickUp QuestName="The Totem of Infliction" QuestId="101" GiverName="Madame Eva" GiverId="265" />

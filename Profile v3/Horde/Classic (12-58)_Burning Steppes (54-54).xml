@@ -25,7 +25,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Rise of the Machines" QuestId="4061" GiverName="Hierophant Theodora Mulvadania" GiverId="9079" />
 		<PickUp QuestName="Dreadmaul Rock" QuestId="3821" GiverName="Thal'trak Proudtusk" GiverId="9082" />

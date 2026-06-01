@@ -109,7 +109,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Brassbolts Brothers" QuestId="1179" GiverName="Pilot Longbeard" GiverId="2092" />
 		<TurnIn QuestName="Blessed Arm" QuestId="322" TurnInName="Grimand Elmore" TurnInId="1416" />

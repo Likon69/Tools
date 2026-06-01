@@ -75,7 +75,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Swarm Grows" QuestId="1145" GiverName="Korran" GiverId="3428" />
 		<TurnIn QuestName="Regthar Deathgate" QuestId="1361" TurnInName="Regthar Deathgate" TurnInId="3389" />

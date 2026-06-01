@@ -106,7 +106,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Return to Chillwind Camp" QuestId="5223" TurnInName="High Priestess MacDonnell" TurnInId="11053" />
 		<PickUp QuestName="Target: Gahrron's Withering" QuestId="5225" GiverName="High Priestess MacDonnell" GiverId="11053" />

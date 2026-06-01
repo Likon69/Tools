@@ -56,7 +56,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="The Tower of Althalaxx" QuestId="967" TurnInName="Delgren the Purifier" TurnInId="3663" />
 		<PickUp QuestName="The Tower of Althalaxx" QuestId="970" GiverName="Delgren the Purifier" GiverId="3663" />

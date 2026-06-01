@@ -142,7 +142,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Curse These Fat Fingers" QuestId="7723" GiverName="Hansel Heavyhands" GiverId="14627" />
 		<PickUp QuestName="Fiery Menace!" QuestId="7724" GiverName="Hansel Heavyhands" GiverId="14627" />

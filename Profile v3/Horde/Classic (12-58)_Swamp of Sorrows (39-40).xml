@@ -43,7 +43,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Nothing But The Truth" QuestId="1372" GiverName="Deathstalker Zraedus" GiverId="5418" />
 		<TurnIn QuestName="Nothing But The Truth" QuestId="1372" TurnInName="Apothecary Faustin" TurnInId="5414" />

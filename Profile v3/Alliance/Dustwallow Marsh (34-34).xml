@@ -30,7 +30,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="The Orc Report" QuestId="1219" TurnInName="Theramore Lieutenant" TurnInId="23951" />
 		<PickUp QuestName="Captain Vimes" QuestId="1220" GiverName="Theramore Lieutenant" GiverId="4947" />

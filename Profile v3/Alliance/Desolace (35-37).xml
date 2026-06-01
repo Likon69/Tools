@@ -63,7 +63,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Vahlarriel's Search" QuestId="1437" GiverName="Vahlarriel Demonslayer" GiverId="5642" />
 		<PickUp QuestName="Centaur Bounty" QuestId="1387" GiverName="Corporal Melkins" GiverId="5752" />

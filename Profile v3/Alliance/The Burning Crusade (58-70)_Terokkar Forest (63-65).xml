@@ -442,7 +442,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="A'dal" QuestId="10210" GiverName="Haggard War Veteran" GiverId="19684" />
 		<PickUp QuestName="Rather Be Fishin'" QuestId="10037" GiverName="Seth" GiverId="18653" />

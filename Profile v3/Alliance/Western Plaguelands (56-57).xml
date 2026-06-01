@@ -85,7 +85,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Target: Felstone Field" QuestId="5216" GiverName="High Priestess MacDonnell" GiverId="11053" />
 		<TurnIn QuestName="The Everlook Report" QuestId="6028" TurnInName="Argent Officer Pureheart" TurnInId="10840" />

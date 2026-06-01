@@ -127,7 +127,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="A New Cloak's Sheen" QuestId="2973" GiverName="Krueg Skullsplitter" GiverId="4544" />
 		<PickUp QuestName="The Ogres of Feralas" QuestId="2975" GiverName="Rok Orhan" GiverId="7777" />

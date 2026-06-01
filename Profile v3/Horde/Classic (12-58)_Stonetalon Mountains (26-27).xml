@@ -67,7 +67,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="Elemental War" QuestId="6393" Type="CollectItem" ItemId="16312" CollectCount="10" />
 		<Objective QuestName="Harpies Threaten" QuestId="6282" Type="KillMob" MobId="4022" KillCount="7" />

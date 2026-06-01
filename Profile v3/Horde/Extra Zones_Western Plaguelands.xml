@@ -138,7 +138,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<Objective QuestName="The Everlook Report" QuestId="6029" Type="CollectItem" ItemId="15788" CollectCount="1" />
 		<Objective QuestName="Duke Nicholas Zverenhoff" QuestId="6030" Type="CollectItem" ItemId="15790" CollectCount="1" />

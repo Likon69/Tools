@@ -104,7 +104,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The New Frontier" QuestId="1004" GiverName="Harbinger Balthazad" GiverId="10879" />
 		<TurnIn QuestName="The New Frontier" QuestId="1004" TurnInName="Arch Druid Hamuul Runetotem" TurnInId="5769" />

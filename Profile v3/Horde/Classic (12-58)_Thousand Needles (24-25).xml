@@ -58,7 +58,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Calling in the Reserves" QuestId="5881" TurnInName="Grish Longrunner" TurnInId="12576" />
 		<PickUp QuestName="Message to Freewind Post" QuestId="4542" GiverName="Brave Moonhorn" GiverId="10079" />

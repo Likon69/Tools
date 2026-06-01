@@ -25,7 +25,7 @@
 	<Mailboxes />
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Fall From Grace" QuestId="2784" GiverName="Fallen Hero of the Horde" GiverId="7572" />
 		<TurnIn QuestName="Fall From Grace" QuestId="2784" TurnInName="Fallen Hero of the Horde" TurnInId="7572" />

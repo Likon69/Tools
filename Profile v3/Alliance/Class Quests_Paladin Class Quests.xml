@@ -43,7 +43,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<If Condition="(Me.Class == WoWClass.Paladin) &amp;&amp; (Me.Race == WoWRace.Human)">
 			<PickUp QuestName="Tome of Divinity" QuestId="2998" GiverName="Brother Wilhelm" GiverId="927" />

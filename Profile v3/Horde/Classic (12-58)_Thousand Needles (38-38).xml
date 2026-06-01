@@ -58,7 +58,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Alliance Relations" QuestId="1436" TurnInName="Keldran" TurnInId="5640" />
 		<TurnIn QuestName="Frostmaw" QuestId="1136" TurnInName="Melor Stonehoof" TurnInId="3441" />

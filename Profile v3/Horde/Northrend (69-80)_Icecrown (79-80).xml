@@ -546,7 +546,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Preparations for War" QuestId="13419" GiverName="Sky-Reaver Klum" GiverId="31085" />
 		<PickUp QuestName="Honor Above All Else" QuestId="13036" GiverName="Highlord Tirion Fordring" GiverId="28179" />

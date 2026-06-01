@@ -224,7 +224,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The Ogre Threat" QuestId="9795" GiverName="Shadow Hunter Denjai" GiverId="18013" />
 		<PickUp QuestName="Killing the Crawlers" QuestId="10928" GiverName="Grunt Grahk" GiverId="22489" />

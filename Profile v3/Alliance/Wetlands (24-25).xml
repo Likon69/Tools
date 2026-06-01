@@ -83,7 +83,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="Young Crocolisk Skins" QuestId="484" GiverName="James Halloran" GiverId="2094" />
 		<PickUp QuestName="Claws from the Deep" QuestId="279" GiverName="Karl Boran" GiverId="1242" />

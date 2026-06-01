@@ -105,7 +105,7 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<TurnIn QuestName="Goblin Sponsorship" QuestId="1180" TurnInName="Wharfmaster Lozgil" TurnInId="4631" />
 		<PickUp QuestName="Goblin Sponsorship" QuestId="1181" GiverName="Wharfmaster Lozgil" GiverId="4631" />

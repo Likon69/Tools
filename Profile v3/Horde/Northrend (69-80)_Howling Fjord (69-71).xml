@@ -1,7 +1,7 @@
 <HBProfile>
 	<Name>Northrend (69-80)\Howling Fjord (69-71)</Name>
 	<MinLevel>69</MinLevel>
-	<MaxLevel>71</MaxLevel>
+	<MaxLevel>85</MaxLevel>
 
 	<MinDurability>0.2</MinDurability>
 	<MinFreeBagSlots>2</MinFreeBagSlots>
@@ -438,21 +438,54 @@
 	</Quest>
 
 	<QuestOrder>
-		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="False" UseFlightPaths="False" PullDistance="25" />
+		<CustomBehavior File="UserSettings" LootMobs="True" TrainNewSkills="True" LearnFlightPaths="True" UseFlightPaths="False" PullDistance="25" />
 
 		<PickUp QuestName="The New Plague" QuestId="11167" GiverName="Apothecary Lysander" GiverId="24126" />
 		<PickUp QuestName="Let Them Eat Crow" QuestId="11227" GiverName="Pontius" GiverId="23938" />
 		<PickUp QuestName="War is Hell" QuestId="11270" GiverName="High Executor Anselm" GiverId="23780" />
-		<While Condition="((HasQuest(11227)) &amp;&amp; (!IsQuestCompleted(11227)))" >
-			<CustomBehavior File="UseItemOn" QuestId="11227" MobId="24000" ItemId="33221" NumOfTimes="1" Range="5" CollectionDistance="1000" />
-		</While>
-		<Objective QuestName="Let Them Eat Crow" QuestId="11227" Type="CollectItem" ItemId="33238" CollectCount="5" />
-		<While Condition="((HasQuest(11227)) &amp;&amp; (!IsQuestCompleted(11227)))" >
-			<CustomBehavior File="UseItemOn" QuestId="11227" MobId="24000" ItemId="33238" NumOfTimes="1" Range="5" CollectionDistance="1000" />
-		</While>
-		<While Condition="((HasQuest(11270)) &amp;&amp; (!IsQuestCompleted(11270)))" >
-			<CustomBehavior File="UseItemOn" QuestId="11270" MobId="24009" ItemId="33278" NumOfTimes="1" Range="5" CollectionDistance="1000" X="1870.16" Y="-5919.0" Z="6.8384" />
-		</While>
+
+
+		<!-- Quest 11227: Let Them Eat Crow
+		     Mechanic: kill Fjord Crow (npc 23945) for Crow Meat (item 33238, 88% drop),
+		     then release a hungry plaguehound from the Plaguehound Cage (item 33221,
+		     non-consumable quest item), then feed it each Crow Meat one at a time.
+		     Order matters: collect meat FIRST — releasing the cage before collecting
+		     causes the plaguehound to despawn before you return, creating an infinite loop. -->
+		<If Condition="((HasQuest(11227)) &amp;&amp; (!IsQuestCompleted(11227)))">
+
+				<!-- Step 1: Fly to the area and kill Fjord Crows for 5 Crow Meats -->
+				<CustomBehavior File="FlyTo" DestName="Fjord Crow area" X="1824.588" Y="-6005.593" Z="7.795049" />
+				<CustomBehavior File="ForcedDismount" />
+				<Objective QuestName="Let Them Eat Crow" QuestId="11227" Type="CollectItem" ItemId="33238" CollectCount="5" />
+
+				<!-- Step 2: Return to spot, release the plaguehound from the cage -->
+				<RunTo X="1824.588" Y="-6005.593" Z="7.795049" />
+				<CustomBehavior File="Misc\RunLua" Lua="UseItemByName(33221)" WaitTime="500" />
+				<CustomBehavior File="WaitTimer" WaitTime="2000" GoalText="Releasing plaguehound {TimeRemaining}" />
+
+				<!-- Step 3: Feed each Crow Meat to the nearby hungry plaguehound (2s cooldown per meat) -->
+				<While Condition="((HasQuest(11227)) &amp;&amp; (!IsQuestCompleted(11227)))">
+					<CustomBehavior File="Misc\RunLua" Lua="UseItemByName(33238)" WaitTime="500" />
+					<CustomBehavior File="WaitTimer" WaitTime="2500" GoalText="Feeding plaguehound {TimeRemaining}" />
+				</While>
+
+		</If>
+			<If Condition="((HasQuest(11270)) &amp;&amp; (!IsQuestCompleted(11270)))" >
+				<CustomBehavior File="FlyTo" DestName="burn bodies" X="1776.737" Y="-5933.2" Z="7.649271" />
+				<CustomBehavior File="ForcedDismount" />
+				<CustomBehavior File="UseItemOn" QuestId="11270" MobId1="24009" MobId2="24010" ItemId="33278" NumOfTimes="50" WaitTime="1000" Range="5" CollectionDistance="1000" X="1776.737" Y="-5933.2" Z="7.649271" />
+			</If>
+			<If Condition="((HasQuest(11167)) &amp;&amp; (!IsQuestCompleted(11167)))" >
+				<CustomBehavior File="FlyTo" DestName="get Plague Containers" X="1679.301" Y="-6227.107" Z="3.634233" />
+				<CustomBehavior File="ForcedDismount" />
+				<Objective QuestName="The New Plague" QuestId="11167" Type="CollectItem" ItemId="33099" CollectCount="10" />
+			</If>
+			<If Condition="((HasQuest(11167)) &amp;&amp; (IsQuestCompleted(11167)))" >
+				<CustomBehavior File="FlyTo" DestName="Turnin Quest" X="1942.358" Y="-6144.947" Z="23.82341" />
+			</If>
+
+
+
 		<Objective QuestName="The New Plague" QuestId="11167" Type="CollectItem" ItemId="33099" CollectCount="10" />
 		<TurnIn QuestName="War is Hell" QuestId="11270" TurnInName="High Executor Anselm" TurnInId="23780" />
 		<PickUp QuestName="Reports from the Field" QuestId="11221" GiverName="High Executor Anselm" GiverId="23780" />
